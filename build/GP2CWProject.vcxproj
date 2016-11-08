@@ -139,7 +139,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Debug\GameApplication.lib;GameApplication\Utils\Debug\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -207,7 +207,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Release\GameApplication.lib;GameApplication\Utils\Release\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -275,7 +275,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\MinSizeRel\GameApplication.lib;GameApplication\Utils\MinSizeRel\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -343,7 +343,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\RelWithDebInfo\GameApplication.lib;GameApplication\Utils\RelWithDebInfo\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -418,6 +418,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/ZERO_CHECK.vcxproj">
       <Project>D394119A-30A5-3DA5-BE9F-5B338DDAC5B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/GameApplication.vcxproj">
+      <Project>F818EE9D-2C7A-3978-AE7C-821A4D1ECCD4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/Utils/Utils.vcxproj">
+      <Project>C0280873-A0A7-3CAD-9972-D2DCA14C16FA</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

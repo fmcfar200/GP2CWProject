@@ -20,7 +20,8 @@ ENDIF(GLEW_FOUND)
 
 add_subdirectory(Utils)
 
+add_library(GameApplication STATIC src/GameApplication.cpp inc/GameApplication.h)
 
 
 include_directories(GameApplication include/ Utils/include ${SDL2_INCLUDE_DIR} ${TINYXML_INCLUDE_DIR} ${OPENGL_INCLUDE_DIRS} ${GLM_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR} ${ASSIMP_INLCUDE_DIR})
-#target_link_libraries(GameApplication Utils ${SDL2_LIBRARY} ${TINYXML_LIBRARIES} ${OPENGL_LIBRARIES} ${GLEW_LIBRARIES} ${SDL2IMAGE_LIBRARY} ${SDL2_TTF_LIBRARIES} ${CMAKE_DL_LIBS} ${ASSIMP_LIBRARIES})
+target_link_libraries(GameApplication Utils ${SDL2_LIBRARY} ${TINYXML_LIBRARIES} ${OPENGL_LIBRARIES} ${GLEW_LIBRARIES} ${SDL2IMAGE_LIBRARY} ${SDL2_TTF_LIBRARIES} ${CMAKE_DL_LIBS} ${ASSIMP_LIBRARIES})

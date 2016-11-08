@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp is up-to-date.
+cl : Command line warning D9002: ignoring unknown option '/EH;'
+cl : Command line warning D9002: ignoring unknown option '/EH-'
+cl : Command line warning D9002: ignoring unknown option '/EHt'
+cl : Command line warning D9002: ignoring unknown option '/EHd'
+cl : Command line warning D9002: ignoring unknown option '/EH='
+cl : Command line warning D9002: ignoring unknown option '/EH+'
+cl : Command line warning D9002: ignoring unknown option '/EH+'
+cl : Command line warning D9002: ignoring unknown option '/EH0'
+cl : Command line warning D9002: ignoring unknown option '/EHx'
+cl : Command line warning D9002: ignoring unknown option '-g'
+  MyGame.cpp
+  main.cpp
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(6): error C2065: 'unique_ptr': undeclared identifier
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(6): error C2065: 'MyGame': undeclared identifier
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(6): error C2061: syntax error: identifier 'MyGame'
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(6): error C3861: 'pGame': identifier not found
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(8): error C2065: 'pGame': undeclared identifier
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(8): error C2227: left of '->init' must point to class/struct/union/generic type
+  C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(8): note: type is 'unknown-type'
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(9): error C2065: 'pGame': undeclared identifier
+C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(9): error C2227: left of '->run' must point to class/struct/union/generic type
+  C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp(9): note: type is 'unknown-type'
+  Generating Code...

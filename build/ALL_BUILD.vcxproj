@@ -168,6 +168,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GP2CWProject.vcxproj">
       <Project>A9A74C09-DD09-3D30-81D3-0FC20C7CCFCB</Project>
     </ProjectReference>
+    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/GameApplication.vcxproj">
+      <Project>F818EE9D-2C7A-3978-AE7C-821A4D1ECCD4</Project>
+    </ProjectReference>
     <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/Utils/Utils.vcxproj">
       <Project>C0280873-A0A7-3CAD-9972-D2DCA14C16FA</Project>
     </ProjectReference>

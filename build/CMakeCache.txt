@@ -172,6 +172,9 @@ GP2CWProject_SOURCE_DIR:STATIC=C:/Users/Fraser/Documents/Visual Studio 2015/Proj
 //Value Computed by CMake
 GameApplication_BINARY_DIR:STATIC=C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication
 
+//Dependencies for the target
+GameApplication_LIB_DEPENDS:STATIC=general;Utils;general;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;general;C:/Dev/SDL2-2.0.4/lib/x64/SDL2.lib;general;C:/Dev/tinyxml2/lib/tinyxml2.lib;general;glu32;general;opengl32;general;glu32;general;opengl32;general;C:/Dev/glew-2.0.0/lib/Release/x64/glew32.lib;general;C:/Dev/SDL2_image-2.0.1/lib/x64/SDL2_image.lib;general;C:/Dev/SDL2_ttf-2.0.14/lib/x64/SDL2_ttf.lib;general;C:/Dev/assimp/lib/assimp-vc140-mt.lib;
+
 //Value Computed by CMake
 GameApplication_SOURCE_DIR:STATIC=C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication
 
@@ -361,7 +364,7 @@ GLEW_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
-SDL2_LIBRARY_TEMP:INTERNAL=C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2.lib
+SDL2_LIBRARY_TEMP:INTERNAL=C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2.lib
 //ADVANCED property for variable: SDL2_TTF_INCLUDE_DIR
 SDL2_TTF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL2_TTF_LIBRARY_DEBUG
