@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\159328debd2d32d6a570dc7eca4ef77d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{842EBBFA-000E-38D0-AE33-388B596E8426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
