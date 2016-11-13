@@ -6,7 +6,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\inc\GameApplication.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\GameApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

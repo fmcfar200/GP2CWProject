@@ -4,6 +4,14 @@
     <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\MyGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include\MyGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt" />
@@ -11,6 +19,9 @@
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{FF397630-C0C0-3AB6-9796-A746E09018C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C63F92B-9276-36C6-A983-C1EE54691F3A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
