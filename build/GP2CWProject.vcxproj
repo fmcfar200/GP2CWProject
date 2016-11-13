@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -56,37 +56,37 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -114,7 +114,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug/assets"
 if %errorlevel% neq 0 goto :cmEnd
@@ -126,7 +127,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug"
 if %errorlevel% neq 0 goto :cmEnd
@@ -146,7 +148,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -167,7 +170,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -182,7 +186,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release/assets"
 if %errorlevel% neq 0 goto :cmEnd
@@ -194,7 +199,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release"
 if %errorlevel% neq 0 goto :cmEnd
@@ -214,7 +220,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -235,7 +242,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -250,7 +258,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel/assets"
 if %errorlevel% neq 0 goto :cmEnd
@@ -262,7 +271,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel"
 if %errorlevel% neq 0 goto :cmEnd
@@ -282,7 +292,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -318,7 +329,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo/assets"
 if %errorlevel% neq 0 goto :cmEnd
@@ -330,7 +342,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo"
 if %errorlevel% neq 0 goto :cmEnd
@@ -350,7 +363,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -413,7 +427,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp"  />
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include\MyGame.h" />
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp" />
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\MyGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/ZERO_CHECK.vcxproj">

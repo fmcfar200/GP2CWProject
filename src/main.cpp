@@ -1,5 +1,6 @@
 
 #include "MyGame.h"
+#include "Common.h"
 
 int main(int argc, char * arg[])
 {

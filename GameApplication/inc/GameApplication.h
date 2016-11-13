@@ -1,5 +1,0 @@
-#ifndef _GAMEAPPLICATION_H
-#define _GAMEAPPLICATION_H
-
-
-#endif
