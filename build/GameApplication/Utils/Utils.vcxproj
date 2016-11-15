@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{C0280873-A0A7-3CAD-9972-D2DCA14C16FA}</ProjectGUID>
+    <ProjectGUID>{E236097C-222B-345F-9775-F20F18F90C76}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>Utils</ProjectName>
@@ -58,19 +59,19 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utils.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utils</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utils.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utils</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Utils.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Utils</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Utils.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Utils</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
@@ -78,7 +79,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -95,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +113,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -128,10 +129,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -145,7 +146,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -161,10 +162,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -178,7 +179,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -194,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include;C:\Dev\tinyxml2\include;C:\Dev\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,10 +210,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject -BC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build --check-stamp-file C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +221,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject -BC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build --check-stamp-file C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +234,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject -BC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build --check-stamp-file C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +247,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject -BC:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build --check-stamp-file C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,30 +260,30 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\Log.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\NonCopyable.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\clock.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\ProgramOptions.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\CommandLineParser.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\XMLOptionsParser.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\Timer.h" />
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\Utils.h" />
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\Log.cpp"  />
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\clock.cpp"  />
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp"  />
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp"  />
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\XMLOptionsParser.cpp"  />
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\Timer.cpp"  />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\Log.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\NonCopyable.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\clock.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\ProgramOptions.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\CommandLineParser.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\XMLOptionsParser.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\Timer.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\Utils.h" />
+    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\Log.cpp"  />
+    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\clock.cpp"  />
+    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp"  />
+    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp"  />
+    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\XMLOptionsParser.cpp"  />
+    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\Timer.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/ZERO_CHECK.vcxproj">
-      <Project>D394119A-30A5-3DA5-BE9F-5B338DDAC5B1</Project>
+    <ProjectReference Include="C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build/ZERO_CHECK.vcxproj">
+      <Project>CA8924E7-FF69-313F-BA86-4ADA6BEF120B</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

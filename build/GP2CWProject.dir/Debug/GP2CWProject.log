@@ -11,4 +11,5 @@ cl : Command line warning D9002: ignoring unknown option '-g'
   main.cpp
   MyGame.cpp
   Generating Code...
-  GP2CWProject.vcxproj -> C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Debug\GP2CWProject.exe
+  LINK : C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\Debug\GP2CWProject.exe not found or not built by the last incremental link; performing full link
+  GP2CWProject.vcxproj -> C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\build\Debug\GP2CWProject.exe
