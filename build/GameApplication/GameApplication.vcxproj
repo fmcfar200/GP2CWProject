@@ -271,6 +271,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\include\Shader.h" />
     <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\include\Texture.h" />
     <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\include\GameObject.h" />
+    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\include\Vertex.h" />
     <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\src\GameApplication.cpp"  />
     <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\src\Shader.cpp"  />
     <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\src\Texture.cpp"  />

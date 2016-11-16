@@ -20,7 +20,7 @@ ENDIF(GLEW_FOUND)
 
 add_subdirectory(Utils)
 
-add_library(GameApplication STATIC src/GameApplication.cpp src/Shader.cpp src/Texture.cpp src/GameObject.cpp include/GameApplication.h include/Common.h include/Shader.h include/Texture.h include/GameObject.h)
+add_library(GameApplication STATIC src/GameApplication.cpp src/Shader.cpp src/Texture.cpp src/GameObject.cpp include/GameApplication.h include/Common.h include/Shader.h include/Texture.h include/GameObject.h include/Vertex.h)
 
 
 include_directories(GameApplication include/ Utils/include ${SDL2_INCLUDE_DIR} ${TINYXML_INCLUDE_DIR} ${OPENGL_INCLUDE_DIRS} ${GLM_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR} ${ASSIMP_INLCUDE_DIR})
