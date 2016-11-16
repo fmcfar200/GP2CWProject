@@ -17,7 +17,7 @@ MyGame::~MyGame()
 
 void MyGame::initScene()
 {
-	string modelPath = ASSET_PATH + MODEL_PATH + "/utah-teapot.fbx";
+	string modelPath = ASSET_PATH + MODEL_PATH + "/stanford-bunny.fbx";
 	string vsFilename = ASSET_PATH + SHADER_PATH + "/lightVS.glsl";
 	string fsFilename = ASSET_PATH + SHADER_PATH + "/lightFS.glsl";
 	m_TestGO=shared_ptr<GameObject>(loadModelFromFile(modelPath));
@@ -25,7 +25,7 @@ void MyGame::initScene()
 
 	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
 
-	m_CameraPosition = vec3(0.0f, 0.0f, 100.0f);
+	m_CameraPosition = vec3(0.0f, 0.0f, 600.0f);
 
 	
 	m_Light = shared_ptr<Light>(new Light());
