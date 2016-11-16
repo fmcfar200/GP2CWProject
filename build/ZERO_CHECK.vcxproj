@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -75,7 +75,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

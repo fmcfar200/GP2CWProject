@@ -35,12 +35,13 @@ using namespace glm;
 #include <glm/gtc/type_ptr.hpp>
 #include <glm/gtx/string_cast.hpp>
 
-#include "../Utils/include/Utils.h"
 
-//assimp
+//ASSIMP
+/* assimp include files. These three are usually needed. */
 #include <assimp/cimport.h>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
+#include "../Utils/include/Utils.h"
 
 #endif

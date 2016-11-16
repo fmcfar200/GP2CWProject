@@ -27,7 +27,7 @@ find_package(assimp REQUIRED)
 
 add_subdirectory(GameApplication)
 add_executable(GP2CWProject src/main.cpp src/MyGame.cpp include/MyGame.h)
-include_directories(GP2CWProject GameApplication/include/ include/ ${SDL2_INCLUDE_DIR} ${TINYXML_INCLUDE_DIR} ${OPENGL_INCLUDE_DIRS} ${GLM_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR} ${ASSIMP_INCLUDE_DIR}})
+include_directories(GP2CWProject GameApplication/include/ include/ ${SDL2_INCLUDE_DIR} ${TINYXML_INCLUDE_DIR} ${OPENGL_INCLUDE_DIRS} ${GLM_INCLUDE_DIRS} ${GLEW_INCLUDE_DIRS} ${SDL2IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR} ${ASSIMP_INCLUDE_DIR})
 
 target_link_libraries (GP2CWProject GameApplication)
 

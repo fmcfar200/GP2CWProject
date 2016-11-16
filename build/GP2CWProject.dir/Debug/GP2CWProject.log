@@ -1,4 +1,6 @@
-﻿cl : Command line warning D9002: ignoring unknown option '/EH;'
+﻿  Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp is up-to-date.
+cl : Command line warning D9002: ignoring unknown option '/EH;'
 cl : Command line warning D9002: ignoring unknown option '/EH-'
 cl : Command line warning D9002: ignoring unknown option '/EHt'
 cl : Command line warning D9002: ignoring unknown option '/EHd'
@@ -8,5 +10,7 @@ cl : Command line warning D9002: ignoring unknown option '/EH+'
 cl : Command line warning D9002: ignoring unknown option '/EH0'
 cl : Command line warning D9002: ignoring unknown option '/EHx'
 cl : Command line warning D9002: ignoring unknown option '-g'
+  main.cpp
   MyGame.cpp
+  Generating Code...
   GP2CWProject.vcxproj -> C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Debug\GP2CWProject.exe

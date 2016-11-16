@@ -2,9 +2,9 @@
 #define GAMEOBJECT_H
 
 #include "Common.h"
-#include "Shader.h"
-#include "Texture.h"
 #include "Vertex.h"
+#include "Texture.h"
+#include "Shader.h"
 
 class GameObject
 {
@@ -12,43 +12,107 @@ public:
 	GameObject();
 	~GameObject();
 
-	void onRender(mat4& view, mat4& projection);
 	void onUpdate();
+	void onRender(mat4& view, mat4& projection);
 	void onInit();
 	void onDestroy();
 
+	void addChild(shared_ptr<GameObject> gameobject);
+
+	mat4& getModelMatrix()
+	{
+		return m_ModelMatrix;
+	}
+
+	void setPosition(const vec3& pos)
+	{
+		m_Position = pos;
+	};
+
+	void setRotation(const vec3& rot)
+	{
+		m_Rotation = rot;
+	};
+
+	void setScale(const vec3& scale)
+	{
+		m_Scale = scale;
+	};
+
+	vec3& getPosition()
+	{
+		return m_Position;
+	};
+
+	vec3& getRotation()
+	{
+		return m_Rotation;
+	};
+
+	vec3& getScale()
+	{
+		return m_Scale;
+	};
+
+	void rotate(const vec3& delta);
+
 	void loadTexture(const string& filename);
 	void loadShaders(const string& vsFilename, const string& fsFilename);
-	void copyVertexData(Vertex *pVerts, int numberOfVertcies, int * indices, int numberOfIndices);
+	void copyVertexData(Vertex *pVertex, int numberOfVertices, int *pIndices, int numberOfIndices);
 
+	GLuint getShaderProgram()
+	{
+		return m_ShaderProgram;
+	};
+
+	void setAmbientMaterialColour(const vec4& colour)
+	{
+		m_AmbientMaterialColour = colour;
+	};
+
+	void setDiffuseMaterialColour(const vec4& colour)
+	{
+		m_DiffuseMaterialColour = colour;
+	};
+
+	void setSpecularMaterialColour(const vec4& colour)
+	{
+		m_SpecularMaterialColour = colour;
+	};
+
+	void setSpecularPower(float power)
+	{
+		m_SpecularMaterialPower = power;
+	};
 private:
-	GLuint m_VBO;
-	GLuint m_VAO;
-	GLuint m_IBO;
-	std::vector<unsigned int> indices;
-	int m_NumberOfIndices;
-
-
-	//Shader Program
-	GLuint m_ShaderProgram;
-
-	mat4 m_ModelMatrix;
-
-	GLuint m_Texture;
-	GLuint m_ClampSampler;
+	GameObject * m_pParent;
+	vector<shared_ptr<GameObject> > m_ChildrenGameObjects;
 
 	vec3 m_Position;
 	vec3 m_Rotation;
 	vec3 m_Scale;
 
-
-
 	mat4 m_TranslationMatrix;
-	mat4 m_RotationMatrix;
 	mat4 m_ScaleMatrix;
+	mat4 m_RotationMatrix;
+	mat4 m_ModelMatrix;
 
-	int m_NumberOfVertices;
-protected:
+	GLuint m_VBO;
+	GLuint m_EBO;
+	GLuint m_VAO;
+	int m_NumberOfVerts;
+	int m_NumberOfIndices;
+
+	//Shader Program
+	GLuint m_ShaderProgram;
+	GLuint m_Texture;
+	GLuint m_Sampler;
+
+	//Materials
+	vec4 m_AmbientMaterialColour;
+	vec4 m_DiffuseMaterialColour;
+	vec4 m_SpecularMaterialColour;
+	float m_SpecularMaterialPower;
 };
 
 #endif

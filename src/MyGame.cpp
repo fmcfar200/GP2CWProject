@@ -1,6 +1,4 @@
 #include "MyGame.h"
-#include "Common.h"
-#include "..\include\MyGame.h"
 
 const std::string ASSET_PATH = "assets";
 const std::string SHADER_PATH = "/shaders";
@@ -9,62 +7,87 @@ const std::string MODEL_PATH = "/models";
 
 MyGame::MyGame()
 {
+
 }
 
 MyGame::~MyGame()
 {
+
 }
 
-void MyGame::render()
+void MyGame::initScene()
 {
-	GameApplication::render();
-	m_TestObject->onRender(m_ViewMatrix, m_ProjMatrix);
+	string modelPath = ASSET_PATH + MODEL_PATH + "/utah-teapot.fbx";
+	string vsFilename = ASSET_PATH + SHADER_PATH + "/lightVS.glsl";
+	string fsFilename = ASSET_PATH + SHADER_PATH + "/lightFS.glsl";
+	m_TestGO=shared_ptr<GameObject>(loadModelFromFile(modelPath));
+	m_TestGO->loadShaders(vsFilename, fsFilename);
+
+	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
+
+	m_CameraPosition = vec3(0.0f, 0.0f, 100.0f);
+
+	
+	m_Light = shared_ptr<Light>(new Light());
+	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_Light->Direction = vec3(0.0f, 0.0f, -1.0f);
+	m_AmbientLightColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	
+}
+
+void MyGame::onKeyDown(SDL_Keycode keyCode)
+{
+	if (keyCode == SDLK_a)
+	{
+		m_TestGO->rotate(vec3(0.0f, -0.1f, 0.0f));
+	}else if (keyCode == SDLK_d)
+	{
+		m_TestGO->rotate(vec3(0.0f, 0.1f, 0.0f));
+	}
+	if (keyCode==SDLK_w)
+	{
+		m_TestGO->rotate(vec3(-0.1f,0.0f,0.0f));
+	}
+	else if (keyCode==SDLK_s)
+	{
+		m_TestGO->rotate(vec3(0.1f,0.0f,0.0f));
+	}
+}
+
+void MyGame::destroyScene()
+{
+	m_TestGO->onDestroy();
 }
 
 void MyGame::update()
 {
 	GameApplication::update();
 
-	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 100.0f);
+	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
 	m_ViewMatrix = lookAt(m_CameraPosition, vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
-
-	m_TestObject->onUpdate();
+	m_TestGO->onUpdate();
 }
 
-void MyGame::initScene()
+void MyGame::render()
 {
+	GameApplication::render();
+	GLuint currentShader = m_TestGO->getShaderProgram();
 	
-	Vertex verts[] = {
-	{vec3(-0.5f, -0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(0.0f,3.0f)},
-	{vec3(0.5f, -0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(3.0f,3.0f)},
-	{vec3(-0.5f,  0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(0.0f,0.0f)},
-	{vec3(0.5f, 0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(3.0f,0.0f)},
-	};
+	GLint ambientLightColourLocation = glGetUniformLocation(currentShader, "ambientLightColour");
+	glUniform4fv(ambientLightColourLocation, 1, value_ptr(m_AmbientLightColour));
 
-	int indices[] =
-	{
-	0,2,1,
-	2,3,1
-	};
+	GLint diffuseLightColourLocation = glGetUniformLocation(currentShader, "diffuseLightColour");
+	glUniform4fv(diffuseLightColourLocation, 1, value_ptr(m_Light->DiffuseColour));
 
-	m_TestObject = new GameObject();
+	GLint specularLightColourLocation = glGetUniformLocation(currentShader, "specularLightColour");
+	glUniform4fv(specularLightColourLocation, 1, value_ptr(m_Light->SpecularColour));
+
+	GLint lightDirectionLocation = glGetUniformLocation(currentShader, "lightDirection");
+	glUniform3fv(lightDirectionLocation, 1, value_ptr(m_Light->Direction));
+
+	GLint cameraPositionLocation = glGetUniformLocation(currentShader, "cameraPos");
+	glUniform3fv(cameraPositionLocation, 1, value_ptr(m_CameraPosition));
 	
-	string vsPath = ASSET_PATH + SHADER_PATH + "/simpleVS.glsl";
-	string fsPath = ASSET_PATH + SHADER_PATH + "/textureFS.glsl";
-	string texturePath = ASSET_PATH + TEXTURE_PATH + "/texture.png";
-	m_TestObject->loadShaders(vsPath, fsPath);
-
-	//lets load texture
-	m_TestObject->loadTexture(texturePath);
-
-	m_TestObject->copyVertexData(verts, 4, indices ,6 );
-
-	m_CameraPosition = vec3(0.0f, 0.0f, 100.0f);
-
-
-}
-
-void MyGame::destroyScene()
-{
-	m_TestObject->onDestroy();
+	m_TestGO->onRender(m_ViewMatrix, m_ProjMatrix);
 }

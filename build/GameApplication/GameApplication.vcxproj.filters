@@ -13,12 +13,15 @@
     <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\ModelLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\GameApplication.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Common.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\GameApplication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Shader.h">
@@ -27,10 +30,16 @@
     <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Vertex.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\ModelLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Light.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

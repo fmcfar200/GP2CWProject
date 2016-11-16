@@ -228,6 +228,10 @@ Utils_SOURCE_DIR:STATIC=C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: ASSIMP_INCLUDE_DIR
+ASSIMP_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ASSIMP_LIBRARIES
+ASSIMP_LIBRARIES-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build
 //Major version of cmake used to create the current loaded cache
@@ -338,6 +342,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Assimp
+FIND_PACKAGE_MESSAGE_DETAILS_Assimp:INTERNAL=[C:/Dev/assimp/include][C:/Dev/assimp/lib/assimp-vc140-mt.lib][v()]
 //Details about finding GLEW
 FIND_PACKAGE_MESSAGE_DETAILS_GLEW:INTERNAL=[C:/Dev/glew-2.0.0/include][C:/Dev/glew-2.0.0/lib/Release/x64/glew32.lib][v()]
 //Details about finding GLM

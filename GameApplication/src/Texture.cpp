@@ -3,10 +3,10 @@
 GLuint loadTextureFromMemory(const char * pMem, int size)
 {
 	SDL_RWops *rw = SDL_RWFromConstMem(pMem, size);
-	SDL_Surface	*imageSurface = IMG_Load_RW(rw, 1);
-	if (!imageSurface) {
+	SDL_Surface	*imageSurface = IMG_Load_RW(rw,1);
+	if (!imageSurface){
 
-		LOG(ERROR, "Can't Load	image %s", IMG_GetError());
+		LOG(ERROR,"Can't Load	image %s",IMG_GetError());
 		return	0;
 	}
 
@@ -20,9 +20,9 @@ GLuint loadTextureFromMemory(const char * pMem, int size)
 GLuint	loadTextureFromFile(const string&	filename)
 {
 	SDL_Surface	*imageSurface = IMG_Load(filename.c_str());
-	if (!imageSurface) {
+	if (!imageSurface){
 
-		LOG(ERROR, "Can't Load	image %s", IMG_GetError());
+		LOG(ERROR,"Can't Load	image %s",IMG_GetError());
 		return	0;
 	}
 
@@ -37,7 +37,7 @@ GLuint	loadTextureFromFont(const string& fontFilename, int	pointSize, const stri
 	TTF_Font	*	font = TTF_OpenFont(fontFilename.c_str(), pointSize);
 	if (!font)
 	{
-		LOG(ERROR, "Can't Load	Font %s", TTF_GetError());
+		LOG(ERROR,"Can't Load	Font %s",TTF_GetError());
 		return	0;
 	}
 	SDL_Surface	*textSurface = TTF_RenderText_Blended(font, text.c_str(), { 255, 255, 255 });
@@ -60,28 +60,28 @@ GLuint convertSDLSurfaceToTexture(SDL_Surface * surface)
 
 	if (nOfColors == 4)					//	contains	an	alpha	channel
 	{
-		if (surface->format->Rmask == 0x000000ff) {
+		if (surface->format->Rmask == 0x000000ff){
 			textureFormat = GL_RGBA;
 			internalFormat = GL_RGBA8;
 		}
-		else {
+		else{
 			textureFormat = GL_BGRA;
 			internalFormat = GL_RGBA8;
 		}
 	}
 	else if (nOfColors == 3)					//	no	alpha	channel
 	{
-		if (surface->format->Rmask == 0x000000ff) {
+		if (surface->format->Rmask == 0x000000ff){
 			textureFormat = GL_RGB;
 			internalFormat = GL_RGB8;
 		}
-		else {
+		else{
 			textureFormat = GL_BGR;
 			internalFormat = GL_RGB8;
 		}
 	}
-	else {
-		LOG(ERROR, "%s", "Can't convert texture");
+	else{
+		LOG(ERROR,"%s","Can't convert texture");
 		return 0;
 	}
 

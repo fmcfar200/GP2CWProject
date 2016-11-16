@@ -9,12 +9,12 @@
 #ifndef Shader_h
 #define Shader_h
 
-#include "Common.h"
+#include "common.h"
 
 enum SHADER_TYPE
 {
-	VERTEX_SHADER = GL_VERTEX_SHADER,
-	FRAGMENT_SHADER = GL_FRAGMENT_SHADER
+	VERTEX_SHADER=GL_VERTEX_SHADER,
+	FRAGMENT_SHADER=GL_FRAGMENT_SHADER
 };
 
 GLuint loadShaderFromFile(const std::string& filename, SHADER_TYPE shaderType);

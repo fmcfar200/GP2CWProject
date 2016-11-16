@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp">
@@ -23,9 +23,5 @@
     <Filter Include="Header Files">
       <UniqueIdentifier>{4C63F92B-9276-36C6-A983-C1EE54691F3A}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\assets\shaders\simpleVS.glsl" />
-    <None Include="..\assets\shaders\simpleFS.glsl" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,3 @@
-
 #include "MyGame.h"
 
 int main(int argc, char * arg[])
@@ -10,4 +9,3 @@ int main(int argc, char * arg[])
 
 	return 0;
 }
-
