@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\Log.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\clock.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\clock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\XMLOptionsParser.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\XMLOptionsParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\src\Timer.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\src\Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\Log.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\NonCopyable.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\NonCopyable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\clock.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\clock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\ProgramOptions.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\ProgramOptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\CommandLineParser.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\CommandLineParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\XMLOptionsParser.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\XMLOptionsParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\Timer.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\include\Utils.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\include\Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Fraser\Documents\Uni\Year3\GP2CWProject\GameApplication\Utils\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\Utils\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B8328E9D-6820-3B9C-A9B1-30ED1A5E39ED}</UniqueIdentifier>
+      <UniqueIdentifier>{FF397630-C0C0-3AB6-9796-A746E09018C1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{0B7338EE-06BA-3481-970B-9680D3A2910F}</UniqueIdentifier>
+      <UniqueIdentifier>{4C63F92B-9276-36C6-A983-C1EE54691F3A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

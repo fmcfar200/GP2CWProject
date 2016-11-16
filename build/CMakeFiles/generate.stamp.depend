@@ -1,59 +1,60 @@
 # CMake generation dependency list for this directory.
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/CMakeLists.txt
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build/CMakeFiles/3.6.2/CMakeSystem.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build/CMakeFiles/3.6.2/CMakeCCompiler.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build/CMakeFiles/3.6.2/CMakeCXXCompiler.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCInformation.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-C.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/build/CMakeFiles/3.6.2/CMakeRCCompiler.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeRCInformation.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Compiler/MSVC-CXX.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-CXX.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/cmake/FindTinyXML.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/cmake/FindSDL2.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindThreads.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CheckLibraryExists.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CheckSymbolExists.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindOpenGL.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/cmake/FindGLM.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindGLEW.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/cmake/FindSDL2_Image.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/cmake/FindSDL2_TTF.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
-C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
-C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/cmake/Findassimp.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/CMakeFiles/3.7.0-rc1/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/CMakeFiles/3.7.0-rc1/CMakeCCompiler.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/CMakeFiles/3.7.0-rc1/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/CMakeFiles/3.7.0-rc1/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/cmake/FindTinyXML.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/cmake/FindSDL2.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/cmake/FindGLM.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindGLEW.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/cmake/FindSDL2_Image.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/cmake/FindSDL2_TTF.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/cmake/Findassimp.cmake

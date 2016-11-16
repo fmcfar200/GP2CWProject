@@ -1,8 +1,1 @@
-Log Created on Tue Nov 15 20:11:14 2016
-INFO Tue Nov 15 20:11:14 2016 Reading XML Document settings.xml
-INFO Tue Nov 15 20:11:14 2016 Settings Parsed
-
-INFO Tue Nov 15 20:11:14 2016 Command Line Parsed
-
-INFO Tue Nov 15 20:11:14 2016 Initialising SDL
-INFO Tue Nov 15 20:11:25 2016 Window Created  Width - 0 Height - 0
+Log Created on Wed Nov 16 13:13:35 2016

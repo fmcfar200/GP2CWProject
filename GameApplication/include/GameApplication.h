@@ -2,9 +2,9 @@
 #define _GAMEAPPLICATION_H
 
 #include "Common.h"
-//#include "Shader.h"
-//#include "Texture.h"
-//#include "GameObject.h"
+#include "Shader.h"
+#include "Texture.h"
+#include "GameObject.h"
 //#include "ModelLoading.h"
 
 //Game Application class, this basically wraps up the initialisation of a game
