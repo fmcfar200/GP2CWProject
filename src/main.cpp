@@ -1,6 +1,4 @@
-
 #include "MyGame.h"
-#include "Common.h"
 
 int main(int argc, char * arg[])
 {
@@ -11,4 +9,3 @@ int main(int argc, char * arg[])
 
 	return 0;
 }
-
