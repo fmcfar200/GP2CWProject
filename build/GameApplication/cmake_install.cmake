@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication
+# Install script for directory: C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/GameApplication
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/Utils/cmake_install.cmake")
+  include("C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/GameApplication/Utils/cmake_install.cmake")
 
 endif()
 

@@ -20,11 +20,21 @@ GameObject::GameObject()
 
 	//Shader Program
 	m_ShaderProgram=0;
+<<<<<<< HEAD
 	m_Texture=0;
 	m_Sampler=0;
 	m_pParent = nullptr;
 
 	m_AmbientMaterialColour=vec4(0.2f,0.2f,0.2f,1.0f);
+=======
+	m_DiffuseTexture=0;
+	m_SpecularTexture = 0;
+	m_NormalTexture = 0;
+	m_Sampler=0;
+	m_pParent = nullptr;
+
+	m_AmbientMaterialColour=vec4(0.0f,0.0f,0.0f,1.0f);
+>>>>>>> refs/remotes/origin/master
 	m_DiffuseMaterialColour=vec4(0.5f,0.5f,0.5f,1.0f);
 	m_SpecularMaterialColour=vec4(1.0f,1.0f,1.0f,1.0f);
 	m_SpecularMaterialPower=25.0f;
@@ -68,9 +78,42 @@ void GameObject::onRender(mat4& view, mat4& projection)
 
 	glBindSampler(0, m_Sampler);
 	glActiveTexture(GL_TEXTURE0);
+<<<<<<< HEAD
 	glBindTexture(GL_TEXTURE_2D, m_Texture);
 	GLint textureLocation = glGetUniformLocation(m_ShaderProgram, "diffuseSampler");
 	glUniform1i(textureLocation, 0);
+=======
+	glBindTexture(GL_TEXTURE_2D, m_DiffuseTexture);
+	GLint diffuseTextureLocation = glGetUniformLocation(m_ShaderProgram, "diffuseSampler");
+	glUniform1i(diffuseTextureLocation, 0);
+
+	glBindSampler(1, m_Sampler);
+	glActiveTexture(GL_TEXTURE1);
+	glBindTexture(GL_TEXTURE_2D, m_SpecularTexture);
+	GLint specTextureLocation = glGetUniformLocation(m_ShaderProgram, "specularSampler");
+	glUniform1i(specTextureLocation, 1);
+
+	glBindSampler(2, m_Sampler);
+	glActiveTexture(GL_TEXTURE2);
+	glBindTexture(GL_TEXTURE_2D, m_NormalTexture);
+	GLint normalTextureLocation = glGetUniformLocation(m_ShaderProgram, "normalSampler");
+	glUniform1i(normalTextureLocation, 2);
+
+	
+	glBindSampler(3, m_Sampler);
+	glActiveTexture(GL_TEXTURE3);
+	glBindTexture(GL_TEXTURE_2D, m_HeightMapTexture);
+	GLint heightTextureLocation = glGetUniformLocation(m_ShaderProgram, "heightSampler");
+	glUniform1i(heightTextureLocation, 3);
+	
+
+
+	
+
+	
+
+
+>>>>>>> refs/remotes/origin/master
 
 	GLint ambientLocation = glGetUniformLocation(m_ShaderProgram, "ambientMaterialColour");
 	glUniform4fv(ambientLocation, 1, value_ptr(m_AmbientMaterialColour));
@@ -98,7 +141,12 @@ void GameObject::onDestroy()
 	glDeleteBuffers(1, &m_EBO);
 	glDeleteBuffers(1, &m_VBO);
 	glDeleteSamplers(1, &m_Sampler);
+<<<<<<< HEAD
 	glDeleteTextures(1, &m_Texture);
+=======
+	glDeleteTextures(1, &m_DiffuseTexture);
+	glDeleteTextures(1, &m_SpecularTexture);
+>>>>>>> refs/remotes/origin/master
 	glDeleteProgram(m_ShaderProgram);
 }
 
@@ -113,10 +161,17 @@ void GameObject::rotate(const vec3 & delta)
 	m_Rotation += delta;
 }
 
+<<<<<<< HEAD
 void GameObject::loadTexture(const string & filename)
 {
 	m_Texture = loadTextureFromFile(filename);
 	glBindTexture(GL_TEXTURE_2D, m_Texture);
+=======
+void GameObject::loadDiffuseTexture(const string & filename)
+{
+	m_DiffuseTexture = loadTextureFromFile(filename);
+	glBindTexture(GL_TEXTURE_2D, m_DiffuseTexture);
+>>>>>>> refs/remotes/origin/master
 	glGenerateMipmap(GL_TEXTURE_2D);
 
 	glGenSamplers(1, &m_Sampler);
@@ -127,6 +182,33 @@ void GameObject::loadTexture(const string & filename)
 
 }
 
+<<<<<<< HEAD
+=======
+void GameObject::loadSpecularTexture(const string & filename)
+{
+	m_SpecularTexture = loadTextureFromFile(filename);
+	glBindTexture(GL_TEXTURE_2D, m_SpecularTexture);
+	glGenerateMipmap(GL_TEXTURE_2D);
+
+}
+
+void GameObject::loadNormalTexture(const string & filename)
+{
+	m_NormalTexture = loadTextureFromFile(filename);
+	glBindTexture(GL_TEXTURE_2D, m_NormalTexture);
+	glGenerateMipmap(GL_TEXTURE_2D);
+}
+
+
+void GameObject::loadHeightMapTexture(const string & filename)
+{
+	m_HeightMapTexture = loadTextureFromFile(filename);
+	glBindTexture(GL_TEXTURE_2D, m_HeightMapTexture);
+	glGenerateMipmap(GL_TEXTURE_2D);
+}
+
+
+>>>>>>> refs/remotes/origin/master
 void GameObject::loadShaders(const string & vsFilename, const string & fsFilename)
 {
 	GLuint vertexShaderProgram = loadShaderFromFile(vsFilename, VERTEX_SHADER);
@@ -165,6 +247,7 @@ void GameObject::copyVertexData(Vertex * pVertex, int numberOfVertices, int * pI
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex),
 		NULL);
+<<<<<<< HEAD
 	glEnableVertexAttribArray(1);
 	glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, sizeof(Vertex),
 		(void**)(offsetof(Vertex, colours)));
@@ -174,4 +257,26 @@ void GameObject::copyVertexData(Vertex * pVertex, int numberOfVertices, int * pI
 	glEnableVertexAttribArray(3);
 	glVertexAttribPointer(3, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex),
 		(void**)(offsetof(Vertex, normal)));
+=======
+
+	glEnableVertexAttribArray(1);
+	glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, sizeof(Vertex),
+		(void**)(offsetof(Vertex, colours)));
+
+	glEnableVertexAttribArray(2);
+	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex),
+		(void**)(offsetof(Vertex, texCoords0)));
+
+	glEnableVertexAttribArray(3);
+	glVertexAttribPointer(3, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex),
+		(void**)(offsetof(Vertex, normal)));
+
+	glEnableVertexAttribArray(4);
+	glVertexAttribPointer(4, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex),
+		(void**)(offsetof(Vertex, tangent)));
+
+	glEnableVertexAttribArray(5);
+	glVertexAttribPointer(5, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex),
+		(void**)(offsetof(Vertex, binormal)));
+>>>>>>> refs/remotes/origin/master
 }

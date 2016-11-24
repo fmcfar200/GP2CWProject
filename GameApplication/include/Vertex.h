@@ -8,6 +8,11 @@ struct Vertex {
 	vec4 colours;
 	vec2 texCoords0;
 	vec3 normal;
+<<<<<<< HEAD
+=======
+	vec3 tangent;
+	vec3 binormal;
+>>>>>>> refs/remotes/origin/master
 };
 
 #endif

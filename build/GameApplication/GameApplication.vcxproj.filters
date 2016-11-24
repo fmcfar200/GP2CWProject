@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\GameApplication.cpp">
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\GameApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\Shader.cpp">
@@ -18,6 +30,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -40,18 +53,42 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include\Light.h">
+=======
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\GameApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\ModelLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Light.h">
+>>>>>>> refs/remotes/origin/master
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FF397630-C0C0-3AB6-9796-A746E09018C1}</UniqueIdentifier>
+      <UniqueIdentifier>{A6E6FD39-11FE-43B0-B15D-864CA1E990A9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4C63F92B-9276-36C6-A983-C1EE54691F3A}</UniqueIdentifier>
+      <UniqueIdentifier>{7AFB6CA2-15EE-4DED-86CD-5372A80DD6D2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

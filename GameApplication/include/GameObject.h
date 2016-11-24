@@ -56,7 +56,14 @@ public:
 
 	void rotate(const vec3& delta);
 
+<<<<<<< HEAD
 	void loadTexture(const string& filename);
+=======
+	void loadDiffuseTexture(const string& filename);
+	void loadSpecularTexture(const string& filename);
+	void loadNormalTexture(const string& filename);
+	void loadHeightMapTexture(const string& filename);
+>>>>>>> refs/remotes/origin/master
 	void loadShaders(const string& vsFilename, const string& fsFilename);
 	void copyVertexData(Vertex *pVertex, int numberOfVertices, int *pIndices, int numberOfIndices);
 
@@ -92,6 +99,13 @@ private:
 	vec3 m_Rotation;
 	vec3 m_Scale;
 
+<<<<<<< HEAD
+=======
+	//attribs
+	vec3 m_Tangents;
+	vec3 m_Binormals;
+
+>>>>>>> refs/remotes/origin/master
 	mat4 m_TranslationMatrix;
 	mat4 m_ScaleMatrix;
 	mat4 m_RotationMatrix;
@@ -105,7 +119,14 @@ private:
 
 	//Shader Program
 	GLuint m_ShaderProgram;
+<<<<<<< HEAD
 	GLuint m_Texture;
+=======
+	GLuint m_DiffuseTexture;
+	GLuint m_NormalTexture;
+	GLuint m_SpecularTexture;
+	GLuint m_HeightMapTexture;
+>>>>>>> refs/remotes/origin/master
 	GLuint m_Sampler;
 
 	//Materials

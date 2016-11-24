@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{A9A74C09-DD09-3D30-81D3-0FC20C7CCFCB}</ProjectGUID>
+    <ProjectGUID>{E62EE873-539B-4AB3-AC70-E785AC0343B0}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>GP2CWProject</ProjectName>
@@ -56,6 +56,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+<<<<<<< HEAD
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
       <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\Debug\</OutDir>
@@ -83,10 +84,39 @@
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
     </PropertyGroup>
+=======
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+>>>>>>> refs/remotes/origin/master
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -103,10 +133,17 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +153,16 @@
     <PreBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug/assets"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/assets C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Debug/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\StreamingApps\CMake\bin\cmake.exe -E copy C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/settings.xml C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -137,7 +183,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/dlls C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,13 +193,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Debug\GameApplication.lib;GameApplication\Utils\Debug\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Debug\GameApplication.lib;GameApplication\Utils\Debug\Utils.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\lib\Release\x64\glew32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug/GP2CWProject.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Debug/GP2CWProject.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Debug/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Debug/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -164,7 +210,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -180,10 +230,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -193,7 +250,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release/assets"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/assets C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Release/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\StreamingApps\CMake\bin\cmake.exe -E copy C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/settings.xml C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -214,7 +280,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/dlls C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,12 +291,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Release\GameApplication.lib;GameApplication\Utils\Release\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Release\GameApplication.lib;GameApplication\Utils\Release\Utils.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\lib\Release\x64\glew32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release/GP2CWProject.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/Release/GP2CWProject.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Release/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Release/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -241,7 +307,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -257,10 +327,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -270,7 +347,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel/assets"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/assets C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/MinSizeRel/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\StreamingApps\CMake\bin\cmake.exe -E copy C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/settings.xml C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,7 +377,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/dlls C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,12 +388,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
       <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\MinSizeRel\GameApplication.lib;GameApplication\Utils\MinSizeRel\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\MinSizeRel\GameApplication.lib;GameApplication\Utils\MinSizeRel\Utils.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\lib\Release\x64\glew32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel/GP2CWProject.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/MinSizeRel/GP2CWProject.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/MinSizeRel/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/MinSizeRel/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -318,7 +404,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -334,10 +424,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
       <AdditionalIncludeDirectories>C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GP2CWProject;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\include;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include;C:\Dev\SDL2-2.0.4\include;C:\Dev\tinyxml2\include;C:\Dev\glm;C:\Dev\glew-2.0.0\include;C:\Dev\SDL2_image-2.0.1\include;C:\Dev\SDL2_ttf-2.0.14\include;C:\Dev\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GP2CWProject;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glm;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\include;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\include};%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> refs/remotes/origin/master
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -347,7 +444,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>	</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/assets" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo/assets"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/assets C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/RelWithDebInfo/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\StreamingApps\CMake\bin\cmake.exe -E copy C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/settings.xml C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -368,7 +474,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/dlls" "C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo"
+C:\StreamingApps\CMake\bin\cmake.exe -E copy_directory C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/dlls C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -378,13 +484,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\RelWithDebInfo\GameApplication.lib;GameApplication\Utils\RelWithDebInfo\Utils.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\Dev\SDL2-2.0.4\lib\x64\SDL2.lib;C:\Dev\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\Dev\glew-2.0.0\lib\Release\x64\glew32.lib;C:\Dev\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\Dev\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\Dev\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\RelWithDebInfo\GameApplication.lib;GameApplication\Utils\RelWithDebInfo\Utils.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2main.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2-2.0.4\lib\x64\SDL2.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\glew-2.0.0\lib\Release\x64\glew32.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Specialised Applications\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo/GP2CWProject.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/RelWithDebInfo/GP2CWProject.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/RelWithDebInfo/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/RelWithDebInfo/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -393,10 +499,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp"
+C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject -BC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build --check-stamp-file C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -404,12 +510,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindGLM.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\Findassimp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindTinyXML.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\Findassimp.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> refs/remotes/origin/master
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp"
+C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject -BC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build --check-stamp-file C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -417,12 +528,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindGLM.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\Findassimp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindTinyXML.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\Findassimp.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> refs/remotes/origin/master
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp"
+C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject -BC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build --check-stamp-file C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -430,12 +546,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindGLM.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\Findassimp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindTinyXML.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\Findassimp.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> refs/remotes/origin/master
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject" "-BC:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build" --check-stamp-file "C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp"
+C:\StreamingApps\CMake\bin\cmake.exe -HC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject -BC:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build --check-stamp-file C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -443,25 +564,36 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCCompiler.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindTinyXML.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindGLM.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\cmake\Findassimp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindTinyXML.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindGLM.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindGLEW.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_Image.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\FindSDL2_TTF.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\StreamingApps\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\cmake\Findassimp.cmake;C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> refs/remotes/origin/master
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\include\MyGame.h" />
     <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\main.cpp"  />
     <ClCompile Include="C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\src\MyGame.cpp"  />
+=======
+    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include\MyGame.h" />
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\src\main.cpp" />
+    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\src\MyGame.cpp" />
+>>>>>>> refs/remotes/origin/master
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/ZERO_CHECK.vcxproj">
-      <Project>D394119A-30A5-3DA5-BE9F-5B338DDAC5B1</Project>
+    <ProjectReference Include="C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/GameApplication/GameApplication.vcxproj">
+      <Project>6FC2497A-93F0-4CA3-8498-738F51C876AE</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/GameApplication.vcxproj">
-      <Project>F818EE9D-2C7A-3978-AE7C-821A4D1ECCD4</Project>
+    <ProjectReference Include="C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/GameApplication/Utils/Utils.vcxproj">
+      <Project>A77F732D-7DDD-4319-8C05-13620D09014A</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/build/GameApplication/Utils/Utils.vcxproj">
-      <Project>C0280873-A0A7-3CAD-9972-D2DCA14C16FA</Project>
+    <ProjectReference Include="C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/ZERO_CHECK.vcxproj">
+      <Project>E99CCE93-1761-4883-90BF-300C290FB0AB</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
