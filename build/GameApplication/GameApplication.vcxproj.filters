@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\GameApplication.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\GameApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Texture.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\GameObject.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp">
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Common.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\GameApplication.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\GameApplication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Shader.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Texture.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Vertex.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\GameObject.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\ModelLoading.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\ModelLoading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\include\Light.h">
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Light.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A6E6FD39-11FE-43B0-B15D-864CA1E990A9}</UniqueIdentifier>
+      <UniqueIdentifier>{678CBB5D-D7B3-36E2-BEC5-F161AAF6C8F2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{7AFB6CA2-15EE-4DED-86CD-5372A80DD6D2}</UniqueIdentifier>
+      <UniqueIdentifier>{A7A2E2B4-367E-335F-A142-7798DE26B15E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
