@@ -18,7 +18,8 @@ MyGame::~MyGame()
 void MyGame::initScene()
 {
 	//asset paths
-	string modelPath = ASSET_PATH + MODEL_PATH + "/Earth.fbx";
+	string earthPath = ASSET_PATH + MODEL_PATH + "/Earth.fbx";
+	string houseModel = ASSET_PATH + MODEL_PATH + "/fachwerkhaus1.fbx";
 
 	//light texture vs and fs path
 	string lightTextureVSPath = ASSET_PATH + SHADER_PATH + "/lightTextureVS.glsl";
@@ -45,19 +46,33 @@ void MyGame::initScene()
 	string brickHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/bricks_height.png";
 
 
-	//loads model and shaders
 	
-	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(modelPath));
+	//creates new game object and loads a model
+	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(earthPath));
+	//loads shaders
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(0.0f, 0.0f, 0.0f));
+	//set scale and positions
+	m_TestGO->setPosition(vec3(-5.0f, 0.0f, 0.0f));
 	m_TestGO->setScale(vec3(1.0f, 1.0f, 1.0f));
-	
+	m_GameObjects.push_back(m_TestGO);
 
-	m_CameraPosition = vec3(0.0f, 0.0f, 10.0f);
+	shared_ptr<GameObject> m_TestGO2 = shared_ptr<GameObject>(loadModelFromFile(earthPath));
+	m_TestGO2->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO2->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO2->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO2->loadNormalTexture(brickBumpTexPath);
+	m_TestGO2->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO2->setPosition(vec3(5.0f, 0.0f, 0.0f));
+	m_TestGO2->setScale(vec3(1.0f, 1.0f, 1.0f));
+	m_GameObjects.push_back(m_TestGO2);
+
+
+	
+	m_CameraPosition = vec3(0.0f, 0.0f, 20.0f);
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -70,6 +85,7 @@ void MyGame::initScene()
 
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
+	/*
 	//input for rotation
 	if (keyCode == SDLK_a)
 	{
@@ -87,6 +103,7 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 		m_TestGO->rotate(vec3(0.1f,0.0f,0.0f));
 	}
 
+	*/
 	//input for zooming
 	if (keyCode == SDLK_DOWN)
 	{
@@ -101,7 +118,15 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 
 void MyGame::destroyScene()
 {
-	m_TestGO->onDestroy();
+	//cycles through all game objects and destroys
+	for (auto& object : m_GameObjects)
+	{
+		object->onDestroy();
+
+	}
+
+	//clears the list
+	m_GameObjects.clear();
 }
 
 void MyGame::update()
@@ -110,28 +135,39 @@ void MyGame::update()
 
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
 	m_ViewMatrix = lookAt(m_CameraPosition, vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
-	m_TestGO->onUpdate();
+	//cycles through all game objects and updates
+	for (auto& object : m_GameObjects)
+	{
+		object->onUpdate();
+
+	}
 }
 
 void MyGame::render()
 {
 	GameApplication::render();
-	GLuint currentShader = m_TestGO->getShaderProgram();
+	for (auto& object : m_GameObjects)
+	{
+		GLuint currentShader = object->getShaderProgram();
+
+		GLint ambientLightColourLocation = glGetUniformLocation(currentShader, "directionLight.ambientColour");
+		glUniform4fv(ambientLightColourLocation, 1, value_ptr(m_AmbientLightColour));
+
+		GLint diffuseLightColourLocation = glGetUniformLocation(currentShader, "directionLight.diffuseColour");
+		glUniform4fv(diffuseLightColourLocation, 1, value_ptr(m_Light->DiffuseColour));
+
+		GLint specularLightColourLocation = glGetUniformLocation(currentShader, "directionLight.specularColour");
+		glUniform4fv(specularLightColourLocation, 1, value_ptr(m_Light->SpecularColour));
+
+		GLint lightDirectionLocation = glGetUniformLocation(currentShader, "directionLight.direction");
+		glUniform3fv(lightDirectionLocation, 1, value_ptr(m_Light->Direction));
+
+		GLint cameraPositionLocation = glGetUniformLocation(currentShader, "cameraPos");
+		glUniform3fv(cameraPositionLocation, 1, value_ptr(m_CameraPosition));
+
+		object->onRender(m_ViewMatrix, m_ProjMatrix);
+	}
+
+
 	
-	GLint ambientLightColourLocation = glGetUniformLocation(currentShader, "directionLight.ambientColour");
-	glUniform4fv(ambientLightColourLocation, 1, value_ptr(m_AmbientLightColour));
-
-	GLint diffuseLightColourLocation = glGetUniformLocation(currentShader, "directionLight.diffuseColour");
-	glUniform4fv(diffuseLightColourLocation, 1, value_ptr(m_Light->DiffuseColour));
-
-	GLint specularLightColourLocation = glGetUniformLocation(currentShader, "directionLight.specularColour");
-	glUniform4fv(specularLightColourLocation, 1, value_ptr(m_Light->SpecularColour));
-
-	GLint lightDirectionLocation = glGetUniformLocation(currentShader, "directionLight.direction");
-	glUniform3fv(lightDirectionLocation, 1, value_ptr(m_Light->Direction));
-
-	GLint cameraPositionLocation = glGetUniformLocation(currentShader, "cameraPos");
-	glUniform3fv(cameraPositionLocation, 1, value_ptr(m_CameraPosition));
-	
-	m_TestGO->onRender(m_ViewMatrix, m_ProjMatrix);
 }
