@@ -89,6 +89,7 @@ void MyGame::initScene()
 
 	
 	m_CameraPosition = vec3(0.0f, 0.0f, 10.0f);
+	m_CameraRotation = vec3(0.0f, 0.0f, 0.0f);
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -172,7 +173,7 @@ void MyGame::update()
 	GameApplication::update();
 
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
-	m_ViewMatrix = lookAt(m_CameraPosition, vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
+	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraRotation, vec3(0.0f, 1.0f, 0.0f));
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{

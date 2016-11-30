@@ -26,5 +26,6 @@ private:
 	vec4 m_AmbientLightColour;
 
 	vec3 m_CameraPosition;
+	vec3 m_CameraRotation;
 };
 #endif
