@@ -89,7 +89,7 @@ void MyGame::initScene()
 
 	
 	m_CameraPosition = vec3(0.0f, 0.0f, 10.0f);
-	m_CameraRotation = vec3(0.0f, 0.0f, 0.0f);
+	m_CameraRotation = vec3(0.0f, 1.0f, 0.0f);
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -102,7 +102,7 @@ void MyGame::initScene()
 
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
-	
+	/*
 	//input for rotation
 	if (keyCode == SDLK_a)
 	{
@@ -133,7 +133,32 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 		}
 	}
 
+	*/
+
+	if (keyCode == SDLK_w)
+	{
+		m_CameraRotation = vec3(m_CameraRotation.x  , m_CameraRotation.y, m_CameraRotation.z + 0.5f);
+	}
+	else if(keyCode == SDLK_s)
+	{
+		m_CameraRotation = vec3(m_CameraRotation.x  , m_CameraRotation.y, m_CameraRotation.z - 0.5f);
+
+	}
+	else if (keyCode == SDLK_a)
+	{
+		m_CameraRotation = vec3(m_CameraRotation.x - 0.5f, m_CameraRotation.y, m_CameraRotation.z);
+
+	}
+	else if (keyCode == SDLK_d)
+	{
+		m_CameraRotation = vec3(m_CameraRotation.x + 0.5f, m_CameraRotation.y, m_CameraRotation.z);
+
+	}
+
 	
+
+
+
 	//input for zooming
 	if (keyCode == SDLK_DOWN)
 	{
@@ -173,7 +198,7 @@ void MyGame::update()
 	GameApplication::update();
 
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
-	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraRotation, vec3(0.0f, 1.0f, 0.0f));
+	m_ViewMatrix = lookAt(m_CameraPosition, vec3(0,0,0), m_CameraRotation);
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{
