@@ -12,6 +12,8 @@ public:
 	GameObject();
 	~GameObject();
 
+	void onBeginRender();
+
 	void onUpdate();
 	void onRender(mat4& view, mat4& projection);
 	void onInit();

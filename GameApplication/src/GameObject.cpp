@@ -23,10 +23,11 @@ GameObject::GameObject()
 	m_DiffuseTexture=0;
 	m_SpecularTexture = 0;
 	m_NormalTexture = 0;
+	m_HeightMapTexture = 0;
 	m_Sampler=0;
 	m_pParent = nullptr;
 
-	m_AmbientMaterialColour=vec4(0.0f,0.0f,0.0f,1.0f);
+	m_AmbientMaterialColour=vec4(0.2f,0.2f,0.2f,1.0f);
 	m_DiffuseMaterialColour=vec4(0.5f,0.5f,0.5f,1.0f);
 	m_SpecularMaterialColour=vec4(1.0f,1.0f,1.0f,1.0f);
 	m_SpecularMaterialPower=25.0f;
@@ -37,13 +38,15 @@ GameObject::~GameObject()
 
 }
 
+void GameObject::onBeginRender()
+{
+	glUseProgram(m_ShaderProgram);
+	glBindVertexArray(m_VAO);
+}
+
 void GameObject::onUpdate()
 {
-	//mat4 rotationXMatrix = ::rotate(radians(m_Rotation.x), vec3(1.0f, 0.0f, 0.0f));
-	//mat4 rotationYMatrix = ::rotate(radians(m_Rotation.y), vec3(0.0f, 1.0f, 0.0f));
-	//mat4 rotationZMatrix = ::rotate(radians(m_Rotation.z), vec3(0.0f, 0.0f, 1.0f));
 	m_RotationMatrix=eulerAngleYXZ(m_Rotation.y,m_Rotation.x,m_Rotation.z);
-	//m_RotationMatrix = rotationXMatrix*rotationYMatrix*rotationZMatrix;
 
 	m_ScaleMatrix = scale(m_Scale);
 
@@ -114,6 +117,8 @@ void GameObject::onRender(mat4& view, mat4& projection)
 	glUniform1f(specularPowerLocation, m_SpecularMaterialPower);
 
 	glDrawElements(GL_TRIANGLES, m_NumberOfIndices, GL_UNSIGNED_INT, NULL);
+
+	glBindVertexArray(0);
 }
 
 void GameObject::onInit()
@@ -129,6 +134,8 @@ void GameObject::onDestroy()
 	glDeleteSamplers(1, &m_Sampler);
 	glDeleteTextures(1, &m_DiffuseTexture);
 	glDeleteTextures(1, &m_SpecularTexture);
+	glDeleteTextures(1, &m_NormalTexture);
+	glDeleteTextures(1, &m_HeightMapTexture);
 	glDeleteProgram(m_ShaderProgram);
 }
 
