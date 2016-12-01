@@ -9,5 +9,10 @@ cl : Command line warning D9002: ignoring unknown option '/EH0'
 cl : Command line warning D9002: ignoring unknown option '/EHx'
 cl : Command line warning D9002: ignoring unknown option '-g'
   MyGame.cpp
+<<<<<<< HEAD
   GP2CWProject.vcxproj -> C:\Users\dmuir201\Desktop\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe
   GP2CWProject.vcxproj -> C:/Users/dmuir201/Desktop/GitHub/GP2CWProject/build/Debug/GP2CWProject.pdb (Full PDB)
+=======
+  GP2CWProject.vcxproj -> C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe
+  GP2CWProject.vcxproj -> C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/build/Debug/GP2CWProject.pdb (Full PDB)
+>>>>>>> origin/Fraser-Adding-New-Models

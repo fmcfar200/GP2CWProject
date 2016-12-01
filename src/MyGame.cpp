@@ -20,10 +20,14 @@ void MyGame::initScene()
 	//asset paths
 	string earthPath = ASSET_PATH + MODEL_PATH + "/Earth.fbx";
 	string anvilPath = ASSET_PATH + MODEL_PATH + "/anvil.fbx";
+<<<<<<< HEAD
 	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
 	string AxeHeadPath = ASSET_PATH + MODEL_PATH + "/2h_axe.fbx";
 	string AxePath = ASSET_PATH + MODEL_PATH + "/1h_axe.fbx";
 	string BarrelPath = ASSET_PATH + MODEL_PATH + "/log.fbx";
+=======
+	string understandPath = ASSET_PATH + MODEL_PATH + "/constuct_understand_wood.fbx";
+>>>>>>> origin/Fraser-Adding-New-Models
 
 	//light texture vs and fs path
 	string lightTextureVSPath = ASSET_PATH + SHADER_PATH + "/lightTextureVS.glsl";
@@ -69,13 +73,14 @@ void MyGame::initScene()
 
 
 	//wood board paths
-	string woodDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_color.png";
-	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_spec.png";
-	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_normal.png";
-	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_height.png";
+	string woodDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_color.png";
+	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_spec.png";
+	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_normal.png";
+	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_height.png";
 
 
 	
+<<<<<<< HEAD
 
 
 
@@ -83,6 +88,9 @@ void MyGame::initScene()
 
 
 	 // Anvil Model
+=======
+	 
+>>>>>>> origin/Fraser-Adding-New-Models
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
@@ -98,6 +106,7 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(0.5,0.5,0.5));
 	m_GameObjects.push_back(m_TestGO);
 	
+<<<<<<< HEAD
 
 
 	// Barrel Model 
@@ -165,16 +174,26 @@ void MyGame::initScene()
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
 
 	// Load Shaders   (Wood Board);
+=======
+	//table
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(understandPath));
+>>>>>>> origin/Fraser-Adding-New-Models
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
 	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
+<<<<<<< HEAD
 
 	// Set Position and Rotation (Wood Board)
 	m_TestGO->setPosition(vec3(50.0f, -10.0f, -100.0f));
 	m_TestGO->setRotation(vec3(135, 0, 0));
 	m_TestGO->setScale(vec3(1.0, 1.0, 1.0));
+=======
+	m_TestGO->setPosition(vec3(50.0f, -30.0f, -100.0f));
+	m_TestGO->setRotation(vec3(5, 0, -1));
+	m_TestGO->setScale(vec3(1.5, 1.5, 1.5));
+>>>>>>> origin/Fraser-Adding-New-Models
 	m_GameObjects.push_back(m_TestGO);
 	
 
