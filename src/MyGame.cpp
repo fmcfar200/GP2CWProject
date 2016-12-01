@@ -20,7 +20,7 @@ void MyGame::initScene()
 	//asset paths
 	string earthPath = ASSET_PATH + MODEL_PATH + "/Earth.fbx";
 	string anvilPath = ASSET_PATH + MODEL_PATH + "/anvil.fbx";
-	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
+	string understandPath = ASSET_PATH + MODEL_PATH + "/constuct_understand_wood.fbx";
 
 	//light texture vs and fs path
 	string lightTextureVSPath = ASSET_PATH + SHADER_PATH + "/lightTextureVS.glsl";
@@ -53,13 +53,13 @@ void MyGame::initScene()
 	string metalHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/m_3D.png";
 	
 	//wood board paths
-	string woodDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_color.png";
-	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_spec.png";
-	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_normal.png";
-	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_height.png";
+	string woodDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_color.png";
+	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_spec.png";
+	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_normal.png";
+	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_height.png";
 
 	
-	 //876
+	 
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders
@@ -74,17 +74,16 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(0.5,0.5,0.5));
 	m_GameObjects.push_back(m_TestGO);
 	
-
-	//246
-	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
+	//table
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(understandPath));
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
 	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
-	m_TestGO->setPosition(vec3(50.0f, -10.0f, -100.0f));
-	m_TestGO->setRotation(vec3(135, 0, 0));
-	m_TestGO->setScale(vec3(1.0, 1.0, 1.0));
+	m_TestGO->setPosition(vec3(50.0f, -30.0f, -100.0f));
+	m_TestGO->setRotation(vec3(5, 0, -1));
+	m_TestGO->setScale(vec3(1.5, 1.5, 1.5));
 	m_GameObjects.push_back(m_TestGO);
 	
 	
