@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\src\main.cpp">
+    <ClCompile Include="C:\Users\dmuir201\Desktop\GitHub\GP2CWProject\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\src\MyGame.cpp">
+    <ClCompile Include="C:\Users\dmuir201\Desktop\GitHub\GP2CWProject\src\MyGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\include\MyGame.h">
+    <ClInclude Include="C:\Users\dmuir201\Desktop\GitHub\GP2CWProject\include\MyGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\dmuir201\Desktop\GitHub\GP2CWProject\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{E4FBF858-240F-469E-903D-C2B02CADDF39}</UniqueIdentifier>
+      <UniqueIdentifier>{E365C2A2-4F20-42C6-857E-44D1F8AFF210}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{ED1B1265-DDE9-49A1-AEF4-5232439BF5D3}</UniqueIdentifier>
+      <UniqueIdentifier>{F4EFB745-A5CE-44BC-B9F9-AB06721E0484}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
