@@ -25,7 +25,8 @@ private:
 	shared_ptr<Light> m_Light;
 	vec4 m_AmbientLightColour;
 
+	float movementSpeed = 0.25f;
 	vec3 m_CameraPosition;
-	vec3 m_CameraRotation;
+	vec3 m_ViewDirection;
 };
 #endif
