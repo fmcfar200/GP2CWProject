@@ -42,6 +42,8 @@ void GameObject::onBeginRender()
 {
 	glUseProgram(m_ShaderProgram);
 	glBindVertexArray(m_VAO);
+	glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_EBO);
 }
 
 void GameObject::onUpdate()
@@ -61,8 +63,7 @@ void GameObject::onUpdate()
 
 void GameObject::onRender(mat4& view, mat4& projection)
 {
-	glUseProgram(m_ShaderProgram);
-	glBindVertexArray(m_VAO);
+	
 
 	GLint MVPLocation = glGetUniformLocation(m_ShaderProgram, "MVP");
 	mat4 MVP = projection*view*m_ModelMatrix;
@@ -118,7 +119,6 @@ void GameObject::onRender(mat4& view, mat4& projection)
 
 	glDrawElements(GL_TRIANGLES, m_NumberOfIndices, GL_UNSIGNED_INT, NULL);
 
-	glBindVertexArray(0);
 }
 
 void GameObject::onInit()

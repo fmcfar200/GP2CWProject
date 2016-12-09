@@ -21,6 +21,10 @@ void MyGame::initScene()
 	string earthPath = ASSET_PATH + MODEL_PATH + "/Earth.fbx";
 	string anvilPath = ASSET_PATH + MODEL_PATH + "/anvil.fbx";
 	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
+	string AxeHeadPath = ASSET_PATH + MODEL_PATH + "/2h_axe.fbx";
+	string AxePath = ASSET_PATH + MODEL_PATH + "/1h_axe.fbx";
+	string BarrelPath = ASSET_PATH + MODEL_PATH + "/log.fbx";
+	string understandPath = ASSET_PATH + MODEL_PATH + "/constuct_understand_wood.fbx";
 
 	//light texture vs and fs path
 	string lightTextureVSPath = ASSET_PATH + SHADER_PATH + "/lightTextureVS.glsl";
@@ -52,44 +56,139 @@ void MyGame::initScene()
 	string metalBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/m_3N.png";
 	string metalHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/m_3D.png";
 	
+
+
+	// Log Texture
+	string LogDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/Logdifuse.png";
+	string LogBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/Lognormal.png";
+
+
+	// Axe Metal 
+	string AxeDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/2_axe_metal.png";
+
+
+
+
 	//wood board paths
-	string woodDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_color.png";
-	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_spec.png";
-	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_normal.png";
-	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/boards_height.png";
+	string woodDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_color.png";
+	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_spec.png";
+	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_normal.png";
+	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_height.png";
+
 
 	
+
+
+
+
+
+
+	 // Anvil Model
+	 
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
-	//loads shaders
+	//loads shaders  (Anvil)
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
 	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
-	//set scale and positions
+
+	//set scale and positions (Anivl)
 	m_TestGO->setPosition(vec3(-20.0f, -10.0f, -80.f));
 	m_TestGO->setRotation(vec3(92.7, 0.0, -5.0f));
-	m_TestGO->setScale(vec3(0.5, 0.5, 0.5));
+	m_TestGO->setScale(vec3(0.5,0.5,0.5));
 	m_GameObjects.push_back(m_TestGO);
 	
 
-	
-	shared_ptr<GameObject> m_TestGO2 = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
-	m_TestGO2->loadShaders(normalMappingVSPath, normalMappingFSPath);
-	m_TestGO2->loadDiffuseTexture(woodDiffTexPath);
-	m_TestGO2->loadSpecularTexture(woodSpecTexPath);
-	m_TestGO2->loadNormalTexture(woodBumpTexPath);
-	m_TestGO2->loadHeightMapTexture(woodHeightTexPath);
-	m_TestGO2->setPosition(vec3(50.0f, -10.0f, -80.0f));
-	m_TestGO2->setRotation(vec3(135, 0, 0));
-	m_TestGO2->setScale(vec3(1.0, 1.0, 1.0));
-	m_GameObjects.push_back(m_TestGO2);
+
+	// Barrel Model 
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(BarrelPath));
+
+	//Textures (Barrel)
+	m_TestGO->loadShaders(lightTextureVSPath, lightTextureFSPath);
+	m_TestGO->loadDiffuseTexture(LogDiffTexPath);
+	m_TestGO->loadNormalTexture(LogDiffTexPath);
+	//Set Scale and Rotation (Barrel)
+	m_TestGO->setPosition(vec3(150.0, 10.0f, -80.0f));
+	m_TestGO->setRotation(vec3(92.7, 0.0f, -5.0f));
+	m_TestGO->setScale(vec3(1.0, 1.0, 1.0));
+	m_GameObjects.push_back(m_TestGO);
+
+
+
+
+
+	//Axe Head
+
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(AxeHeadPath));
+	// Load Shaders  (Axe Head)
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+	// Textures   (Axe Head)
+	m_TestGO->loadDiffuseTexture(AxeDiffTexPath);
+	m_TestGO->loadSpecularTexture(metalSpecTexPath);
+	m_TestGO->loadNormalTexture(metalBumpTexPath);
+	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
+
+	//Set scale and rotation  (Axe Head)
+	m_TestGO->setPosition(vec3(28.0f, 10.0f, -80.0f));
+	m_TestGO->setRotation(vec3(92.7, 0.0f, -5.0f));
+	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
+	m_GameObjects.push_back(m_TestGO);
+
+
+
+
+
+
+	//Axe Handle 
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(AxePath));
+
+	// Load Shaders (Axe Handle)
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+
+	// Textures  (Axe Handle)
+	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
+	m_TestGO->loadSpecularTexture(woodSpecTexPath);
+	m_TestGO->loadNormalTexture(woodBumpTexPath);
+	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
+
+	//Set scale and rotation (Axe Handle)
+	m_TestGO->setPosition(vec3(28.0f, -10.0f, -80.0f));
+	m_TestGO->setRotation(vec3(92.7, 0.0f, -5.0f));
+	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
+	m_GameObjects.push_back(m_TestGO);
+
+
+
+
+
+
+	// Load Shaders   (Wood Board);
+	//table
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(understandPath));
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
+	m_TestGO->loadSpecularTexture(woodSpecTexPath);
+	m_TestGO->loadNormalTexture(woodBumpTexPath);
+	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
+
+	// Set Position and Rotation (Wood Board)
+	m_TestGO->setPosition(vec3(50.0f, -10.0f, -100.0f));
+	m_TestGO->setRotation(vec3(135, 0, 0));
+	m_TestGO->setScale(vec3(1.0, 1.0, 1.0));
+	m_TestGO->setPosition(vec3(50.0f, -30.0f, -100.0f));
+	m_TestGO->setRotation(vec3(5, 0, -1));
+	m_TestGO->setScale(vec3(1.5, 1.5, 1.5));
+	m_GameObjects.push_back(m_TestGO);
 	
 
-	
+
+
+
+	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 0.0f, 10.0f);
-	m_CameraRotation = vec3(0.0f, 0.0f, 0.0f);
+	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -103,54 +202,52 @@ void MyGame::initScene()
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
 	
-	//input for rotation
-	if (keyCode == SDLK_a)
+	//controls rotation of camera
+
+	if (keyCode == SDLK_w)
 	{
-		for (auto& object : m_GameObjects)
-		{
-			object->rotate(vec3(0.0f, -0.1f, 0.0f));
-		}
-		
-	}else if (keyCode == SDLK_d)
-	{
-		for (auto& object : m_GameObjects)
-		{
-			object->rotate(vec3(0.0f, 0.1f, 0.0f));
-		}
+		m_CameraPosition += movementSpeed * m_ViewDirection;
+
 	}
-	if (keyCode==SDLK_w)
+	else if(keyCode == SDLK_s)
 	{
-		for (auto& object : m_GameObjects)
-		{
-			object->rotate(vec3(-0.1f, 0.0f, 0.0f));
-		}
+		m_CameraPosition += -movementSpeed * m_ViewDirection;
+
 	}
-	else if (keyCode==SDLK_s)
+	else if (keyCode == SDLK_a)
 	{
-		for (auto& object : m_GameObjects)
-		{
-			object->rotate(vec3(0.1f, 0.0f, 0.0f));
-		}
+		m_CameraPosition.x += -movementSpeed;
+
+	}
+	else if (keyCode == SDLK_d)
+	{
+		m_CameraPosition.x += movementSpeed;
+
+
 	}
 
 	
-	//input for zooming
+
+
+
+	//input for movement
 	if (keyCode == SDLK_DOWN)
 	{
-		m_CameraPosition = vec3(m_CameraPosition.x, m_CameraPosition.y, m_CameraPosition.z + 0.5f);
+		m_ViewDirection.y += -movementSpeed;
 	}
 	else if (keyCode == SDLK_UP)
 	{
-		m_CameraPosition = vec3(m_CameraPosition.x, m_CameraPosition.y, m_CameraPosition.z - 0.5f);
+		m_ViewDirection.y += movementSpeed;
 
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
-		m_CameraPosition = vec3(m_CameraPosition.x + 0.5f, m_CameraPosition.y, m_CameraPosition.z);
+		m_ViewDirection.x += movementSpeed;
+
 	}
 	else if (keyCode == SDLK_LEFT)
 	{
-		m_CameraPosition = vec3(m_CameraPosition.x-0.5f, m_CameraPosition.y, m_CameraPosition.z);
+		m_ViewDirection.x += -movementSpeed;
 
 	}
 }
@@ -173,7 +270,7 @@ void MyGame::update()
 	GameApplication::update();
 
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
-	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraRotation, vec3(0.0f, 1.0f, 0.0f));
+	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, vec3(0.0,1.0,0.0));
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{
