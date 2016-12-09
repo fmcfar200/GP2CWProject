@@ -167,7 +167,7 @@ void MyGame::initScene()
 	// Load Shaders   (Wood Board);
 	//table
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(understandPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
 	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);

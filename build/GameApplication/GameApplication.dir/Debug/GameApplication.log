@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/GameApplication/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
-cl : Command line warning D9002: ignoring unknown option '/EH;'
+﻿cl : Command line warning D9002: ignoring unknown option '/EH;'
 cl : Command line warning D9002: ignoring unknown option '/EH-'
 cl : Command line warning D9002: ignoring unknown option '/EHt'
 cl : Command line warning D9002: ignoring unknown option '/EHd'
@@ -10,20 +8,10 @@ cl : Command line warning D9002: ignoring unknown option '/EH+'
 cl : Command line warning D9002: ignoring unknown option '/EH0'
 cl : Command line warning D9002: ignoring unknown option '/EHx'
 cl : Command line warning D9002: ignoring unknown option '-g'
-  GameApplication.cpp
-  Shader.cpp
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(28): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-  Texture.cpp
-  GameObject.cpp
   ModelLoading.cpp
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(49): warning C4018: '<': signed/unsigned mismatch
-C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
-  GameApplication.vcxproj -> C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  GameApplication.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
