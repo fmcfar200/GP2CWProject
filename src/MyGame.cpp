@@ -25,6 +25,10 @@ void MyGame::initScene()
 	string AxePath = ASSET_PATH + MODEL_PATH + "/1h_axe.fbx";
 	string BarrelPath = ASSET_PATH + MODEL_PATH + "/log.fbx";
 	string understandPath = ASSET_PATH + MODEL_PATH + "/constuct_understand_wood.fbx";
+	string wallPath = ASSET_PATH + MODEL_PATH + "Concrete wall.FBX";
+		
+		
+
 
 	//light texture vs and fs path
 	string lightTextureVSPath = ASSET_PATH + SHADER_PATH + "/lightTextureVS.glsl";
@@ -75,9 +79,32 @@ void MyGame::initScene()
 	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_normal.png";
 	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_height.png";
 
-
+	Vertex verts[] = {
+		{ vec3(-0.5f, -0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(0.0f,3.0f) },
+		{ vec3(0.5f, -0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(3.0f,3.0f) },
+		{ vec3(-0.5f,  0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(0.0f,0.0f) },
+		{ vec3(0.5f, 0.5f, 0.0f),vec4(1.0f,1.0f,1.0f,1.0f),vec2(3.0f,0.0f) },
+	};
+	int indices[] =
+	{
+		0,2,1,
+		2,3,1
+	};
 	
 
+	//wall
+	shared_ptr<GameObject> m_TestGO;
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+
+	m_TestGO->setPosition(vec3(-20.0f, -10.0f, -80.f));
+	m_TestGO->setRotation(vec3(92.7, 0.0, -5.0f));
+	m_TestGO->setScale(vec3(1, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+	
 
 
 
@@ -85,7 +112,7 @@ void MyGame::initScene()
 
 	 // Anvil Model
 	//creates new game object and loads a model
-	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
+	 m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
