@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.pdb
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\modelloading.obj
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameobject.obj
@@ -7,6 +6,7 @@ c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplicat
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.obj
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\cmakefiles\generate.stamp
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\debug\gameapplication.lib
+c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.vcxprojresolveassemblyreference.cache
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\debug\gameapplication.pdb
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\cl.command.1.tlog
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\cl.read.1.tlog
@@ -17,24 +17,3 @@ c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplicat
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\lib-link.read.1.tlog
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\lib-link.write.1.tlog
 c:\users\fraser\documents\github\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\lib.command.1.tlog
-=======
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.pdb
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\modelloading.obj
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameobject.obj
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\texture.obj
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\shader.obj
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.obj
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\cmakefiles\generate.stamp
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\debug\gameapplication.lib
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.vcxprojresolveassemblyreference.cache
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\debug\gameapplication.pdb
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\cl.command.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\cl.read.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\cl.write.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\custombuild.command.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\custombuild.read.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\custombuild.write.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\lib-link.read.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\lib-link.write.1.tlog
-c:\users\fraser\documents\uni\year3\gp2cwproject\build\gameapplication\gameapplication.dir\debug\gameapplication.tlog\lib.command.1.tlog
->>>>>>> refs/remotes/origin/master
