@@ -5,13 +5,12 @@ out vec4 FragColor;
 in vec2 vertexTextureCoordsOut;
 in vec3 vertexNormalOut;
 in vec3 cameraDirectionOut;
-in vec3 lightDirectionOut;
 in vec4 vertexColoursOut;
+in mat3 tangentMatrix;
 
-
-uniform vec4 ambientMaterialColour=vec4(0.5f,0.0f,0.0f,1.0f);
-uniform vec4 diffuseMaterialColour=vec4(0.8f,0.0f,0.0f,1.0f);
-uniform vec4 specularMaterialColour=vec4(1.0f,1.0f,1.0f,1.0f);
+uniform vec4 ambientMaterialColour;
+uniform vec4 diffuseMaterialColour;
+uniform vec4 specularMaterialColour;
 uniform float specularPower=25.0f;
 
 uniform sampler2D diffuseSampler;
@@ -37,10 +36,10 @@ uniform DirectionalLight directionLight;
 void main()
 {
 
-	vec3 bumpNormals = 2.0f*texture(normalSampler,vertexTextureCoordsOut).xyz-1.0f;
+	vec3 bumpNormals = 2.0f * texture(normalSampler,vertexTextureCoordsOut).rgb - 1.0f;
 	bumpNormals = normalize(bumpNormals);
 	
-	vec3 lightDir=normalize(-directionLight.direction);
+	vec3 lightDir=normalize(tangentMatrix*(-directionLight.direction));
 	float diffuseTerm = dot(bumpNormals, lightDir);
 	vec3 halfWayVec = normalize(cameraDirectionOut + lightDir);
 	float specularTerm = pow(dot(bumpNormals, halfWayVec), specularPower);

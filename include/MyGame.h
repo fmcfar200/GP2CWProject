@@ -20,7 +20,6 @@ private:
 	mat4 m_ViewMatrix;
 	mat4 m_ProjMatrix;
 
-	//shared_ptr<GameObject> m_TestGO;
 	vector<shared_ptr<GameObject>> m_GameObjects;
 	shared_ptr<Light> m_Light;
 	vec4 m_AmbientLightColour;
