@@ -22,6 +22,11 @@ void MyGame::initScene()
 	string AxeHeadPath = ASSET_PATH + MODEL_PATH + "/2h_axe.fbx";
 	string AxePath = ASSET_PATH + MODEL_PATH + "/1h_axe.fbx";
 	string BarrelPath = ASSET_PATH + MODEL_PATH + "/log.fbx";
+<<<<<<< HEAD
+=======
+	string understandPath = ASSET_PATH + MODEL_PATH + "/constuct_understand_wood.fbx";
+	string wallPath = ASSET_PATH + MODEL_PATH + "/concrete_wall.FBX";
+>>>>>>> refs/remotes/origin/master
 		
 		
 
@@ -73,9 +78,13 @@ void MyGame::initScene()
 
 	 // Anvil Model
 	//creates new game object and loads a model
+<<<<<<< HEAD
 	 shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
+=======
+	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
+>>>>>>> refs/remotes/origin/master
 	//loads shaders  (Anvil)
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(lightTextureVSPath, lightTextureFSPath);
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
@@ -84,6 +93,40 @@ void MyGame::initScene()
 	m_TestGO->setPosition(vec3(-20.0f, -10.0f, -80.f));
 	m_TestGO->setRotation(vec3(92.7, 0.0, -5.0f));
 	m_TestGO->setScale(vec3(0.5,0.5,0.5));
+	m_GameObjects.push_back(m_TestGO);
+
+	//wall
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(40, -10, -80.f));
+	m_TestGO->setRotation(vec3(4.75, 4.75, 0));
+	m_TestGO->setScale(vec3(1, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(-150, -10, -80));
+	m_TestGO->setRotation(vec3(4.75, 4.75, 0));
+	m_TestGO->setScale(vec3(1, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(40, -10, -310));
+	m_TestGO->setRotation(vec3(4.75, 0, 0));
+	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 
