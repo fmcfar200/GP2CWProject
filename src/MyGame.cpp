@@ -1,5 +1,4 @@
 #include "MyGame.h"
-
 const std::string ASSET_PATH = "assets";
 const std::string SHADER_PATH = "/shaders";
 const std::string TEXTURE_PATH = "/textures";
@@ -233,6 +232,7 @@ void MyGame::initScene()
 	
 }
 
+
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
 	
@@ -250,44 +250,46 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 	else if (keyCode == SDLK_a)
 	{
-		m_CameraPosition.x += -movementSpeed;
-
+		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
+		m_CameraPosition += -movementSpeed*m_StrafeDirection;
 	}
 	else if (keyCode == SDLK_d)
 	{
-		m_CameraPosition.x += movementSpeed;
-
+		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
+		m_CameraPosition += movementSpeed*m_StrafeDirection;
 
 	}
 
-	//input for movement
 	if (keyCode == SDLK_DOWN)
 	{
-		m_ViewDirection.y += -movementSpeed;
+		m_ViewDirection.y += -movementSpeed*2;
 	}
 	else if (keyCode == SDLK_UP)
 	{
-		m_ViewDirection.y += movementSpeed;
+		m_ViewDirection.y += movementSpeed*2;
 
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
-		m_ViewDirection.x += movementSpeed;
+		m_ViewDirection.x += movementSpeed*2;
 
 	}
 	else if (keyCode == SDLK_LEFT)
 	{
-		m_ViewDirection.x += -movementSpeed;
+		m_ViewDirection.x += -movementSpeed*2;
 
 	}
 }
 
+/*
 void MyGame::mouseUpdate(const glm::vec2 & m_NewMousePosition)
 {
 	vec2 mouseDelta = m_NewMousePosition - m_OldMousePosition;
 	m_ViewDirection = mat3(rotate(mouseDelta.x, m_UP)) * m_ViewDirection;
 	m_OldMousePosition = m_NewMousePosition;
+	
 }
+*/
 
 void MyGame::destroyScene()
 {

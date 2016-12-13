@@ -9,7 +9,4 @@ cl : Command line warning D9002: ignoring unknown option '/EH0'
 cl : Command line warning D9002: ignoring unknown option '/EHx'
 cl : Command line warning D9002: ignoring unknown option '-g'
   MyGame.cpp
-  main.cpp
-  Generating Code...
-  LINK : C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe not found or not built by the last incremental link; performing full link
   GP2CWProject.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe
