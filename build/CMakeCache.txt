@@ -364,7 +364,7 @@ GLEW_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
-SDL2_LIBRARY_TEMP:INTERNAL=C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2.lib
+SDL2_LIBRARY_TEMP:INTERNAL=C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2main.lib;C:/Dev/SDL2-2.0.4/lib/x64/SDL2.lib
 //ADVANCED property for variable: SDL2_TTF_INCLUDE_DIR
 SDL2_TTF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL2_TTF_LIBRARY_DEBUG
