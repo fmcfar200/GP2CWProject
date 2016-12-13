@@ -113,11 +113,11 @@ void MyGame::initScene()
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
-	m_TestGO->loadShaders(lightTextureVSPath, lightTextureFSPath);
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
-	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
+	//m_TestGO->loadHeightMapTexture(metalHeightTexPath);
 	//set scale and positions (Anivl)
 	m_TestGO->setPosition(vec3(-20.0f, -10.0f, -80.f));
 	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
@@ -159,7 +159,7 @@ void MyGame::initScene()
 
 	//shield
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(shieldPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
 	m_TestGO->loadDiffuseTexture(shieldDiffTexPath);
 	m_TestGO->loadSpecularTexture(shieldSpecTexPath);
 	m_TestGO->loadNormalTexture(shieldBumpTexPath);
@@ -183,7 +183,7 @@ void MyGame::initScene()
 
 	//swords
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(sword1Path));
-	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(swd1DiffTexPath);
 	m_TestGO->loadSpecularTexture(swd1SpecTexPath);
 	m_TestGO->loadNormalTexture(swd1BumpTexPath);
@@ -207,7 +207,7 @@ void MyGame::initScene()
 
 	//swords
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(sword3Path));
-	m_TestGO->loadShaders(lightTextureVSPath, lightTextureFSPath);
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(swd3DiffTexPath);
 	m_TestGO->loadSpecularTexture(swd3SpecTexPath);
 	m_TestGO->loadHeightMapTexture(swd3HeightTexPath);
@@ -226,7 +226,7 @@ void MyGame::initScene()
 	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->Direction = vec3(0.0f, 0, -1.0f);
-	//m_AmbientLightColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_AmbientLightColour = vec4(0, 0, 0, 1.0f);
 
 
 
