@@ -27,7 +27,7 @@ void MyGame::initScene()
 	string sword2Path = ASSET_PATH + MODEL_PATH + "/sword2.fbx";
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
 	string wallPath = ASSET_PATH + MODEL_PATH + "/wall.fbx";
-
+	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
 
 	
 
@@ -152,8 +152,8 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(axe2SpecTexPath);
 	m_TestGO->loadNormalTexture(axe2BumpTexPath);
 	m_TestGO->loadHeightMapTexture(axe2HeightTexPath);
-	m_TestGO->setPosition(vec3(50, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 1, -5.0f));
+	m_TestGO->setPosition(vec3(-20, 100, -190));
+	m_TestGO->setRotation(vec3(92.7, 1.8, -5.0f));
 	m_TestGO->setScale(vec3(50, 50, 50));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -164,8 +164,8 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(shieldSpecTexPath);
 	m_TestGO->loadNormalTexture(shieldBumpTexPath);
 	m_TestGO->loadHeightMapTexture(shieldHeightTexPath);
-	m_TestGO->setPosition(vec3(80, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
+	m_TestGO->setPosition(vec3(-20, 100, -180));
+	m_TestGO->setRotation(vec3(92.7, 4.9, -5.0f));
 	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -261,6 +261,19 @@ void MyGame::initScene()
 	m_TestGO->setRotation(vec3(4.7, 4.75, 0));
 	m_TestGO->setScale(vec3(0.5, 1.5, 1));
 	m_GameObjects.push_back(m_TestGO);
+
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
+	m_TestGO->loadSpecularTexture(woodSpecTexPath);
+	m_TestGO->loadNormalTexture(woodBumpTexPath);
+	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
+	m_TestGO->setPosition(vec3(0, 50, -50));
+	m_TestGO->setRotation(vec3(3.4, 0, 0));
+	m_TestGO->setScale(vec3(1, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+
 
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
