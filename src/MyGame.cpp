@@ -43,6 +43,8 @@ void MyGame::initScene()
 	string parallaxMappingVSPath = ASSET_PATH + SHADER_PATH + "/parallaxMappingVS.glsl";
 	string parallaxMappingFSPath = ASSET_PATH + SHADER_PATH + "/parallaxMappingFS.glsl";
 	
+	string newParallaxMappingVSPath = ASSET_PATH + SHADER_PATH + "/newParallaxMappingVS.glsl";
+	string newParallaxMappingFSPath = ASSET_PATH + SHADER_PATH + "/newParallaxMappingFS.glsl";
 	
 	//brick textures
 	string brickDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/s_3_1.png";
@@ -109,7 +111,7 @@ void MyGame::initScene()
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
-	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
