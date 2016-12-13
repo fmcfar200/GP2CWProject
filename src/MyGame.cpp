@@ -26,7 +26,7 @@ void MyGame::initScene()
 	string sword1Path = ASSET_PATH + MODEL_PATH + "/sword.fbx";
 	string sword2Path = ASSET_PATH + MODEL_PATH + "/sword2.fbx";
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
-
+	string signPath = ASSET_PATH + MODEL_PATH + "/constuct_shild_A.fbx";
 
 	
 
@@ -56,8 +56,6 @@ void MyGame::initScene()
 	string metalBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/m_3N.png";
 	string metalHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/m_3D.png";
 	
-
-
 	// Axe head 
 	string axeDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/2h_axe.png";
 	string axeSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/2h_axeS.png";
@@ -106,8 +104,7 @@ void MyGame::initScene()
 	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_spec.png";
 	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_normal.png";
 	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_height.png";
-
-
+		   
 	 // Anvil Model
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
@@ -224,7 +221,7 @@ void MyGame::initScene()
 	m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-	m_Light->Direction = vec3(0.0f, 0, -1.0f);
+	m_Light->Direction = vec3(0.0f, 0.0f, -10.0f);;
 	m_AmbientLightColour = vec4(0, 0, 0, 1.0f);
 
 
