@@ -25,7 +25,12 @@ private:
 	vec4 m_AmbientLightColour;
 
 	float movementSpeed = 0.25f;
+
+	//Camera
 	vec3 m_CameraPosition;
 	vec3 m_ViewDirection;
+	vec2 m_OldMousePosition;
+	vec3 m_UP = vec3(0.0,1.0,0.0);
+	void mouseUpdate(const vec2& m_NewMousePosition);
 };
 #endif

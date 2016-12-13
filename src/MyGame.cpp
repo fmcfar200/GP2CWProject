@@ -282,6 +282,13 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 }
 
+void MyGame::mouseUpdate(const glm::vec2 & m_NewMousePosition)
+{
+	vec2 mouseDelta = m_NewMousePosition - m_OldMousePosition;
+	m_ViewDirection = mat3(rotate(mouseDelta.x, m_UP)) * m_ViewDirection;
+	m_OldMousePosition = m_NewMousePosition;
+}
+
 void MyGame::destroyScene()
 {
 	//cycles through all game objects and destroys
@@ -300,7 +307,7 @@ void MyGame::update()
 	GameApplication::update();
 
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
-	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, vec3(0.0,1.0,0.0));
+	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, m_UP);
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{
