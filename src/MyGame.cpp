@@ -216,6 +216,35 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(2, 2, 2));
 	m_GameObjects.push_back(m_TestGO);
 
+	
+	glLoadIdentity();
+	glTranslatef(210, 10, -80);
+	glRotated(0.15, 180,1, 1);
+
+	glBegin(GL_QUADS);
+	//Floor
+	glColor3f(0, 0, 1);
+	glVertex3f(1, 1, -1);
+	glVertex3f(-1, 1, -1);
+	glVertex3f(-1, 1, 1);
+	glVertex3f(1, 1, 1);
+
+
+	//Roof
+	//glVertex3f(-1, 11, -1);
+	//glVertex3f(1, 1, -1);
+//	glVertex3f(1, 1, 1);
+	//glVertex3f(-1, 1, 1);
+
+	//Wall
+	//glVertex3f(200, 5, -80);
+	//glVertex3f(210, 5, -80);
+	//glVertex3f(210, 10, -80);
+	//glVertex3f(200, 10, -80);
+
+
+	glEnd();
+
 
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
@@ -263,6 +292,7 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	//input for movement
 	if (keyCode == SDLK_DOWN)
 	{
+
 		m_ViewDirection.y += -movementSpeed;
 	}
 	else if (keyCode == SDLK_UP)
