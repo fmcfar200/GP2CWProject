@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp is up-to-date.
+cl : Command line warning D9002: ignoring unknown option '/EH;'
+cl : Command line warning D9002: ignoring unknown option '/EH-'
+cl : Command line warning D9002: ignoring unknown option '/EHt'
+cl : Command line warning D9002: ignoring unknown option '/EHd'
+cl : Command line warning D9002: ignoring unknown option '/EH='
+cl : Command line warning D9002: ignoring unknown option '/EH+'
+cl : Command line warning D9002: ignoring unknown option '/EH+'
+cl : Command line warning D9002: ignoring unknown option '/EH0'
+cl : Command line warning D9002: ignoring unknown option '/EHx'
+cl : Command line warning D9002: ignoring unknown option '-g'
+  main.cpp
+  MyGame.cpp
+C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp(329): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp(330): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp(333): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+  Generating Code...
+  GP2CWProject.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\Debug\GP2CWProject.exe

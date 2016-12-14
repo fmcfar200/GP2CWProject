@@ -26,8 +26,11 @@ void MyGame::initScene()
 	string sword1Path = ASSET_PATH + MODEL_PATH + "/sword.fbx";
 	string sword2Path = ASSET_PATH + MODEL_PATH + "/sword2.fbx";
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
+<<<<<<< HEAD
 	string wallPath = ASSET_PATH + MODEL_PATH + "/wall.fbx";
 	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
+=======
+>>>>>>> refs/remotes/origin/Fraser/David-DebugCamera
 
 	
 
@@ -216,6 +219,7 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(2, 2, 2));
 	m_GameObjects.push_back(m_TestGO);
 
+<<<<<<< HEAD
 	//walls
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
@@ -275,10 +279,42 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 
 
+=======
+	
+	glLoadIdentity();
+	glTranslatef(210, 10, -80);
+	glRotated(0.15, 180,1, 1);
+
+	glBegin(GL_QUADS);
+	//Floor
+	glColor3f(0, 0, 1);
+	glVertex3f(1, 1, -1);
+	glVertex3f(-1, 1, -1);
+	glVertex3f(-1, 1, 1);
+	glVertex3f(1, 1, 1);
+
+
+	//Roof
+	//glVertex3f(-1, 11, -1);
+	//glVertex3f(1, 1, -1);
+//	glVertex3f(1, 1, 1);
+	//glVertex3f(-1, 1, 1);
+
+	//Wall
+	//glVertex3f(200, 5, -80);
+	//glVertex3f(210, 5, -80);
+	//glVertex3f(210, 10, -80);
+	//glVertex3f(200, 10, -80);
+
+
+	glEnd();
+
+>>>>>>> refs/remotes/origin/Fraser/David-DebugCamera
 
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
 	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
+	FirstMouse = true;
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -289,10 +325,16 @@ void MyGame::initScene()
 
 
 
+
 	
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> refs/remotes/origin/David-Adding-New-Models
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
 	
@@ -322,7 +364,12 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 
 	if (keyCode == SDLK_DOWN)
 	{
+<<<<<<< HEAD
 		m_ViewDirection.y += -movementSpeed*2;
+=======
+
+		m_ViewDirection.y += -movementSpeed;
+>>>>>>> refs/remotes/origin/David-Adding-New-Models
 	}
 	else if (keyCode == SDLK_UP)
 	{
@@ -331,7 +378,11 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
+<<<<<<< HEAD
 		m_ViewDirection.x += movementSpeed*2;
+=======
+		m_ViewDirection.x += cos(glm::radians (pitch));
+>>>>>>> refs/remotes/origin/David-Adding-New-Models
 
 	}
 	else if (keyCode == SDLK_LEFT)
@@ -341,6 +392,7 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 }
 
+<<<<<<< HEAD
 /*
 void MyGame::mouseUpdate(const glm::vec2 & m_NewMousePosition)
 {
@@ -350,6 +402,57 @@ void MyGame::mouseUpdate(const glm::vec2 & m_NewMousePosition)
 	
 }
 */
+=======
+
+
+
+
+
+
+
+
+void MyGame::SDL_GetMouseState(int m_MouseXPos, int m_MouseYPos )
+{
+	
+	if (FirstMouse = true)
+	{
+		lastMouseXPos = m_MouseXPos;
+		lastMouseYPos = m_MouseYPos;
+		FirstMouse = false;
+
+	}
+
+	GLfloat xoffset = m_MouseXPos - lastMouseXPos;
+	GLfloat yoffset = m_MouseYPos - lastMouseYPos;
+
+
+	GLfloat sensitivity = 1;
+
+	xoffset = xoffset * sensitivity;
+	yoffset = yoffset * sensitivity;
+
+	yaw = xoffset;
+	pitch = yoffset;
+
+	if (pitch > 89.f)
+	{
+		pitch = 89.f;
+
+	}
+
+	if (pitch < -89)
+	{
+		pitch = -89;
+	}
+
+	glm::vec3 Direction;
+	m_Direction.x = cos(glm::radians(pitch)) * cos(glm::radians(yaw));
+	m_Direction.y = sin(glm::radians(pitch));
+	m_Direction.z = sin(glm::radians(pitch)) * cos(glm::radians(yaw));
+	m_ViewDirection = glm::normalize(m_Direction);
+
+}
+>>>>>>> refs/remotes/origin/David-Adding-New-Models
 
 void MyGame::destroyScene()
 {
@@ -367,7 +470,7 @@ void MyGame::destroyScene()
 void MyGame::update()
 {
 	GameApplication::update();
-
+	//SDL_GetMouseState(m_MouseXPos,m_MouseYPos);
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
 	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, m_UP);
 	//cycles through all game objects and updates
@@ -377,7 +480,12 @@ void MyGame::update()
 
 	}
 
+<<<<<<< HEAD
 	//m_Light->Direction = m_ViewDirection;
+=======
+
+
+>>>>>>> refs/remotes/origin/Fraser/David-DebugCamera
 }
 
 void MyGame::render()
@@ -409,3 +517,4 @@ void MyGame::render()
 
 	
 }
+

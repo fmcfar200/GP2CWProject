@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8B582C39-57AD-3E70-91F8-CB2E183EF62E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GP2CWProject</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\David\Documents\GP2\GP2CWProject\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\David\Documents\GP2\GP2CWProject\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\David\Documents\GP2\GP2CWProject\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\David\Documents\GP2\GP2CWProject\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/Debug/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy C:/Users/David/Documents/GP2/GP2CWProject/settings.xml C:/Users/David/Documents/GP2/GP2CWProject/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Debug\GameApplication.lib;GameApplication\Utils\Debug\Utils.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2main.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\lib\Release\x64\glew32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/Debug/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/Debug/GP2CWProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/Release/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy C:/Users/David/Documents/GP2/GP2CWProject/settings.xml C:/Users/David/Documents/GP2/GP2CWProject/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\Release\GameApplication.lib;GameApplication\Utils\Release\Utils.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2main.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\lib\Release\x64\glew32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/Release/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/Release/GP2CWProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy C:/Users/David/Documents/GP2/GP2CWProject/settings.xml C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\MinSizeRel\GameApplication.lib;GameApplication\Utils\MinSizeRel\Utils.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2main.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\lib\Release\x64\glew32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel/GP2CWProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\Documents\GP2\GP2CWProject\GP2CWProject;C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include;C:\Users\David\Documents\GP2\GP2CWProject\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glm;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\include;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo/assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy C:/Users/David/Documents/GP2/GP2CWProject/settings.xml C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;GameApplication\RelWithDebInfo\GameApplication.lib;GameApplication\Utils\RelWithDebInfo\Utils.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2main.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2-2.0.4\lib\x64\SDL2.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\tinyxml2\lib\tinyxml2.lib;glu32.lib;opengl32.lib;glu32.lib;opengl32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\glew-2.0.0\lib\Release\x64\glew32.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib;A:\GP2 Files\GP2 Software\GP2 Software\GP2 Software\assimp\lib\assimp-vc140-mt.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo/GP2CWProject.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo/GP2CWProject.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -HC:/Users/David/Documents/GP2/GP2CWProject -BC:/Users/David/Documents/GP2/GP2CWProject --check-stamp-file C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeRCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindTinyXML.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindThreads.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckLibraryExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckSymbolExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckIncludeFile.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindOpenGL.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindGLM.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindGLEW.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_Image.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_TTF.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\Findassimp.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -HC:/Users/David/Documents/GP2/GP2CWProject -BC:/Users/David/Documents/GP2/GP2CWProject --check-stamp-file C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeRCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindTinyXML.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindThreads.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckLibraryExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckSymbolExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckIncludeFile.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindOpenGL.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindGLM.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindGLEW.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_Image.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_TTF.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\Findassimp.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -HC:/Users/David/Documents/GP2/GP2CWProject -BC:/Users/David/Documents/GP2/GP2CWProject --check-stamp-file C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeRCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindTinyXML.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindThreads.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckLibraryExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckSymbolExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckIncludeFile.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindOpenGL.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindGLM.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindGLEW.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_Image.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_TTF.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\Findassimp.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"A:\GP2 Files\GP2 Software\bin\cmake.exe" -HC:/Users/David/Documents/GP2/GP2CWProject -BC:/Users/David/Documents/GP2/GP2CWProject --check-stamp-file C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCCompiler.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeCXXCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\3.7.1\CMakeRCCompiler.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeRCInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindTinyXML.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindThreads.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckLibraryExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckSymbolExists.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CheckIncludeFile.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindOpenGL.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindGLM.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindGLEW.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_Image.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\FindSDL2_TTF.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\FindPackageMessage.cmake;A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\David\Documents\GP2\GP2CWProject\cmake\Findassimp.cmake;C:\Users\David\Documents\GP2\GP2CWProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\include\MyGame.h" />
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\src\main.cpp"  />
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/David/Documents/GP2/GP2CWProject/ZERO_CHECK.vcxproj">
+      <Project>0C2B299F-7203-3AFE-92B2-293ACEA2FF89</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/GameApplication.vcxproj">
+      <Project>F4B6F1B1-FC00-3E61-8A72-D87BB06B814F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/Utils/Utils.vcxproj">
+      <Project>F6054306-894D-3603-8E83-58BEFAB9513E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

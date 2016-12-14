@@ -1,0 +1,60 @@
+# CMake generation dependency list for this directory.
+C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt
+C:/Users/David/Documents/GP2/GP2CWProject/CMakeFiles/3.7.1/CMakeSystem.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/CMakeFiles/3.7.1/CMakeCCompiler.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/CMakeFiles/3.7.1/CMakeCXXCompiler.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeGenericSystem.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Platform/Windows.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Platform/WindowsPaths.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeCInformation.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Platform/Windows-MSVC-C.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/CMakeFiles/3.7.1/CMakeRCCompiler.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeRCInformation.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeCXXInformation.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Compiler/MSVC-CXX.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Platform/Windows-MSVC-CXX.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/Platform/Windows-MSVC.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindTinyXML.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindSDL2.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindThreads.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindOpenGL.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindGLM.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindGLEW.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/SelectLibraryConfigurations.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindSDL2_Image.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindSDL2_TTF.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/Findassimp.cmake
