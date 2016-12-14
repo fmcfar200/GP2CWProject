@@ -234,7 +234,7 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(120, 0, -50));
+	m_TestGO->setPosition(vec3(-150, 0, -50));
 	m_TestGO->setRotation(vec3(0, 4.75, -0));
 	m_TestGO->setScale(vec3(0.5, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
@@ -245,7 +245,7 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(-150, 0, -50));
+	m_TestGO->setPosition(vec3(120, 0, -50));
 	m_TestGO->setRotation(vec3(0, 4.75, -0));
 	m_TestGO->setScale(vec3(0.5, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
@@ -291,7 +291,7 @@ void MyGame::initScene()
 	m_Lights.push_back(m_Light);
 
 	
-	m_AmbientLightColour = vec4(1,1,1, 1.0f);
+	m_AmbientLightColour = vec4(0.2F,0.2F,0.2F, 1.0f);
 
 
 
