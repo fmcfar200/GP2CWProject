@@ -262,14 +262,15 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(0.5, 1.5, 1));
 	m_GameObjects.push_back(m_TestGO);
 
+	//shelf
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
 	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
-	m_TestGO->setPosition(vec3(0, 50, -50));
-	m_TestGO->setRotation(vec3(3.4, 0, 0));
+	m_TestGO->setPosition(vec3(-140, 50, -50));
+	m_TestGO->setRotation(vec3(3.3, 4.75, 0));
 	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -284,7 +285,7 @@ void MyGame::initScene()
 	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->Direction = vec3(0.0f, 0, -1.0f);
-	m_AmbientLightColour = vec4(0, 0, 0, 1.0f);
+	m_AmbientLightColour = vec4(0.5, 0.5, 0.5, 1.0f);
 
 
 
@@ -375,6 +376,8 @@ void MyGame::update()
 		object->onUpdate();
 
 	}
+
+	//m_Light->Direction = m_ViewDirection;
 }
 
 void MyGame::render()
