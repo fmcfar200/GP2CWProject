@@ -113,11 +113,11 @@ void MyGame::initScene()
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
-	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
-	//m_TestGO->loadHeightMapTexture(metalHeightTexPath);
+	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
 	//set scale and positions (Anivl)
 	m_TestGO->setPosition(vec3(-80, -0, -130));
 	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
@@ -252,7 +252,7 @@ void MyGame::initScene()
 
 	//floors
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
@@ -262,14 +262,15 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(0.5, 1.5, 1));
 	m_GameObjects.push_back(m_TestGO);
 
+	//shelf
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
 	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
-	m_TestGO->setPosition(vec3(0, 50, -50));
-	m_TestGO->setRotation(vec3(3.4, 0, 0));
+	m_TestGO->setPosition(vec3(-140, 50, -50));
+	m_TestGO->setRotation(vec3(3.3, 4.75, 0));
 	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -283,8 +284,8 @@ void MyGame::initScene()
 	m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-	m_Light->Direction = vec3(0.0f, 0, -1.0f);
-	m_AmbientLightColour = vec4(0, 0, 0, 1.0f);
+	m_Light->Direction = vec3(0.0f, 0.0f, -10.0f);
+	m_AmbientLightColour = vec4(0.0f, 0.0f, 0.0f, 1.0f);
 
 
 
@@ -375,6 +376,8 @@ void MyGame::update()
 		object->onUpdate();
 
 	}
+
+	//m_Light->Direction = m_ViewDirection;
 }
 
 void MyGame::render()
