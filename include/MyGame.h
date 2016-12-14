@@ -13,8 +13,9 @@ public:
 	void update();
 	void initScene();
 	void destroyScene();
-
 	void onKeyDown(SDL_Keycode keyCode);
+	void SDL_GetMouseState(int, int);
+	
 private:
 	//matrices
 	mat4 m_ViewMatrix;
@@ -27,5 +28,19 @@ private:
 	float movementSpeed = 0.25f;
 	vec3 m_CameraPosition;
 	vec3 m_ViewDirection;
+	vec3 m_Direction;
+	int m_MouseXPos ;
+	int m_MouseYPos ;
+
+	int lastMouseXPos;
+	int lastMouseYPos;
+	
+	
+
+	float yaw;
+	float pitch;
+	bool FirstMouse;
+	
+
 };
 #endif

@@ -28,7 +28,6 @@ void MyGame::initScene()
 	string sword2Path = ASSET_PATH + MODEL_PATH + "/sword2.fbx";
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
 
-
 	
 
 
@@ -249,6 +248,7 @@ void MyGame::initScene()
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
 	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
+	FirstMouse = false;
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -259,8 +259,12 @@ void MyGame::initScene()
 
 
 
+
 	
 }
+
+
+
 
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
@@ -302,7 +306,7 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
-		m_ViewDirection.x += movementSpeed;
+		m_ViewDirection.x += cos(glm::radians (pitch));
 
 	}
 	else if (keyCode == SDLK_LEFT)
@@ -310,6 +314,47 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 		m_ViewDirection.x += -movementSpeed;
 
 	}
+}
+
+void MyGame::SDL_GetMouseState(int, int )
+{
+	if (FirstMouse = true)
+	{
+		lastMouseXPos = m_MouseXPos;
+		lastMouseYPos = m_MouseYPos;
+		FirstMouse = false;
+
+	}
+
+	GLfloat xoffset = m_MouseXPos - lastMouseXPos;
+	GLfloat yoffset = m_MouseYPos - lastMouseYPos;
+	
+
+	GLfloat sensitivity = 0.05;
+
+	xoffset *= sensitivity;
+	yoffset *= sensitivity;
+
+	yaw *= xoffset;
+	pitch *= yoffset;
+
+	if (pitch > 89.f)
+	{
+		pitch = 89.f;
+		
+	}
+
+	if (pitch < -89)
+	{
+		pitch = -89;
+	}
+
+	glm::vec3 Direction;
+	m_Direction.x = cos(glm::radians(pitch)) * cos(glm::radians(yaw));
+	m_Direction.y = sin(glm::radians(pitch));
+	m_Direction.z = sin(glm::radians(pitch)) * cos(glm::radians(yaw));
+	m_ViewDirection = glm::normalize(m_Direction);
+
 }
 
 void MyGame::destroyScene()
@@ -328,7 +373,7 @@ void MyGame::destroyScene()
 void MyGame::update()
 {
 	GameApplication::update();
-
+	SDL_GetMouseState(m_MouseXPos, m_MouseYPos);
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
 	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, vec3(0.0,1.0,0.0));
 	//cycles through all game objects and updates
@@ -337,6 +382,9 @@ void MyGame::update()
 		object->onUpdate();
 
 	}
+	//m_ViewDirection = glm::normalize(m_Direction);
+	
+
 }
 
 void MyGame::render()
@@ -368,3 +416,4 @@ void MyGame::render()
 
 	
 }
+

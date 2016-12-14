@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\GameApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\ModelLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\GameApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\ModelLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\include\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{711E649E-9E77-3B4D-8EF3-941D9DB198E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{237C1C20-D93B-32F6-B4BB-1BAACB14CC46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
