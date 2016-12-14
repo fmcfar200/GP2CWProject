@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Fraser/Documents/GitHub/GP2CWProject
+# Install script for directory: C:/Users/David/Documents/GP2/GP2CWProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/GameApplication/cmake_install.cmake")
+  include("C:/Users/David/Documents/GP2/GP2CWProject/build/GameApplication/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/David/Documents/GP2/GP2CWProject/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

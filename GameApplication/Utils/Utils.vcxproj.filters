@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\src\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\src\clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\src\XMLOptionsParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\NonCopyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\ProgramOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\CommandLineParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\XMLOptionsParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\include\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Utils\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{711E649E-9E77-3B4D-8EF3-941D9DB198E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{237C1C20-D93B-32F6-B4BB-1BAACB14CC46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
