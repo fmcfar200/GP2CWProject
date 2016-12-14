@@ -26,7 +26,12 @@ void MyGame::initScene()
 	string sword1Path = ASSET_PATH + MODEL_PATH + "/sword.fbx";
 	string sword2Path = ASSET_PATH + MODEL_PATH + "/sword2.fbx";
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
+<<<<<<< HEAD
 	string signPath = ASSET_PATH + MODEL_PATH + "/constuct_shild_A.fbx";
+=======
+	string wallPath = ASSET_PATH + MODEL_PATH + "/wall.fbx";
+	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
+>>>>>>> refs/remotes/origin/Fraser-Adding-New-Models
 
 	
 
@@ -117,7 +122,7 @@ void MyGame::initScene()
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
 	//m_TestGO->loadHeightMapTexture(metalHeightTexPath);
 	//set scale and positions (Anivl)
-	m_TestGO->setPosition(vec3(-20.0f, -10.0f, -80.f));
+	m_TestGO->setPosition(vec3(-80, -0, -130));
 	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
 	m_TestGO->setScale(vec3(1,1,1));
 	m_GameObjects.push_back(m_TestGO);
@@ -150,8 +155,8 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(axe2SpecTexPath);
 	m_TestGO->loadNormalTexture(axe2BumpTexPath);
 	m_TestGO->loadHeightMapTexture(axe2HeightTexPath);
-	m_TestGO->setPosition(vec3(50, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 1, -5.0f));
+	m_TestGO->setPosition(vec3(-20, 100, -190));
+	m_TestGO->setRotation(vec3(92.7, 1.8, -5.0f));
 	m_TestGO->setScale(vec3(50, 50, 50));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -162,8 +167,8 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(shieldSpecTexPath);
 	m_TestGO->loadNormalTexture(shieldBumpTexPath);
 	m_TestGO->loadHeightMapTexture(shieldHeightTexPath);
-	m_TestGO->setPosition(vec3(80, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
+	m_TestGO->setPosition(vec3(-20, 100, -180));
+	m_TestGO->setRotation(vec3(92.7, 4.9, -5.0f));
 	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -214,6 +219,65 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(2, 2, 2));
 	m_GameObjects.push_back(m_TestGO);
 
+	//walls
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(-20, 0, -200));
+	m_TestGO->setRotation(vec3(0, 0, -0));
+	m_TestGO->setScale(vec3(0.5, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(120, 0, -50));
+	m_TestGO->setRotation(vec3(0, 4.75, -0));
+	m_TestGO->setScale(vec3(0.5, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(-150, 0, -50));
+	m_TestGO->setRotation(vec3(0, 4.75, -0));
+	m_TestGO->setScale(vec3(0.5, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+	//floors
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
+	m_TestGO->loadSpecularTexture(brickSpecTexPath);
+	m_TestGO->loadNormalTexture(brickBumpTexPath);
+	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
+	m_TestGO->setPosition(vec3(-150, 0, -50));
+	m_TestGO->setRotation(vec3(4.7, 4.75, 0));
+	m_TestGO->setScale(vec3(0.5, 1.5, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+	//shelf
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
+	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
+	m_TestGO->loadSpecularTexture(woodSpecTexPath);
+	m_TestGO->loadNormalTexture(woodBumpTexPath);
+	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
+	m_TestGO->setPosition(vec3(-140, 50, -50));
+	m_TestGO->setRotation(vec3(3.3, 4.75, 0));
+	m_TestGO->setScale(vec3(1, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
+
+
 
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
@@ -223,8 +287,13 @@ void MyGame::initScene()
 	m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+<<<<<<< HEAD
 	m_Light->Direction = vec3(0.0f, 0.0f, -10.0f);;
 	m_AmbientLightColour = vec4(0, 0, 0, 1.0f);
+=======
+	m_Light->Direction = vec3(0.0f, 0, -1.0f);
+	m_AmbientLightColour = vec4(0.5, 0.5, 0.5, 1.0f);
+>>>>>>> refs/remotes/origin/Fraser-Adding-New-Models
 
 
 
@@ -315,6 +384,8 @@ void MyGame::update()
 		object->onUpdate();
 
 	}
+
+	//m_Light->Direction = m_ViewDirection;
 }
 
 void MyGame::render()
