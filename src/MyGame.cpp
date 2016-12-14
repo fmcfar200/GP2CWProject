@@ -220,6 +220,7 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	//walls
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
 	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
@@ -311,10 +312,12 @@ void MyGame::initScene()
 
 >>>>>>> refs/remotes/origin/Fraser/David-DebugCamera
 
+=======
+>>>>>>> refs/remotes/origin/Fraser/David-DebugCamera
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
 	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
-	FirstMouse = true;
+	//FirstMouse = true;
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -330,11 +333,8 @@ void MyGame::initScene()
 }
 
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> refs/remotes/origin/David-Adding-New-Models
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
 	
@@ -364,12 +364,9 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 
 	if (keyCode == SDLK_DOWN)
 	{
-<<<<<<< HEAD
-		m_ViewDirection.y += -movementSpeed*2;
-=======
 
+		m_ViewDirection.y += -movementSpeed*2;
 		m_ViewDirection.y += -movementSpeed;
->>>>>>> refs/remotes/origin/David-Adding-New-Models
 	}
 	else if (keyCode == SDLK_UP)
 	{
@@ -378,39 +375,20 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
-<<<<<<< HEAD
-		m_ViewDirection.x += movementSpeed*2;
-=======
-		m_ViewDirection.x += cos(glm::radians (pitch));
->>>>>>> refs/remotes/origin/David-Adding-New-Models
+		vec3 vVector = m_ViewDirection - m_CameraPosition;
+		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(0.1f)*vVector.x + cos(0.1f)*vVector.z);
+		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(0.1f)*vVector.x - sin(0.1f)*vVector.z);
 
 	}
 	else if (keyCode == SDLK_LEFT)
 	{
-		m_ViewDirection.x += -movementSpeed*2;
-
+		vec3 vVector = m_ViewDirection - m_CameraPosition;
+		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(-0.1f)*vVector.x + cos(-0.1f)*vVector.z);
+		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(-0.1f)*vVector.x - sin(-0.1f)*vVector.z);
 	}
 }
 
-<<<<<<< HEAD
 /*
-void MyGame::mouseUpdate(const glm::vec2 & m_NewMousePosition)
-{
-	vec2 mouseDelta = m_NewMousePosition - m_OldMousePosition;
-	m_ViewDirection = mat3(rotate(mouseDelta.x, m_UP)) * m_ViewDirection;
-	m_OldMousePosition = m_NewMousePosition;
-	
-}
-*/
-=======
-
-
-
-
-
-
-
-
 void MyGame::SDL_GetMouseState(int m_MouseXPos, int m_MouseYPos )
 {
 	
@@ -452,8 +430,7 @@ void MyGame::SDL_GetMouseState(int m_MouseXPos, int m_MouseYPos )
 	m_ViewDirection = glm::normalize(m_Direction);
 
 }
->>>>>>> refs/remotes/origin/David-Adding-New-Models
-
+*/
 void MyGame::destroyScene()
 {
 	//cycles through all game objects and destroys
