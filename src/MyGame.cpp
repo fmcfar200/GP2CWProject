@@ -26,12 +26,8 @@ void MyGame::initScene()
 	string sword1Path = ASSET_PATH + MODEL_PATH + "/sword.fbx";
 	string sword2Path = ASSET_PATH + MODEL_PATH + "/sword2.fbx";
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
-<<<<<<< HEAD
-	string signPath = ASSET_PATH + MODEL_PATH + "/constuct_shild_A.fbx";
-=======
 	string wallPath = ASSET_PATH + MODEL_PATH + "/wall.fbx";
 	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
->>>>>>> refs/remotes/origin/Fraser-Adding-New-Models
 
 	
 
@@ -127,10 +123,11 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(1,1,1));
 	m_GameObjects.push_back(m_TestGO);
 
+	/*
 	//AXE 1
 	//Axe Head
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(axe1HeadPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(axeDiffTexPath);
 	m_TestGO->loadSpecularTexture(axeSpecTexPath);
 	m_TestGO->loadNormalTexture(axeBumpTexPath);
@@ -141,16 +138,16 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 	//Axe Handle 
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(axe1Path));
-	m_TestGO->loadShaders(lightTextureVSPath, lightTextureFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(axeMetal);
 	m_TestGO->setPosition(vec3(23.5f, 20.0f, -85.0f));
 	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
 	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
 	m_GameObjects.push_back(m_TestGO);
-
+	*/
 	//axe 2
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(axe2Path));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(axe2DiffTexPath);
 	m_TestGO->loadSpecularTexture(axe2SpecTexPath);
 	m_TestGO->loadNormalTexture(axe2BumpTexPath);
@@ -162,7 +159,7 @@ void MyGame::initScene()
 
 	//shield
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(shieldPath));
-	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(shieldDiffTexPath);
 	m_TestGO->loadSpecularTexture(shieldSpecTexPath);
 	m_TestGO->loadNormalTexture(shieldBumpTexPath);
@@ -174,7 +171,7 @@ void MyGame::initScene()
 
 	//knife
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(knifePath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(knifeDiffTexPath);
 	m_TestGO->loadSpecularTexture(knifeSpecTexPath);
 	m_TestGO->loadNormalTexture(knifeBumpTexPath);
@@ -186,7 +183,7 @@ void MyGame::initScene()
 
 	//swords
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(sword1Path));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(swd1DiffTexPath);
 	m_TestGO->loadSpecularTexture(swd1SpecTexPath);
 	m_TestGO->loadNormalTexture(swd1BumpTexPath);
@@ -198,7 +195,7 @@ void MyGame::initScene()
 
 	//swords
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(sword2Path));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(swd2DiffTexPath);
 	m_TestGO->loadSpecularTexture(swd2SpecTexPath);
 	m_TestGO->loadNormalTexture(swd2BumpTexPath);
@@ -210,7 +207,7 @@ void MyGame::initScene()
 
 	//swords
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(sword3Path));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(swd3DiffTexPath);
 	m_TestGO->loadSpecularTexture(swd3SpecTexPath);
 	m_TestGO->loadHeightMapTexture(swd3HeightTexPath);
@@ -221,7 +218,7 @@ void MyGame::initScene()
 
 	//walls
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
@@ -232,7 +229,7 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
@@ -243,7 +240,7 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
@@ -255,7 +252,7 @@ void MyGame::initScene()
 
 	//floors
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
@@ -267,7 +264,7 @@ void MyGame::initScene()
 
 	//shelf
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(woodBoardPath));
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(woodDiffTexPath);
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
@@ -284,16 +281,17 @@ void MyGame::initScene()
 	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
 
 	//lighting
-	m_Light = shared_ptr<Light>(new Light());
+	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-<<<<<<< HEAD
-	m_Light->Direction = vec3(0.0f, 0.0f, -10.0f);;
-	m_AmbientLightColour = vec4(0, 0, 0, 1.0f);
-=======
-	m_Light->Direction = vec3(0.0f, 0, -1.0f);
-	m_AmbientLightColour = vec4(0.5, 0.5, 0.5, 1.0f);
->>>>>>> refs/remotes/origin/Fraser-Adding-New-Models
+	m_Light->position = vec3(0, 0, 0);
+	m_Light->constant = 1.0f;
+	m_Light->linear = 0.9f;
+	m_Light->quadratic = 0.032f;
+	m_Lights.push_back(m_Light);
+
+	
+	m_AmbientLightColour = vec4(1,1,1, 1.0f);
 
 
 
@@ -304,6 +302,7 @@ void MyGame::initScene()
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
 	
+
 	//controls rotation of camera
 
 	if (keyCode == SDLK_w)
@@ -370,6 +369,7 @@ void MyGame::destroyScene()
 
 	//clears the list
 	m_GameObjects.clear();
+	m_Lights.clear();
 }
 
 void MyGame::update()
@@ -396,22 +396,36 @@ void MyGame::render()
 		object->onBeginRender();
 		GLuint currentShader = object->getShaderProgram();
 
-		GLint ambientLightColourLocation = glGetUniformLocation(currentShader, "directionLight.ambientColour");
+		for (auto& lights : m_Lights)
+		{
+			GLint lightPositionLocation = glGetUniformLocation(currentShader, "pointLight.position");
+		glUniform3fv(lightPositionLocation, 1, value_ptr(lights->position));
+
+		GLint ambientLightColourLocation = glGetUniformLocation(currentShader, "pointLight.ambientColour");
 		glUniform4fv(ambientLightColourLocation, 1, value_ptr(m_AmbientLightColour));
 
-		GLint diffuseLightColourLocation = glGetUniformLocation(currentShader, "directionLight.diffuseColour");
-		glUniform4fv(diffuseLightColourLocation, 1, value_ptr(m_Light->DiffuseColour));
+		GLint diffuseLightColourLocation = glGetUniformLocation(currentShader, "pointLight.diffuseColour");
+		glUniform4fv(diffuseLightColourLocation, 1, value_ptr(lights->DiffuseColour));
 
-		GLint specularLightColourLocation = glGetUniformLocation(currentShader, "directionLight.specularColour");
-		glUniform4fv(specularLightColourLocation, 1, value_ptr(m_Light->SpecularColour));
+		GLint specularLightColourLocation = glGetUniformLocation(currentShader, "pointLight.specularColour");
+		glUniform4fv(specularLightColourLocation, 1, value_ptr(lights->SpecularColour));
 
+
+		/*
 		GLint lightDirectionLocation = glGetUniformLocation(currentShader, "directionLight.direction");
 		glUniform3fv(lightDirectionLocation, 1, value_ptr(m_Light->Direction));
-
+		*/
 		GLint cameraPositionLocation = glGetUniformLocation(currentShader, "cameraPos");
 		glUniform3fv(cameraPositionLocation, 1, value_ptr(m_CameraPosition));
 
+		
+		/*
+		GLint constantLocation = glGetUniformLocation(currentShader, "pointLight.constant");
+		glUniform1f(constantLocation, 1, value_ptr(m_Light->constant));
+		*/
+		}
 		object->onRender(m_ViewMatrix, m_ProjMatrix);
+
 	}
 
 
