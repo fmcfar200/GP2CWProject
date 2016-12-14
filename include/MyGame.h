@@ -31,6 +31,5 @@ private:
 	vec3 m_ViewDirection;
 	vec2 m_OldMousePosition;
 	vec3 m_UP = vec3(0.0,1.0,0.0);
-	//void mouseUpdate(const vec2& m_NewMousePosition);
 };
 #endif

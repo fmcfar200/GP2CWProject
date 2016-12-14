@@ -290,12 +290,17 @@ void MyGame::initScene()
 	m_Light->quadratic = 0.032f;
 	m_Lights.push_back(m_Light);
 
-	
+	m_Light = shared_ptr<Light>(new Light());
+	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_Light->position = vec3(100, 250.0f, 50);
+	m_Light->constant = 1.0f;
+	m_Light->linear = 0.9f;
+	m_Light->quadratic = 0.032f;
+	m_Lights.push_back(m_Light);
+
 	m_AmbientLightColour = vec4(0.2F,0.2F,0.2F, 1.0f);
 
-
-
-	
 }
 
 
@@ -410,19 +415,10 @@ void MyGame::render()
 		GLint specularLightColourLocation = glGetUniformLocation(currentShader, "pointLight.specularColour");
 		glUniform4fv(specularLightColourLocation, 1, value_ptr(lights->SpecularColour));
 
-
-		/*
-		GLint lightDirectionLocation = glGetUniformLocation(currentShader, "directionLight.direction");
-		glUniform3fv(lightDirectionLocation, 1, value_ptr(m_Light->Direction));
-		*/
 		GLint cameraPositionLocation = glGetUniformLocation(currentShader, "cameraPos");
 		glUniform3fv(cameraPositionLocation, 1, value_ptr(m_CameraPosition));
 
 		
-		/*
-		GLint constantLocation = glGetUniformLocation(currentShader, "pointLight.constant");
-		glUniform1f(constantLocation, 1, value_ptr(m_Light->constant));
-		*/
 		}
 		object->onRender(m_ViewMatrix, m_ProjMatrix);
 

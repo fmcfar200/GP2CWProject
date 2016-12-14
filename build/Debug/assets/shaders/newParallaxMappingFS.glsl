@@ -63,6 +63,7 @@ void main()
 	vec3 bumpNormals = 2.0f*texture(normalSampler,correctedTexCoord).rgb-1.0f;
 	bumpNormals = normalize(bumpNormals);
 	
+	//tangent matrix multiply gone
 	vec3 lightDir=normalize(pointLight.position - worldPos);
 	float diffuseTerm = dot(bumpNormals, lightDir);
 	vec3 halfWayVec = normalize(lightDir);
