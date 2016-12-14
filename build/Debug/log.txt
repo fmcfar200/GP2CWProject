@@ -1,445 +1,445 @@
-Log Created on Wed Dec 14 14:24:48 2016
-INFO Wed Dec 14 14:24:48 2016 Reading XML Document settings.xml
-INFO Wed Dec 14 14:24:48 2016 Root Element App
-INFO Wed Dec 14 14:24:48 2016 Settings Parsed
+Log Created on Wed Dec 14 18:19:28 2016
+INFO Wed Dec 14 18:19:28 2016 Reading XML Document settings.xml
+INFO Wed Dec 14 18:19:28 2016 Root Element App
+INFO Wed Dec 14 18:19:28 2016 Settings Parsed
 WindowHeight = 768 WindowTitle = GP2 WindowWidth = 1024 
-INFO Wed Dec 14 14:24:48 2016 Command Line Parsed
+INFO Wed Dec 14 18:19:28 2016 Command Line Parsed
 WindowHeight = 768 WindowTitle = GP2 WindowWidth = 1024 
-INFO Wed Dec 14 14:24:48 2016 Initialising SDL
-INFO Wed Dec 14 14:24:48 2016 Window Created GP2 Width - 1024 Height - 768
-INFO Wed Dec 14 14:24:49 2016 Attempting to load model assets/models/anvil.fbx
-INFO Wed Dec 14 14:24:49 2016 Parsing Model assets/models/anvil.fbx
-INFO Wed Dec 14 14:24:49 2016 Loading File assets/shaders/normalMappingVS.glsl
-INFO Wed Dec 14 14:24:49 2016 Shader Loaded sucessfully assets/shaders/normalMappingVS.glsl
-INFO Wed Dec 14 14:24:49 2016 Loading File assets/shaders/normalMappingFS.glsl
-INFO Wed Dec 14 14:24:49 2016 Shader Loaded sucessfully assets/shaders/normalMappingFS.glsl
-INFO Wed Dec 14 14:24:49 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:49 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:49 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:49 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:49 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:49 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:49 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:49 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:49 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:49 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:49 2016 GL_ACTIVE_UNIFORMS = 12
-INFO Wed Dec 14 14:24:49 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:49 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:49 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:49 2016 Uniform 3 type: vec3 name: cameraPos location: 3
-INFO Wed Dec 14 14:24:49 2016 Uniform 4 type: vec4 name: directionLight.ambientColour location: 4
-INFO Wed Dec 14 14:24:49 2016 Uniform 5 type: vec4 name: directionLight.diffuseColour location: 5
-INFO Wed Dec 14 14:24:49 2016 Uniform 6 type: vec4 name: directionLight.specularColour location: 6
-INFO Wed Dec 14 14:24:49 2016 Uniform 7 type: vec3 name: directionLight.direction location: 7
-INFO Wed Dec 14 14:24:49 2016 Uniform 8 type: float name: specularPower location: 8
-INFO Wed Dec 14 14:24:49 2016 Uniform 9 type: sampler2D name: diffuseSampler location: 9
-INFO Wed Dec 14 14:24:49 2016 Uniform 10 type: sampler2D name: normalSampler location: 10
-INFO Wed Dec 14 14:24:49 2016 Uniform 11 type: sampler2D name: specularSampler location: 11
-INFO Wed Dec 14 14:24:49 2016 Attempting to load model assets/models/2h_axe.fbx
-INFO Wed Dec 14 14:24:49 2016 Parsing Model assets/models/2h_axe.fbx
-INFO Wed Dec 14 14:24:49 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:49 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:49 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:49 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:49 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:49 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:49 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:49 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:49 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:49 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:49 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:49 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:49 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:49 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:49 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:49 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:49 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:49 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:49 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:49 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:49 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:50 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:50 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:50 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:50 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:50 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:50 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:50 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:50 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:50 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:50 2016 Attempting to load model assets/models/1h_axe.fbx
-INFO Wed Dec 14 14:24:50 2016 Parsing Model assets/models/1h_axe.fbx
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/lightTextureVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/lightTextureVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/lightTextureFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/lightTextureFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:50 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:50 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_ATTRIBUTES = 4
-INFO Wed Dec 14 14:24:50 2016 Attribute 0 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:50 2016 Attribute 1 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:50 2016 Attribute 2 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:50 2016 Attribute 3 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_UNIFORMS = 11
-INFO Wed Dec 14 14:24:50 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:50 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:50 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:50 2016 Uniform 3 type: vec3 name: cameraPos location: 3
-INFO Wed Dec 14 14:24:50 2016 Uniform 4 type: vec4 name: directionLight.ambientColour location: 4
-INFO Wed Dec 14 14:24:50 2016 Uniform 5 type: vec4 name: directionLight.diffuseColour location: 5
-INFO Wed Dec 14 14:24:50 2016 Uniform 6 type: vec4 name: directionLight.specularColour location: 6
-INFO Wed Dec 14 14:24:50 2016 Uniform 7 type: vec3 name: directionLight.direction location: 7
-INFO Wed Dec 14 14:24:50 2016 Uniform 8 type: float name: specularPower location: 8
-INFO Wed Dec 14 14:24:50 2016 Uniform 9 type: sampler2D name: diffuseSampler location: 9
-INFO Wed Dec 14 14:24:50 2016 Uniform 10 type: sampler2D name: specularSampler location: 10
-INFO Wed Dec 14 14:24:50 2016 Attempting to load model assets/models/axe2.fbx
-INFO Wed Dec 14 14:24:50 2016 Parsing Model assets/models/axe2.fbx
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:50 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:50 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:50 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:50 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:50 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:50 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:50 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:50 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:50 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:50 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:50 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:50 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:50 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:50 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:50 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:50 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:50 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:50 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:50 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:50 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:50 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:50 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:50 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:50 2016 Attempting to load model assets/models/shield_deco3.fbx
-INFO Wed Dec 14 14:24:50 2016 Parsing Model assets/models/shield_deco3.fbx
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/normalMappingVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/normalMappingVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/normalMappingFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/normalMappingFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:50 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:50 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:50 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:50 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:50 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:50 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:50 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:50 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_UNIFORMS = 12
-INFO Wed Dec 14 14:24:50 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:50 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:50 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:50 2016 Uniform 3 type: vec3 name: cameraPos location: 3
-INFO Wed Dec 14 14:24:50 2016 Uniform 4 type: vec4 name: directionLight.ambientColour location: 4
-INFO Wed Dec 14 14:24:50 2016 Uniform 5 type: vec4 name: directionLight.diffuseColour location: 5
-INFO Wed Dec 14 14:24:50 2016 Uniform 6 type: vec4 name: directionLight.specularColour location: 6
-INFO Wed Dec 14 14:24:50 2016 Uniform 7 type: vec3 name: directionLight.direction location: 7
-INFO Wed Dec 14 14:24:50 2016 Uniform 8 type: float name: specularPower location: 8
-INFO Wed Dec 14 14:24:50 2016 Uniform 9 type: sampler2D name: diffuseSampler location: 9
-INFO Wed Dec 14 14:24:50 2016 Uniform 10 type: sampler2D name: normalSampler location: 10
-INFO Wed Dec 14 14:24:50 2016 Uniform 11 type: sampler2D name: specularSampler location: 11
-INFO Wed Dec 14 14:24:50 2016 Attempting to load model assets/models/knife2.fbx
-INFO Wed Dec 14 14:24:50 2016 Parsing Model assets/models/knife2.fbx
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:50 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:50 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:50 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:50 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:50 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:50 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:50 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:50 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:50 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:50 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:50 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:50 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:50 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:50 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:50 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:50 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:50 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:50 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:50 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:50 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:50 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:50 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:50 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:50 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:50 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:50 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:50 2016 Attempting to load model assets/models/sword.fbx
-INFO Wed Dec 14 14:24:50 2016 Parsing Model assets/models/sword.fbx
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:51 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:51 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:51 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:51 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:51 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:51 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:51 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:51 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:51 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:51 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:51 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:51 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:51 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:51 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:51 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:51 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:51 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:51 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:51 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:51 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:51 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:51 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:51 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:51 2016 Attempting to load model assets/models/sword2.fbx
-INFO Wed Dec 14 14:24:51 2016 Parsing Model assets/models/sword2.fbx
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:51 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:51 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:51 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:51 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:51 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:51 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:51 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:51 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:51 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:51 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:51 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:51 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:51 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:51 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:51 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:51 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:51 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:51 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:51 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:51 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:51 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:51 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:51 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:51 2016 Attempting to load model assets/models/sword4.fbx
-INFO Wed Dec 14 14:24:51 2016 Parsing Model assets/models/sword4.fbx
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:51 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:51 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:51 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:51 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:51 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:51 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:51 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:51 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:51 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:51 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:51 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:51 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:51 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:51 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:51 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:51 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:51 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:51 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:51 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:51 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:51 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:51 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:51 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:51 2016 Attempting to load model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:51 2016 Parsing Model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:51 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:51 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:51 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:51 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:51 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:51 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:51 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:51 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:51 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:51 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:51 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:51 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:51 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:51 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:51 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:51 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:51 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:51 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:51 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:51 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:51 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:51 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:51 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:51 2016 Attempting to load model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:51 2016 Parsing Model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:51 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:51 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:51 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:51 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:51 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:51 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:51 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:51 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:51 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:51 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:51 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:51 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:51 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:52 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:52 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:52 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:52 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:52 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:52 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:52 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:52 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:52 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:52 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:52 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:52 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:52 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:52 2016 Attempting to load model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:52 2016 Parsing Model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:52 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:52 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:52 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:52 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:52 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:52 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:52 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:52 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:52 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:52 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:52 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:52 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:52 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:52 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:52 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:52 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:52 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:52 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:52 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:52 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:52 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:52 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:52 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:52 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:52 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:52 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:52 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:52 2016 Attempting to load model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:52 2016 Parsing Model assets/models/wall.fbx
-INFO Wed Dec 14 14:24:52 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:52 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:52 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:52 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:52 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:52 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:52 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:52 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:52 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:52 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:52 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:52 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:52 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:52 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:52 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:52 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:52 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:52 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:52 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:52 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:52 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:52 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:52 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:52 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:52 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:52 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:52 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
-INFO Wed Dec 14 14:24:52 2016 Attempting to load model assets/models/woodboard.fbx
-INFO Wed Dec 14 14:24:52 2016 Parsing Model assets/models/woodboard.fbx
-INFO Wed Dec 14 14:24:52 2016 Loading File assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
-INFO Wed Dec 14 14:24:52 2016 Loading File assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
-INFO Wed Dec 14 14:24:52 2016 Shader Programme 1825264 info
-INFO Wed Dec 14 14:24:52 2016 GL_LINK_STATUS 1
-INFO Wed Dec 14 14:24:52 2016 GL_ATTACHED_SHADERS = 2
-INFO Wed Dec 14 14:24:52 2016 GL_ACTIVE_ATTRIBUTES = 6
-INFO Wed Dec 14 14:24:52 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
-INFO Wed Dec 14 14:24:52 2016 Attribute 1 type: vec4 name: vertexColours location: 1
-INFO Wed Dec 14 14:24:52 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
-INFO Wed Dec 14 14:24:52 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
-INFO Wed Dec 14 14:24:52 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
-INFO Wed Dec 14 14:24:52 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
-INFO Wed Dec 14 14:24:52 2016 GL_ACTIVE_UNIFORMS = 15
-INFO Wed Dec 14 14:24:52 2016 Uniform 0 type: mat4 name: MVP location: 0
-INFO Wed Dec 14 14:24:52 2016 Uniform 1 type: mat4 name: Model location: 1
-INFO Wed Dec 14 14:24:52 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
-INFO Wed Dec 14 14:24:52 2016 Uniform 3 type: float name: bias location: 3
-INFO Wed Dec 14 14:24:52 2016 Uniform 4 type: vec3 name: cameraPos location: 4
-INFO Wed Dec 14 14:24:52 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
-INFO Wed Dec 14 14:24:52 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
-INFO Wed Dec 14 14:24:52 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
-INFO Wed Dec 14 14:24:52 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
-INFO Wed Dec 14 14:24:52 2016 Uniform 9 type: float name: scale location: 9
-INFO Wed Dec 14 14:24:52 2016 Uniform 10 type: float name: specularPower location: 10
-INFO Wed Dec 14 14:24:52 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
-INFO Wed Dec 14 14:24:52 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
-INFO Wed Dec 14 14:24:52 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
-INFO Wed Dec 14 14:24:52 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:28 2016 Initialising SDL
+INFO Wed Dec 14 18:19:29 2016 Window Created GP2 Width - 1024 Height - 768
+INFO Wed Dec 14 18:19:29 2016 Attempting to load model assets/models/anvil.fbx
+INFO Wed Dec 14 18:19:29 2016 Parsing Model assets/models/anvil.fbx
+INFO Wed Dec 14 18:19:29 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:29 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:29 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:29 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:29 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:29 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:29 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:29 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:29 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:29 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:29 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:29 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:29 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:29 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:29 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:29 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:29 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:29 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:29 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:29 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:29 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:29 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:29 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:29 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:29 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:29 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:29 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:29 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:29 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:29 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:29 2016 Attempting to load model assets/models/2h_axe.fbx
+INFO Wed Dec 14 18:19:29 2016 Parsing Model assets/models/2h_axe.fbx
+INFO Wed Dec 14 18:19:29 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:29 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:29 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:29 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:30 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:30 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:30 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:30 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:30 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:30 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:30 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:30 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:30 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:30 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:30 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:30 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:30 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:30 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:30 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:30 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:30 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:30 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:30 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:30 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:30 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:30 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:30 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:30 2016 Attempting to load model assets/models/1h_axe.fbx
+INFO Wed Dec 14 18:19:30 2016 Parsing Model assets/models/1h_axe.fbx
+INFO Wed Dec 14 18:19:30 2016 Loading File assets/shaders/lightTextureVS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Loaded sucessfully assets/shaders/lightTextureVS.glsl
+INFO Wed Dec 14 18:19:30 2016 Loading File assets/shaders/lightTextureFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Loaded sucessfully assets/shaders/lightTextureFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:30 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:30 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_ATTRIBUTES = 4
+INFO Wed Dec 14 18:19:30 2016 Attribute 0 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:30 2016 Attribute 1 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:30 2016 Attribute 2 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:30 2016 Attribute 3 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_UNIFORMS = 11
+INFO Wed Dec 14 18:19:30 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:30 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:30 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:30 2016 Uniform 3 type: vec3 name: cameraPos location: 3
+INFO Wed Dec 14 18:19:30 2016 Uniform 4 type: vec4 name: directionLight.ambientColour location: 4
+INFO Wed Dec 14 18:19:30 2016 Uniform 5 type: vec4 name: directionLight.diffuseColour location: 5
+INFO Wed Dec 14 18:19:30 2016 Uniform 6 type: vec4 name: directionLight.specularColour location: 6
+INFO Wed Dec 14 18:19:30 2016 Uniform 7 type: vec3 name: directionLight.direction location: 7
+INFO Wed Dec 14 18:19:30 2016 Uniform 8 type: float name: specularPower location: 8
+INFO Wed Dec 14 18:19:30 2016 Uniform 9 type: sampler2D name: diffuseSampler location: 9
+INFO Wed Dec 14 18:19:30 2016 Uniform 10 type: sampler2D name: specularSampler location: 10
+INFO Wed Dec 14 18:19:30 2016 Attempting to load model assets/models/axe2.fbx
+INFO Wed Dec 14 18:19:30 2016 Parsing Model assets/models/axe2.fbx
+INFO Wed Dec 14 18:19:30 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:30 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:30 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:30 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:30 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:30 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:30 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:30 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:30 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:30 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:30 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:30 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:30 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:30 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:30 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:30 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:30 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:30 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:30 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:30 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:30 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:30 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:30 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:30 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:30 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:30 2016 Attempting to load model assets/models/shield_deco3.fbx
+INFO Wed Dec 14 18:19:30 2016 Parsing Model assets/models/shield_deco3.fbx
+INFO Wed Dec 14 18:19:30 2016 Loading File assets/shaders/normalMappingVS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Loaded sucessfully assets/shaders/normalMappingVS.glsl
+INFO Wed Dec 14 18:19:30 2016 Loading File assets/shaders/normalMappingFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Loaded sucessfully assets/shaders/normalMappingFS.glsl
+INFO Wed Dec 14 18:19:30 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:30 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:30 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:30 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:30 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:30 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:30 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:30 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:30 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:30 2016 GL_ACTIVE_UNIFORMS = 12
+INFO Wed Dec 14 18:19:30 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:30 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:30 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:30 2016 Uniform 3 type: vec3 name: cameraPos location: 3
+INFO Wed Dec 14 18:19:30 2016 Uniform 4 type: vec4 name: directionLight.ambientColour location: 4
+INFO Wed Dec 14 18:19:30 2016 Uniform 5 type: vec4 name: directionLight.diffuseColour location: 5
+INFO Wed Dec 14 18:19:30 2016 Uniform 6 type: vec4 name: directionLight.specularColour location: 6
+INFO Wed Dec 14 18:19:30 2016 Uniform 7 type: vec3 name: directionLight.direction location: 7
+INFO Wed Dec 14 18:19:30 2016 Uniform 8 type: float name: specularPower location: 8
+INFO Wed Dec 14 18:19:30 2016 Uniform 9 type: sampler2D name: diffuseSampler location: 9
+INFO Wed Dec 14 18:19:30 2016 Uniform 10 type: sampler2D name: normalSampler location: 10
+INFO Wed Dec 14 18:19:31 2016 Uniform 11 type: sampler2D name: specularSampler location: 11
+INFO Wed Dec 14 18:19:31 2016 Attempting to load model assets/models/knife2.fbx
+INFO Wed Dec 14 18:19:31 2016 Parsing Model assets/models/knife2.fbx
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:31 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:31 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:31 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:31 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:31 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:31 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:31 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:31 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:31 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:31 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:31 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:31 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:31 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:31 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:31 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:31 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:31 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:31 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:31 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:31 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:31 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:31 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:31 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:31 2016 Attempting to load model assets/models/sword.fbx
+INFO Wed Dec 14 18:19:31 2016 Parsing Model assets/models/sword.fbx
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:31 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:31 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:31 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:31 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:31 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:31 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:31 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:31 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:31 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:31 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:31 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:31 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:31 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:31 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:31 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:31 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:31 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:31 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:31 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:31 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:31 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:31 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:31 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:31 2016 Attempting to load model assets/models/sword2.fbx
+INFO Wed Dec 14 18:19:31 2016 Parsing Model assets/models/sword2.fbx
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:31 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:31 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:31 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:31 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:31 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:31 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:31 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:31 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:31 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:31 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:31 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:31 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:31 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:31 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:31 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:31 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:31 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:31 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:31 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:31 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:31 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:31 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:31 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:31 2016 Attempting to load model assets/models/sword4.fbx
+INFO Wed Dec 14 18:19:31 2016 Parsing Model assets/models/sword4.fbx
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:31 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:31 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:31 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:31 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:31 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:31 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:31 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:31 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:31 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:31 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:31 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:31 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:31 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:31 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:31 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:31 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:31 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:31 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:31 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:31 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:31 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:31 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:31 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:31 2016 Attempting to load model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:31 2016 Parsing Model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:31 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:31 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:31 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:31 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:31 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:31 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:31 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:31 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:31 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:31 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:31 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:31 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:31 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:31 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:31 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:31 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:31 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:31 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:32 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:32 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:32 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:32 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:32 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:32 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:32 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:32 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:32 2016 Attempting to load model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:32 2016 Parsing Model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:32 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:32 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:32 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:32 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:32 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:32 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:32 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:32 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:32 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:32 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:32 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:32 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:32 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:32 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:32 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:32 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:32 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:32 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:32 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:32 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:32 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:32 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:32 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:32 2016 Attempting to load model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:32 2016 Parsing Model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:32 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:32 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:32 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:32 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:32 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:32 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:32 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:32 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:32 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:32 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:32 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:32 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:32 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:32 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:32 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:32 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:32 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:32 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:32 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:32 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:32 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:32 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:32 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
+INFO Wed Dec 14 18:19:32 2016 Attempting to load model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:32 2016 Parsing Model assets/models/wall.fbx
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/normalMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/normalMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/normalMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/normalMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:32 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:32 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:32 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:32 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:32 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:32 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:32 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:32 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_UNIFORMS = 12
+INFO Wed Dec 14 18:19:32 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:32 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:32 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:32 2016 Uniform 3 type: vec3 name: cameraPos location: 3
+INFO Wed Dec 14 18:19:32 2016 Uniform 4 type: vec4 name: directionLight.ambientColour location: 4
+INFO Wed Dec 14 18:19:32 2016 Uniform 5 type: vec4 name: directionLight.diffuseColour location: 5
+INFO Wed Dec 14 18:19:32 2016 Uniform 6 type: vec4 name: directionLight.specularColour location: 6
+INFO Wed Dec 14 18:19:32 2016 Uniform 7 type: vec3 name: directionLight.direction location: 7
+INFO Wed Dec 14 18:19:32 2016 Uniform 8 type: float name: specularPower location: 8
+INFO Wed Dec 14 18:19:32 2016 Uniform 9 type: sampler2D name: diffuseSampler location: 9
+INFO Wed Dec 14 18:19:32 2016 Uniform 10 type: sampler2D name: normalSampler location: 10
+INFO Wed Dec 14 18:19:32 2016 Uniform 11 type: sampler2D name: specularSampler location: 11
+INFO Wed Dec 14 18:19:32 2016 Attempting to load model assets/models/woodboard.fbx
+INFO Wed Dec 14 18:19:32 2016 Parsing Model assets/models/woodboard.fbx
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingVS.glsl
+INFO Wed Dec 14 18:19:32 2016 Loading File assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Loaded sucessfully assets/shaders/parallaxMappingFS.glsl
+INFO Wed Dec 14 18:19:32 2016 Shader Programme 2676816 info
+INFO Wed Dec 14 18:19:32 2016 GL_LINK_STATUS 1
+INFO Wed Dec 14 18:19:32 2016 GL_ATTACHED_SHADERS = 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_ATTRIBUTES = 6
+INFO Wed Dec 14 18:19:32 2016 Attribute 0 type: vec3 name: vertexBinormals location: 5
+INFO Wed Dec 14 18:19:32 2016 Attribute 1 type: vec4 name: vertexColours location: 1
+INFO Wed Dec 14 18:19:32 2016 Attribute 2 type: vec3 name: vertexNormal location: 3
+INFO Wed Dec 14 18:19:32 2016 Attribute 3 type: vec3 name: vertexPosition location: 0
+INFO Wed Dec 14 18:19:32 2016 Attribute 4 type: vec3 name: vertexTangents location: 4
+INFO Wed Dec 14 18:19:32 2016 Attribute 5 type: vec2 name: vertexTextureCoords location: 2
+INFO Wed Dec 14 18:19:32 2016 GL_ACTIVE_UNIFORMS = 15
+INFO Wed Dec 14 18:19:32 2016 Uniform 0 type: mat4 name: MVP location: 0
+INFO Wed Dec 14 18:19:32 2016 Uniform 1 type: mat4 name: Model location: 1
+INFO Wed Dec 14 18:19:32 2016 Uniform 2 type: vec4 name: ambientMaterialColour location: 2
+INFO Wed Dec 14 18:19:32 2016 Uniform 3 type: float name: bias location: 3
+INFO Wed Dec 14 18:19:32 2016 Uniform 4 type: vec3 name: cameraPos location: 4
+INFO Wed Dec 14 18:19:32 2016 Uniform 5 type: vec4 name: directionLight.ambientColour location: 5
+INFO Wed Dec 14 18:19:32 2016 Uniform 6 type: vec4 name: directionLight.diffuseColour location: 6
+INFO Wed Dec 14 18:19:32 2016 Uniform 7 type: vec4 name: directionLight.specularColour location: 7
+INFO Wed Dec 14 18:19:32 2016 Uniform 8 type: vec3 name: directionLight.direction location: 8
+INFO Wed Dec 14 18:19:32 2016 Uniform 9 type: float name: scale location: 9
+INFO Wed Dec 14 18:19:32 2016 Uniform 10 type: float name: specularPower location: 10
+INFO Wed Dec 14 18:19:32 2016 Uniform 11 type: sampler2D name: diffuseSampler location: 11
+INFO Wed Dec 14 18:19:32 2016 Uniform 12 type: sampler2D name: heightSampler location: 12
+INFO Wed Dec 14 18:19:32 2016 Uniform 13 type: sampler2D name: normalSampler location: 13
+INFO Wed Dec 14 18:19:32 2016 Uniform 14 type: sampler2D name: specularSampler location: 14
