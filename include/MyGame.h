@@ -14,7 +14,6 @@ public:
 	void initScene();
 	void destroyScene();
 	void onKeyDown(SDL_Keycode keyCode);
-	void SDL_GetMouseState(int, int);
 	
 private:
 	//matrices
