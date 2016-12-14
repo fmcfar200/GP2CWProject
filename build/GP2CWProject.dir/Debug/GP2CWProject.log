@@ -9,4 +9,12 @@ cl : Command line warning D9002: ignoring unknown option '/EH0'
 cl : Command line warning D9002: ignoring unknown option '/EHx'
 cl : Command line warning D9002: ignoring unknown option '-g'
   MyGame.cpp
+  main.cpp
+  Generating Code...
+  LINK : C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe not found or not built by the last incremental link; performing full link
+Utils.lib(Log.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(Log.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
+Utils.lib(clock.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(clock.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
+Utils.lib(ProgramOptions.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(ProgramOptions.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
+Utils.lib(CommandLineParser.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(CommandLineParser.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
+Utils.lib(XMLOptionsParser.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(XMLOptionsParser.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
   GP2CWProject.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe

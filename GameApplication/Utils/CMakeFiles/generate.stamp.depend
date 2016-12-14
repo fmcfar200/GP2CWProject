@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/Utils/CMakeLists.txt
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindTinyXML.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+C:/Users/David/Documents/GP2/GP2CWProject/cmake/FindSDL2.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindThreads.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/FindPackageMessage.cmake
+A:/GP2 Files/GP2 Software/share/cmake-3.7/Modules/CMakeParseArguments.cmake

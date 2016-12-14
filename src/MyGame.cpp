@@ -276,9 +276,11 @@ void MyGame::initScene()
 
 
 
+
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
 	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
+	//FirstMouse = true;
 
 	//lighting
 	m_Light = shared_ptr<Light>(new Light());
@@ -289,8 +291,11 @@ void MyGame::initScene()
 
 
 
+
 	
 }
+
+
 
 
 void MyGame::onKeyDown(SDL_Keycode keyCode)
@@ -322,7 +327,9 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 
 	if (keyCode == SDLK_DOWN)
 	{
+
 		m_ViewDirection.y += -movementSpeed*2;
+		m_ViewDirection.y += -movementSpeed;
 	}
 	else if (keyCode == SDLK_UP)
 	{
@@ -331,25 +338,19 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
-		m_ViewDirection.x += movementSpeed*2;
+		vec3 vVector = m_ViewDirection - m_CameraPosition;
+		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(0.1f)*vVector.x + cos(0.1f)*vVector.z);
+		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(0.1f)*vVector.x - sin(0.1f)*vVector.z);
 
 	}
 	else if (keyCode == SDLK_LEFT)
 	{
-		m_ViewDirection.x += -movementSpeed*2;
-
+		vec3 vVector = m_ViewDirection - m_CameraPosition;
+		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(-0.1f)*vVector.x + cos(-0.1f)*vVector.z);
+		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(-0.1f)*vVector.x - sin(-0.1f)*vVector.z);
 	}
 }
 
-/*
-void MyGame::mouseUpdate(const glm::vec2 & m_NewMousePosition)
-{
-	vec2 mouseDelta = m_NewMousePosition - m_OldMousePosition;
-	m_ViewDirection = mat3(rotate(mouseDelta.x, m_UP)) * m_ViewDirection;
-	m_OldMousePosition = m_NewMousePosition;
-	
-}
-*/
 
 void MyGame::destroyScene()
 {
@@ -367,7 +368,7 @@ void MyGame::destroyScene()
 void MyGame::update()
 {
 	GameApplication::update();
-
+	//SDL_GetMouseState(m_MouseXPos,m_MouseYPos);
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
 	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, m_UP);
 	//cycles through all game objects and updates
@@ -377,7 +378,6 @@ void MyGame::update()
 
 	}
 
-	//m_Light->Direction = m_ViewDirection;
 }
 
 void MyGame::render()
@@ -409,3 +409,4 @@ void MyGame::render()
 
 	
 }
+
