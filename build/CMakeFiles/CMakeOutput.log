@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:34.
+Build started 14/12/2016 15:41:55.
 Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.44
+Time Elapsed 00:00:00.41
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:34.
+Build started 14/12/2016 15:41:56.
 Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\3.7.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.45
+Time Elapsed 00:00:00.44
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,71 +92,71 @@ The CXX compiler identification is MSVC, found in "C:/Users/David/Documents/GP2/
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_16993.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_79c98.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:35.
-Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_16993.vcxproj" on node 1 (default targets).
+Build started 14/12/2016 15:41:57.
+Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_79c98.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_16993.dir\Debug\".
+  Creating directory "cmTC_79c98.dir\Debug\".
   Creating directory "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_16993.dir\Debug\cmTC_16993.tlog\".
+  Creating directory "cmTC_79c98.dir\Debug\cmTC_79c98.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_16993.dir\Debug\cmTC_16993.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_79c98.dir\Debug\cmTC_79c98.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16993.dir\Debug\\" /Fd"cmTC_16993.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79c98.dir\Debug\\" /Fd"cmTC_79c98.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16993.dir\Debug\\" /Fd"cmTC_16993.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79c98.dir\Debug\\" /Fd"cmTC_79c98.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
   
   testCCompiler.c
 Link:
-  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_16993.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_16993.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_16993.lib" /MACHINE:X64  /machine:x64 cmTC_16993.dir\Debug\testCCompiler.obj
-  cmTC_16993.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_16993.exe
+  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_79c98.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_79c98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_79c98.lib" /MACHINE:X64  /machine:x64 cmTC_79c98.dir\Debug\testCCompiler.obj
+  cmTC_79c98.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_79c98.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_16993.dir\Debug\cmTC_16993.tlog\unsuccessfulbuild".
-  Touching "cmTC_16993.dir\Debug\cmTC_16993.tlog\cmTC_16993.lastbuildstate".
-Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_16993.vcxproj" (default targets).
+  Deleting file "cmTC_79c98.dir\Debug\cmTC_79c98.tlog\unsuccessfulbuild".
+  Touching "cmTC_79c98.dir\Debug\cmTC_79c98.tlog\cmTC_79c98.lastbuildstate".
+Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_79c98.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.50
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f4872.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_de5eb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:36.
-Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_f4872.vcxproj" on node 1 (default targets).
+Build started 14/12/2016 15:41:57.
+Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_de5eb.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_f4872.dir\Debug\".
+  Creating directory "cmTC_de5eb.dir\Debug\".
   Creating directory "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_f4872.dir\Debug\cmTC_f4872.tlog\".
+  Creating directory "cmTC_de5eb.dir\Debug\cmTC_de5eb.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_f4872.dir\Debug\cmTC_f4872.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_de5eb.dir\Debug\cmTC_de5eb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4872.dir\Debug\\" /Fd"cmTC_f4872.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de5eb.dir\Debug\\" /Fd"cmTC_de5eb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4872.dir\Debug\\" /Fd"cmTC_f4872.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de5eb.dir\Debug\\" /Fd"cmTC_de5eb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_f4872.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_f4872.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_f4872.lib" /MACHINE:X64  /machine:x64 cmTC_f4872.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_f4872.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_f4872.exe
+  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_de5eb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_de5eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_de5eb.lib" /MACHINE:X64  /machine:x64 cmTC_de5eb.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_de5eb.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_de5eb.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_f4872.dir\Debug\cmTC_f4872.tlog\unsuccessfulbuild".
-  Touching "cmTC_f4872.dir\Debug\cmTC_f4872.tlog\cmTC_f4872.lastbuildstate".
-Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_f4872.vcxproj" (default targets).
+  Deleting file "cmTC_de5eb.dir\Debug\cmTC_de5eb.tlog\unsuccessfulbuild".
+  Touching "cmTC_de5eb.dir\Debug\cmTC_de5eb.tlog\cmTC_de5eb.lastbuildstate".
+Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_de5eb.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
@@ -168,77 +168,77 @@ Time Elapsed 00:00:00.50
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5f6c0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_36ac7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:36.
-Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_5f6c0.vcxproj" on node 1 (default targets).
+Build started 14/12/2016 15:41:58.
+Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_36ac7.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_5f6c0.dir\Debug\".
+  Creating directory "cmTC_36ac7.dir\Debug\".
   Creating directory "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_5f6c0.dir\Debug\cmTC_5f6c0.tlog\".
+  Creating directory "cmTC_36ac7.dir\Debug\cmTC_36ac7.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_5f6c0.dir\Debug\cmTC_5f6c0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_36ac7.dir\Debug\cmTC_36ac7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f6c0.dir\Debug\\" /Fd"cmTC_5f6c0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36ac7.dir\Debug\\" /Fd"cmTC_36ac7.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f6c0.dir\Debug\\" /Fd"cmTC_5f6c0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36ac7.dir\Debug\\" /Fd"cmTC_36ac7.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   
   testCXXCompiler.cxx
 Link:
-  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_5f6c0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_5f6c0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_5f6c0.lib" /MACHINE:X64  /machine:x64 cmTC_5f6c0.dir\Debug\testCXXCompiler.obj
-  cmTC_5f6c0.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_5f6c0.exe
+  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_36ac7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_36ac7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_36ac7.lib" /MACHINE:X64  /machine:x64 cmTC_36ac7.dir\Debug\testCXXCompiler.obj
+  cmTC_36ac7.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_36ac7.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_5f6c0.dir\Debug\cmTC_5f6c0.tlog\unsuccessfulbuild".
-  Touching "cmTC_5f6c0.dir\Debug\cmTC_5f6c0.tlog\cmTC_5f6c0.lastbuildstate".
-Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_5f6c0.vcxproj" (default targets).
+  Deleting file "cmTC_36ac7.dir\Debug\cmTC_36ac7.tlog\unsuccessfulbuild".
+  Touching "cmTC_36ac7.dir\Debug\cmTC_36ac7.tlog\cmTC_36ac7.lastbuildstate".
+Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_36ac7.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.52
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0ee9a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9c285.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:37.
-Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_0ee9a.vcxproj" on node 1 (default targets).
+Build started 14/12/2016 15:41:58.
+Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_9c285.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_0ee9a.dir\Debug\".
+  Creating directory "cmTC_9c285.dir\Debug\".
   Creating directory "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_0ee9a.dir\Debug\cmTC_0ee9a.tlog\".
+  Creating directory "cmTC_9c285.dir\Debug\cmTC_9c285.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_0ee9a.dir\Debug\cmTC_0ee9a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_9c285.dir\Debug\cmTC_9c285.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ee9a.dir\Debug\\" /Fd"cmTC_0ee9a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9c285.dir\Debug\\" /Fd"cmTC_9c285.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ee9a.dir\Debug\\" /Fd"cmTC_0ee9a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9c285.dir\Debug\\" /Fd"cmTC_9c285.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "A:\GP2 Files\GP2 Software\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_0ee9a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_0ee9a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_0ee9a.lib" /MACHINE:X64  /machine:x64 cmTC_0ee9a.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_0ee9a.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_0ee9a.exe
+  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_9c285.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c285.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_9c285.lib" /MACHINE:X64  /machine:x64 cmTC_9c285.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_9c285.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_9c285.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_0ee9a.dir\Debug\cmTC_0ee9a.tlog\unsuccessfulbuild".
-  Touching "cmTC_0ee9a.dir\Debug\cmTC_0ee9a.tlog\cmTC_0ee9a.lastbuildstate".
-Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_0ee9a.vcxproj" (default targets).
+  Deleting file "cmTC_9c285.dir\Debug\cmTC_9c285.tlog\unsuccessfulbuild".
+  Touching "cmTC_9c285.dir\Debug\cmTC_9c285.tlog\cmTC_9c285.lastbuildstate".
+Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_9c285.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.52
 
 
 
@@ -246,39 +246,39 @@ Time Elapsed 00:00:00.51
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9da2f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ce05b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 13/12/2016 18:05:38.
-Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_9da2f.vcxproj" on node 1 (default targets).
+Build started 14/12/2016 15:41:59.
+Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_ce05b.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_9da2f.dir\Debug\".
+  Creating directory "cmTC_ce05b.dir\Debug\".
   Creating directory "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_9da2f.dir\Debug\cmTC_9da2f.tlog\".
+  Creating directory "cmTC_ce05b.dir\Debug\cmTC_ce05b.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_9da2f.dir\Debug\cmTC_9da2f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_ce05b.dir\Debug\cmTC_ce05b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9da2f.dir\Debug\\" /Fd"cmTC_9da2f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\feature_tests.cxx
+  A:\Visual Studio Files\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ce05b.dir\Debug\\" /Fd"cmTC_ce05b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\feature_tests.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9da2f.dir\Debug\\" /Fd"cmTC_9da2f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ce05b.dir\Debug\\" /Fd"cmTC_ce05b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\feature_tests.cxx
   
   feature_tests.cxx
 Link:
-  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_9da2f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_9da2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_9da2f.lib" /MACHINE:X64  /machine:x64 cmTC_9da2f.dir\Debug\feature_tests.obj
-  cmTC_9da2f.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_9da2f.exe
+  A:\Visual Studio Files\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_ce05b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_ce05b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Documents/GP2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_ce05b.lib" /MACHINE:X64  /machine:x64 cmTC_ce05b.dir\Debug\feature_tests.obj
+  cmTC_ce05b.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_ce05b.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_9da2f.dir\Debug\cmTC_9da2f.tlog\unsuccessfulbuild".
-  Touching "cmTC_9da2f.dir\Debug\cmTC_9da2f.tlog\cmTC_9da2f.lastbuildstate".
-Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_9da2f.vcxproj" (default targets).
+  Deleting file "cmTC_ce05b.dir\Debug\cmTC_ce05b.tlog\unsuccessfulbuild".
+  Touching "cmTC_ce05b.dir\Debug\cmTC_ce05b.tlog\cmTC_ce05b.lastbuildstate".
+Done Building Project "C:\Users\David\Documents\GP2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_ce05b.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.52
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
