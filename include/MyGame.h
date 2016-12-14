@@ -21,7 +21,7 @@ private:
 	mat4 m_ProjMatrix;
 
 	vector<shared_ptr<GameObject>> m_GameObjects;
-	shared_ptr<Light> m_Light;
+	vector<shared_ptr<Light>> m_Lights;
 	vec4 m_AmbientLightColour;
 
 	float movementSpeed = 0.25f;

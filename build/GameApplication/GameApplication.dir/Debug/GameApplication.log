@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿  Building Custom Rule C:/Users/Fraser/Documents/GitHub/GP2CWProject/GameApplication/CMakeLists.txt
   CMake does not need to re-run because C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
 cl : Command line warning D9002: ignoring unknown option '/EH;'
@@ -28,6 +27,3 @@ C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.c
 C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
   GameApplication.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
-=======
-﻿  GameApplication.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
->>>>>>> refs/remotes/origin/Fraser-Adding-New-Models
