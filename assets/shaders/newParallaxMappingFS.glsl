@@ -60,7 +60,7 @@ void main()
 	vec2 correctedTexCoord = scale*vertexTextureCoordsOut.xy*height-bias;
 	correctedTexCoord = vertexTextureCoordsOut-correctedTexCoord;
 
-	vec3 bumpNormals = 2.0f*texture(normalSampler,correctedTexCoord).rgb-1.0f;
+	vec3 bumpNormals = 2.0f*texture(normalSampler,correctedTexCoord).xyz-1.0f;
 	bumpNormals = normalize(bumpNormals);
 	
 	//tangent matrix multiply gone

@@ -28,7 +28,7 @@ void MyGame::initScene()
 	string sword3Path = ASSET_PATH + MODEL_PATH + "/sword4.fbx";
 	string wallPath = ASSET_PATH + MODEL_PATH + "/wall.fbx";
 	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
-
+	string lanternPath = ASSET_PATH + MODEL_PATH + "/lantern.fbx";
 	
 
 
@@ -274,6 +274,17 @@ void MyGame::initScene()
 	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
+	//lantern
+	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(lanternPath));
+	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
+	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
+	m_TestGO->loadSpecularTexture(metalSpecTexPath);
+	m_TestGO->loadNormalTexture(metalBumpTexPath);
+	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
+	m_TestGO->setPosition(vec3(100, 100, -50));
+	m_TestGO->setRotation(vec3(4.75, 4.75, 0));
+	m_TestGO->setScale(vec3(1, 1, 1));
+	m_GameObjects.push_back(m_TestGO);
 
 
 	// Camera Set up
@@ -282,22 +293,14 @@ void MyGame::initScene()
 
 	//lighting
 	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
-	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_Light->DiffuseColour = vec4(2.5f, 1.7f, 1.1f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-	m_Light->position = vec3(0, 0, 0);
+	m_Light->position = vec3(100, 100, 50);
 	m_Light->constant = 1.0f;
 	m_Light->linear = 0.9f;
 	m_Light->quadratic = 0.032f;
 	m_Lights.push_back(m_Light);
 
-	m_Light = shared_ptr<Light>(new Light());
-	m_Light->DiffuseColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-	m_Light->position = vec3(100, 250.0f, 50);
-	m_Light->constant = 1.0f;
-	m_Light->linear = 0.9f;
-	m_Light->quadratic = 0.032f;
-	m_Lights.push_back(m_Light);
 
 	m_AmbientLightColour = vec4(0.2F,0.2F,0.2F, 1.0f);
 
