@@ -98,8 +98,9 @@ void MyGame::initScene()
 	string swd2HeightTexPath = ASSET_PATH + TEXTURE_PATH + "/sword2_D.png";
 
 	//sword3
-	string swd3DiffTexPath = ASSET_PATH + TEXTURE_PATH + "/sword4_C.png";
+	string swd3DiffTexPath = ASSET_PATH + TEXTURE_PATH + "/sword4_c.png";
 	string swd3SpecTexPath = ASSET_PATH + TEXTURE_PATH + "/sword4_S.png";
+	string swd3BumpTexPath = ASSET_PATH + TEXTURE_PATH + "/sword4_N.png";
 	string swd3HeightTexPath = ASSET_PATH + TEXTURE_PATH + "/sword4_D.png";
 
 	//wood board paths
@@ -176,8 +177,8 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(knifeSpecTexPath);
 	m_TestGO->loadNormalTexture(knifeBumpTexPath);
 	m_TestGO->loadHeightMapTexture(knifeHeightTexPath);
-	m_TestGO->setPosition(vec3(120, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
+	m_TestGO->setPosition(vec3(-110, 65.5, 10.0f));
+	m_TestGO->setRotation(vec3(0, 2, 0));
 	m_TestGO->setScale(vec3(0.5, 0.5, 0.5));
 	m_GameObjects.push_back(m_TestGO);
 
@@ -188,9 +189,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(swd1SpecTexPath);
 	m_TestGO->loadNormalTexture(swd1BumpTexPath);
 	m_TestGO->loadHeightMapTexture(swd1HeightTexPath);
-	m_TestGO->setPosition(vec3(150, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
-	m_TestGO->setScale(vec3(1, 1, 1));
+	m_TestGO->setPosition(vec3(-80, 40, -130));
+	m_TestGO->setRotation(vec3(0, 0, 1.5f));
+	m_TestGO->setScale(vec3(0.5, 0.5, 0.5));
 	m_GameObjects.push_back(m_TestGO);
 
 	//swords
@@ -200,7 +201,7 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(swd2SpecTexPath);
 	m_TestGO->loadNormalTexture(swd2BumpTexPath);
 	m_TestGO->loadHeightMapTexture(swd2HeightTexPath);
-	m_TestGO->setPosition(vec3(180, 10.0f, -80.0f));
+	m_TestGO->setPosition(vec3(100, 10.0f, -80.0f));
 	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
 	m_TestGO->setScale(vec3(0.25, 0.25, 0.25));
 	m_GameObjects.push_back(m_TestGO);
@@ -210,10 +211,11 @@ void MyGame::initScene()
 	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->loadDiffuseTexture(swd3DiffTexPath);
 	m_TestGO->loadSpecularTexture(swd3SpecTexPath);
+	m_TestGO->loadNormalTexture(swd3BumpTexPath);
 	m_TestGO->loadHeightMapTexture(swd3HeightTexPath);
-	m_TestGO->setPosition(vec3(210, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
-	m_TestGO->setScale(vec3(2, 2, 2));
+	m_TestGO->setPosition(vec3(-140, 100, -100));
+	m_TestGO->setRotation(vec3(92.7, 0, 1.5f));
+	m_TestGO->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	//walls
@@ -269,9 +271,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
 	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
-	m_TestGO->setPosition(vec3(-140, 50, -50));
+	m_TestGO->setPosition(vec3(-140, 50, -20));
 	m_TestGO->setRotation(vec3(3.3, 4.75, 0));
-	m_TestGO->setScale(vec3(1, 1, 1));
+	m_TestGO->setScale(vec3(1.5, 1.5, 1.5));
 	m_GameObjects.push_back(m_TestGO);
 
 	//lantern
