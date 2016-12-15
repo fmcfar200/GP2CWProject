@@ -6,6 +6,19 @@ const std::string MODEL_PATH = "/models";
 
 MyGame::MyGame()
 {
+	//m_CameraPosition = vec3(0.0f, 0.0f, 30.0f);
+	//m_CameraFront = vec3(0.0f, 0.0f, -1.0f);
+	m_CameraUp = vec3(0.0f, 10.0f, 0.0f);
+	cameraSpeed = 50.0f;
+
+	yaw = -90.0f;
+	pitch = 0.0f;
+	lastX = m_WindowWidth / 2;
+	lastY = m_WindowHeight / 2;
+	fov = radians(45.0f);
+
+	deltaTime = 0.0f;
+	lastFrame = 0.0f;
 
 }
 
@@ -289,11 +302,10 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 
 
-
 	// Camera Set up
 	m_CameraPosition = vec3(0.0f, 40, 10.0f);
-	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
-	//FirstMouse = true;
+	//m_CameraFront = vec3(0.0f, 0.0f, -10.0f);
+	m_CameraFront = vec3(0.0f, 140.0f, 200.0f);
 
 	//lighting
 	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
@@ -317,53 +329,67 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 	
 
 	//controls rotation of camera
-
 	if (keyCode == SDLK_w)
 	{
-		m_CameraPosition += movementSpeed * m_ViewDirection;
+		m_CameraPosition += normalize(m_CameraFront * cameraSpeed);
 
 	}
 	else if(keyCode == SDLK_s)
 	{
-		m_CameraPosition += -movementSpeed * m_ViewDirection;
+		m_CameraPosition -= normalize(m_CameraFront * cameraSpeed);
 
 	}
 	else if (keyCode == SDLK_a)
 	{
-		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
-		m_CameraPosition += -movementSpeed*m_StrafeDirection;
+		m_CameraPosition -= normalize(cross(m_CameraFront, m_CameraUp) * cameraSpeed);
 	}
 	else if (keyCode == SDLK_d)
 	{
-		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
-		m_CameraPosition += movementSpeed*m_StrafeDirection;
+		m_CameraPosition += normalize(cross(m_CameraFront, m_CameraUp) * cameraSpeed);
 
 	}
 
-	if (keyCode == SDLK_DOWN)
+}
+
+//move this into a camera/mouse class later
+void MyGame::MoveMouse()
+{
+	//SDL_SetRelativeMouseMode(SDL_TRUE);
+	GLfloat currentFrame = SDL_GetTicks();
+	deltaTime = currentFrame - lastFrame;
+	lastFrame = currentFrame;
+
+	cameraSpeed = 50.0f * deltaTime;
+
+	int xpos, ypos;
+	SDL_GetGlobalMouseState(&xpos, &ypos);
+
+	GLfloat xOffset = xpos - lastX;
+	GLfloat yOffset = lastY - ypos;
+	lastX = xpos;
+	lastY = ypos;
+
+	GLfloat sens = 0.20f;
+	xOffset *= sens;
+	yOffset *= sens;
+
+	yaw += xOffset;
+	pitch += yOffset;
+
+	if (pitch > 89.0f)
 	{
-
-		m_ViewDirection.y += -movementSpeed*2;
-		m_ViewDirection.y += -movementSpeed;
+		pitch = 89.0f;
 	}
-	else if (keyCode == SDLK_UP)
+	if (pitch < -89.0f)
 	{
-		m_ViewDirection.y += movementSpeed*2;
+		pitch = -89.0f;
+	}
 
-	}
-	else if (keyCode == SDLK_RIGHT)
-	{
-		vec3 vVector = m_ViewDirection - m_CameraPosition;
-		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(0.1f)*vVector.x + cos(0.1f)*vVector.z);
-		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(0.1f)*vVector.x - sin(0.1f)*vVector.z);
-
-	}
-	else if (keyCode == SDLK_LEFT)
-	{
-		vec3 vVector = m_ViewDirection - m_CameraPosition;
-		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(-0.1f)*vVector.x + cos(-0.1f)*vVector.z);
-		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(-0.1f)*vVector.x - sin(-0.1f)*vVector.z);
-	}
+	vec3 front;
+	front.x = cos(radians(yaw)) * cos(radians(pitch));
+	front.y = sin(radians(pitch));
+	front.z = sin(radians(yaw)) * cos(radians(pitch));
+	m_CameraFront = normalize(front);
 }
 
 
@@ -384,9 +410,11 @@ void MyGame::destroyScene()
 void MyGame::update()
 {
 	GameApplication::update();
-	//SDL_GetMouseState(m_MouseXPos,m_MouseYPos);
+
+	MoveMouse();
+	SDL_PumpEvents();
 	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
-	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, m_UP);
+	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_CameraFront, m_CameraUp);
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{

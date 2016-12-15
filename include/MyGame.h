@@ -14,6 +14,7 @@ public:
 	void initScene();
 	void destroyScene();
 	void onKeyDown(SDL_Keycode keyCode);
+	void MoveMouse();
 	
 private:
 	//matrices
@@ -24,14 +25,20 @@ private:
 	vector<shared_ptr<Light>> m_Lights;
 	vec4 m_AmbientLightColour;
 
-	float movementSpeed = 0.25f;
-
-	//Camera
+	//Camera control and mouse movement (Jack's code)
 	vec3 m_CameraPosition;
-	vec3 m_ViewDirection;
-	vec3 m_UP = vec3(0.0,1.0,0.0);
-	vec3 m_Direction;
-	int m_MouseXPos ;
-	int m_MouseYPos ;
+	vec3 m_CameraTarget;
+	vec3 m_CameraDirection;
+	vec3 m_CameraFront;
+	vec3 m_CameraUp;
+	GLfloat cameraSpeed;
+
+	GLfloat yaw;
+	GLfloat pitch;
+	GLfloat lastX;
+	GLfloat lastY;
+	GLfloat fov;
+	GLfloat deltaTime;
+	GLfloat lastFrame;
 };
 #endif
