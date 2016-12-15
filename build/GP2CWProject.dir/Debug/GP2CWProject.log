@@ -12,6 +12,11 @@ cl : Command line warning D9002: ignoring unknown option '-g'
   main.cpp
   Generating Code...
   LINK : C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe not found or not built by the last incremental link; performing full link
+GameApplication.lib(GameApplication.obj) : warning LNK4099: PDB 'GameApplication.pdb' was not found with 'GameApplication.lib(GameApplication.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GameApplication.pdb'; linking object as if no debug info
+GameApplication.lib(Shader.obj) : warning LNK4099: PDB 'GameApplication.pdb' was not found with 'GameApplication.lib(Shader.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GameApplication.pdb'; linking object as if no debug info
+GameApplication.lib(Texture.obj) : warning LNK4099: PDB 'GameApplication.pdb' was not found with 'GameApplication.lib(Texture.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GameApplication.pdb'; linking object as if no debug info
+GameApplication.lib(GameObject.obj) : warning LNK4099: PDB 'GameApplication.pdb' was not found with 'GameApplication.lib(GameObject.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GameApplication.pdb'; linking object as if no debug info
+GameApplication.lib(ModelLoading.obj) : warning LNK4099: PDB 'GameApplication.pdb' was not found with 'GameApplication.lib(ModelLoading.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GameApplication.pdb'; linking object as if no debug info
 Utils.lib(Log.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(Log.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
 Utils.lib(clock.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(clock.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info
 Utils.lib(ProgramOptions.obj) : warning LNK4099: PDB 'Utils.pdb' was not found with 'Utils.lib(ProgramOptions.obj)' or at 'C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\Utils.pdb'; linking object as if no debug info

@@ -30,13 +30,8 @@ private:
 	vec3 m_CameraPosition;
 	vec3 m_ViewDirection;
 	vec3 m_UP = vec3(0.0,1.0,0.0);
-<<<<<<< HEAD
 	vec3 m_Direction;
 	int m_MouseXPos ;
 	int m_MouseYPos ;
-
-
-=======
->>>>>>> refs/remotes/origin/Fraser-PointLight
 };
 #endif

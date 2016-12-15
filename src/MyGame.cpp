@@ -112,11 +112,7 @@ void MyGame::initScene()
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
-<<<<<<< HEAD
-	m_TestGO->loadShaders(parallaxMappingVSPath, parallaxMappingFSPath);
-=======
 	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
->>>>>>> refs/remotes/origin/Fraser-PointLight
 	m_TestGO->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
@@ -256,11 +252,7 @@ void MyGame::initScene()
 
 	//floors
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
-<<<<<<< HEAD
-	m_TestGO->loadShaders(normalMappingVSPath, normalMappingFSPath);
-=======
 	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
->>>>>>> refs/remotes/origin/Fraser-PointLight
 	m_TestGO->loadDiffuseTexture(brickDiffTexPath);
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
@@ -305,18 +297,11 @@ void MyGame::initScene()
 	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(2.5f, 1.7f, 1.1f, 1.0f);
 	m_Light->SpecularColour = vec4(1.0f, 1.0f, 1.0f, 1.0f);
-<<<<<<< HEAD
-	m_Light->Direction = vec3(0.0f, 0.0f, -10.0f);
-	m_AmbientLightColour = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-
-=======
 	m_Light->position = vec3(100, 100, 50);
 	m_Light->constant = 1.0f;
 	m_Light->linear = 0.9f;
 	m_Light->quadratic = 0.032f;
 	m_Lights.push_back(m_Light);
->>>>>>> refs/remotes/origin/Fraser-PointLight
-
 
 	m_AmbientLightColour = vec4(0.2F,0.2F,0.2F, 1.0f);
 
