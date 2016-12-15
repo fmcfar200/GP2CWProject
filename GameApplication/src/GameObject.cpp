@@ -30,7 +30,7 @@ GameObject::GameObject()
 	m_AmbientMaterialColour=vec4(0.2f,0.2f,0.2f,1.0f);
 	m_DiffuseMaterialColour=vec4(0.5f,0.5f,0.5f,1.0f);
 	m_SpecularMaterialColour=vec4(1.0f,1.0f,1.0f,1.0f);
-	m_SpecularMaterialPower=25.0f;
+	m_SpecularMaterialPower=50.0f;
 }
 
 GameObject::~GameObject()
@@ -158,7 +158,7 @@ void GameObject::loadDiffuseTexture(const string & filename)
 
 	glGenSamplers(1, &m_Sampler);
 	glSamplerParameteri(m_Sampler, GL_TEXTURE_MIN_FILTER, GL_NEAREST_MIPMAP_LINEAR);
-	glSamplerParameteri(m_Sampler, GL_TEXTURE_MAG_FILTER, GL_NEAREST_MIPMAP_LINEAR);
+	glSamplerParameteri(m_Sampler, GL_TEXTURE_MAG_FILTER, GL_NEAREST_MIPMAP_NEAREST);
 	glSamplerParameteri(m_Sampler, GL_TEXTURE_WRAP_S, GL_REPEAT);
 	glSamplerParameteri(m_Sampler, GL_TEXTURE_WRAP_T, GL_REPEAT);
 
@@ -223,6 +223,8 @@ void GameObject::copyVertexData(Vertex * pVertex, int numberOfVertices, int * pI
 	glBindVertexArray(m_VAO);
 	glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_EBO);
+
+
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex),
 		NULL);

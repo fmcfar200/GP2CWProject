@@ -21,7 +21,7 @@ private:
 	mat4 m_ProjMatrix;
 
 	vector<shared_ptr<GameObject>> m_GameObjects;
-	shared_ptr<Light> m_Light;
+	vector<shared_ptr<Light>> m_Lights;
 	vec4 m_AmbientLightColour;
 
 	float movementSpeed = 0.25f;
@@ -30,10 +30,13 @@ private:
 	vec3 m_CameraPosition;
 	vec3 m_ViewDirection;
 	vec3 m_UP = vec3(0.0,1.0,0.0);
+<<<<<<< HEAD
 	vec3 m_Direction;
 	int m_MouseXPos ;
 	int m_MouseYPos ;
 
 
+=======
+>>>>>>> refs/remotes/origin/Fraser-PointLight
 };
 #endif
