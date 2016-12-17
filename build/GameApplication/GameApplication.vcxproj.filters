@@ -19,6 +19,9 @@
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\PostProcessBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\PostProcessEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\Common.h">
@@ -46,6 +49,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\PostProcessBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\PostProcessEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
