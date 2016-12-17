@@ -1,4 +1,4 @@
-﻿Build started 17/12/2016 22:36:07.
+﻿Build started 17/12/2016 22:31:01.
      1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GP2CWProject.vcxproj" on node 2 (Rebuild target(s)).
      1>PreBuildEvent:
          setlocal
@@ -62,4 +62,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.27
+Time Elapsed 00:00:02.89

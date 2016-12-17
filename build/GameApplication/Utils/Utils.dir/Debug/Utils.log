@@ -1,4 +1,4 @@
-﻿Build started 17/12/2016 22:35:59.
+﻿Build started 17/12/2016 22:30:54.
      1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" on node 2 (Rebuild target(s)).
      1>CustomBuild:
          Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt
@@ -40,4 +40,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.32
+Time Elapsed 00:00:02.25
