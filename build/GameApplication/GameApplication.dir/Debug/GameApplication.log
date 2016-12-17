@@ -1,10 +1,10 @@
-﻿Build started 15/12/2016 16:36:16.
-     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\GameApplication.vcxproj" on node 2 (Build target(s)).
+﻿Build started 17/12/2016 22:30:56.
+     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\GameApplication.vcxproj" on node 2 (Rebuild target(s)).
      1>CustomBuild:
          Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/CMakeLists.txt
          CMake does not need to re-run because E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
        ClCompile:
-         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\GameApplication" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include" /I"E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include" /I"E:\Jack\Documents\GP2 Software\tinyxml2\include" /I"E:\Jack\Documents\GP2 Software\glm" /I"E:\Jack\Documents\GP2 Software\glew-2.0.0\include" /I"E:\Jack\Documents\GP2 Software\SDL2_image-2.0.1\include" /I"E:\Jack\Documents\GP2 Software\SDL2_ttf-2.0.14\include" /I"E:\Jack\Documents\GP2 Software\assimp\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"GameApplication.dir\Debug\\" /Fd"GameApplication.dir\Debug\GameApplication.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -g "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\GameApplication.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Shader.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Texture.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\GameObject.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ModelLoading.cpp"
+         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\GameApplication" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include" /I"E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include" /I"E:\Jack\Documents\GP2 Software\tinyxml2\include" /I"E:\Jack\Documents\GP2 Software\glm" /I"E:\Jack\Documents\GP2 Software\glew-2.0.0\include" /I"E:\Jack\Documents\GP2 Software\SDL2_image-2.0.1\include" /I"E:\Jack\Documents\GP2 Software\SDL2_ttf-2.0.14\include" /I"E:\Jack\Documents\GP2 Software\assimp\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"GameApplication.dir\Debug\\" /Fd"GameApplication.dir\Debug\GameApplication.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -g "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\GameApplication.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Shader.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Texture.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\GameObject.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ModelLoading.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\PostProcessBuffer.cpp"
      1>cl : Command line warning D9002: ignoring unknown option '/EH;'
      1>cl : Command line warning D9002: ignoring unknown option '/EH-'
      1>cl : Command line warning D9002: ignoring unknown option '/EHt'
@@ -30,6 +30,7 @@
      1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ModelLoading.cpp(30): warning C4018: '<': signed/unsigned mismatch
      1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ModelLoading.cpp(49): warning C4018: '<': signed/unsigned mismatch
      1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+         PostProcessBuffer.cpp
          Generating Code...
        Lib:
          E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Debug\GameApplication.lib" /NOLOGO /MACHINE:X64  /machine:x64 GameApplication.dir\Debug\GameApplication.obj
@@ -37,9 +38,10 @@
          GameApplication.dir\Debug\Texture.obj
          GameApplication.dir\Debug\GameObject.obj
          GameApplication.dir\Debug\ModelLoading.obj
+         GameApplication.dir\Debug\PostProcessBuffer.obj
          GameApplication.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
-     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\GameApplication.vcxproj" (Build target(s)).
+     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\GameApplication.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.72
+Time Elapsed 00:00:04.50
