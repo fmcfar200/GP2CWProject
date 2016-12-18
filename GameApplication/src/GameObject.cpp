@@ -2,15 +2,7 @@
 
 GameObject::GameObject()
 {
-	m_Position = vec3(0.0f, 0.0f, 0.0f);
-	m_Rotation = vec3(0.0f, 0.0f, 0.0f);
-	m_Scale = vec3(1.0f, 1.0f, 1.0f);
-
-	m_ModelMatrix = mat4(1.0f);
-	m_TranslationMatrix = mat4(1.0f);
-	m_ScaleMatrix = mat4(1.0f);
-
-	m_RotationMatrix = mat4(1.0f);
+	shared_ptr<Transform> transform = shared_ptr<Transform>(new Transform());
 
 	m_VBO=0;
 	m_EBO=0;
@@ -48,6 +40,16 @@ void GameObject::onBeginRender()
 
 void GameObject::onUpdate()
 {
+	for (auto &gameObject : m_ChildrenGameObjects)
+	{
+		gameObject->onUpdate();
+	}
+
+	for (auto &component : m_Components)
+	{
+		component->onUpdate();
+	}
+
 	m_RotationMatrix=eulerAngleYXZ(m_Rotation.y,m_Rotation.x,m_Rotation.z);
 
 	m_ScaleMatrix = scale(m_Scale);
@@ -57,12 +59,13 @@ void GameObject::onUpdate()
 	m_ModelMatrix = m_TranslationMatrix*m_RotationMatrix*m_ScaleMatrix;
 	if (m_pParent)
 	{
-		m_ModelMatrix *= m_pParent->getModelMatrix();
+		//m_ModelMatrix *= m_pParent->getModelMatrix();
 	}
 }
 
 void GameObject::onRender(mat4& view, mat4& projection)
 {
+	
 	
 
 	GLint MVPLocation = glGetUniformLocation(m_ShaderProgram, "MVP");
@@ -123,11 +126,33 @@ void GameObject::onRender(mat4& view, mat4& projection)
 
 void GameObject::onInit()
 {
+	for (auto &gameObject : m_ChildrenGameObjects)
+	{
+		gameObject->onInit();
+	}
 
+	for (auto &component : m_Components)
+	{
+		component->onInit();
+	}
 }
 
 void GameObject::onDestroy()
 {
+
+	for (auto &gameObject : m_ChildrenGameObjects)
+	{
+		gameObject->onDestroy();
+	}
+
+	for (auto &component : m_Components)
+	{
+		component->onDestroy();
+	}
+	m_ChildrenGameObjects.clear();
+	m_Components.clear();
+
+
 	glDeleteVertexArrays(1, &m_VAO);
 	glDeleteBuffers(1, &m_EBO);
 	glDeleteBuffers(1, &m_VBO);
@@ -139,16 +164,18 @@ void GameObject::onDestroy()
 	glDeleteProgram(m_ShaderProgram);
 }
 
+void GameObject::addComponent(shared_ptr<Component> component)
+{
+	component->setParent(this);
+	m_Components.push_back(component);
+}
+
 void GameObject::addChild(shared_ptr<GameObject> gameobject)
 {
-	gameobject->m_pParent = this;
 	m_ChildrenGameObjects.push_back(gameobject);
 }
 
-void GameObject::rotate(const vec3 & delta)
-{
-	m_Rotation += delta;
-}
+
 
 void GameObject::loadDiffuseTexture(const string & filename)
 {

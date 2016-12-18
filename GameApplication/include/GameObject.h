@@ -5,6 +5,8 @@
 #include "Vertex.h"
 #include "Texture.h"
 #include "Shader.h"
+#include "Transform.h"
+#include "Component.h"
 
 class GameObject
 {
@@ -19,44 +21,22 @@ public:
 	void onInit();
 	void onDestroy();
 
+	void addComponent(shared_ptr<Component> component);
 	void addChild(shared_ptr<GameObject> gameobject);
 
-	mat4& getModelMatrix()
+	template<class type>
+	type * getComponent()
 	{
-		return m_ModelMatrix;
-	}
-
-	void setPosition(const vec3& pos)
-	{
-		m_Position = pos;
+		type * c = nullptr;
+		for (auto component : m_Components)
+		{
+			c = dynamic_cast<type*>(component.get());
+			if (c != nullptr)
+				return c;
+		}
+		return c;
 	};
-
-	void setRotation(const vec3& rot)
-	{
-		m_Rotation = rot;
-	};
-
-	void setScale(const vec3& scale)
-	{
-		m_Scale = scale;
-	};
-
-	vec3& getPosition()
-	{
-		return m_Position;
-	};
-
-	vec3& getRotation()
-	{
-		return m_Rotation;
-	};
-
-	vec3& getScale()
-	{
-		return m_Scale;
-	};
-
-	void rotate(const vec3& delta);
+	
 
 	void loadDiffuseTexture(const string& filename);
 	void loadSpecularTexture(const string& filename);
@@ -89,9 +69,16 @@ public:
 	{
 		m_SpecularMaterialPower = power;
 	};
+
+
+
+	Transform * getTransform() { return m_Transform; };
+
 private:
 	GameObject * m_pParent;
 	vector<shared_ptr<GameObject> > m_ChildrenGameObjects;
+	vector<shared_ptr<Component> > m_Components;
+	Transform * m_Transform;
 
 	vec3 m_Position;
 	vec3 m_Rotation;
