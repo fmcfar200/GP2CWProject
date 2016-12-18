@@ -2,6 +2,9 @@
 #define _MyGame_H
 
 #include "GameApplication.h"
+#include "PostProcessBuffer.h"
+#include "PostProcessEffect.h"
+#include "ScreenQuad.h"
 
 class MyGame:public GameApplication
 {
@@ -40,5 +43,10 @@ private:
 	GLfloat fov;
 	GLfloat deltaTime;
 	GLfloat lastFrame;
+
+	//Post Processing
+	shared_ptr<PostProcessBuffer> m_PostProcessBuffer;
+	shared_ptr<PostProcessEffect> m_PostProcessEffect;
+	shared_ptr<ScreenQuad> m_ScreenQuad;
 };
 #endif

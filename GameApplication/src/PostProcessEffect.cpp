@@ -1,7 +1,7 @@
 #include "PostProcessEffect.h"
 #include "Shader.h"
 
-const string postProcessVSShaderCode =
+/*const string postProcessVSShaderCode =
 "#version 410\n"
 "\n"
 "layout(location=0) in vec2 vertexPosition;\n"
@@ -12,7 +12,7 @@ const string postProcessVSShaderCode =
 "{\n"
 "	textureCoords = (vertexPosition + 1.0) / 2.0;\n"
 "	gl_Position = vec4(vertexPosition, 0.0, 1.0);\n"
-"}\n";
+"}\n";*/
 
 PostProcessEffect::PostProcessEffect()
 {
@@ -23,9 +23,9 @@ PostProcessEffect::~PostProcessEffect()
 {
 }
 
-bool PostProcessEffect::loadShader(const string & FSFilename)
+bool PostProcessEffect::loadShader(const string & FSFilename, const string & VSFilename)
 {
-	GLuint vertexShaderProgram = loadShaderFromMemory(postProcessVSShaderCode.c_str(), VERTEX_SHADER);
+	GLuint vertexShaderProgram = loadShaderFromFile(VSFilename, VERTEX_SHADER);
 	GLuint fragmentShaderProgram = loadShaderFromFile(FSFilename, FRAGMENT_SHADER);
 
 	m_ShaderProgram = glCreateProgram();
@@ -34,7 +34,6 @@ bool PostProcessEffect::loadShader(const string & FSFilename)
 	glLinkProgram(m_ShaderProgram);
 	checkForLinkErrors(m_ShaderProgram);
 
-	//now we can delete the VS & FS Programs
 	glDeleteShader(vertexShaderProgram);
 	glDeleteShader(fragmentShaderProgram);
 

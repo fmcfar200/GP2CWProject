@@ -275,6 +275,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\Light.h" />
     <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\PostProcessBuffer.h" />
     <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\PostProcessEffect.h" />
+    <ClInclude Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include\ScreenQuad.h" />
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\GameApplication.cpp"  />
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Shader.cpp"  />
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Texture.cpp"  />
@@ -282,6 +283,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ModelLoading.cpp"  />
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\PostProcessBuffer.cpp"  />
     <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\PostProcessEffect.cpp"  />
+    <ClCompile Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\ScreenQuad.cpp"  />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/ZERO_CHECK.vcxproj">

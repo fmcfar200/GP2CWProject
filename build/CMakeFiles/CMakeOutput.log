@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:35.
+Build started 17/12/2016 22:42:39.
 Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:35.
+Build started 17/12/2016 22:42:39.
 Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.45
+Time Elapsed 00:00:00.46
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,153 +92,153 @@ The CXX compiler identification is MSVC, found in "E:/Jack/Documents/Uni Work/3r
 Determining if the C compiler works passed with the following output:
 Change Dir: E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0bb0e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1bea5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:36.
-Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_0bb0e.vcxproj" on node 1 (default targets).
+Build started 17/12/2016 22:42:40.
+Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_1bea5.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_0bb0e.dir\Debug\".
+  Creating directory "cmTC_1bea5.dir\Debug\".
   Creating directory "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_0bb0e.dir\Debug\cmTC_0bb0e.tlog\".
+  Creating directory "cmTC_1bea5.dir\Debug\cmTC_1bea5.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_0bb0e.dir\Debug\cmTC_0bb0e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_1bea5.dir\Debug\cmTC_1bea5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bb0e.dir\Debug\\" /Fd"cmTC_0bb0e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1bea5.dir\Debug\\" /Fd"cmTC_1bea5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bb0e.dir\Debug\\" /Fd"cmTC_0bb0e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1bea5.dir\Debug\\" /Fd"cmTC_1bea5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c"
   
   testCCompiler.c
 Link:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_0bb0e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_0bb0e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_0bb0e.lib" /MACHINE:X64  /machine:x64 cmTC_0bb0e.dir\Debug\testCCompiler.obj
-  cmTC_0bb0e.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_0bb0e.exe
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_1bea5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_1bea5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_1bea5.lib" /MACHINE:X64  /machine:x64 cmTC_1bea5.dir\Debug\testCCompiler.obj
+  cmTC_1bea5.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_1bea5.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_0bb0e.dir\Debug\cmTC_0bb0e.tlog\unsuccessfulbuild".
-  Touching "cmTC_0bb0e.dir\Debug\cmTC_0bb0e.tlog\cmTC_0bb0e.lastbuildstate".
-Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_0bb0e.vcxproj" (default targets).
+  Deleting file "cmTC_1bea5.dir\Debug\cmTC_1bea5.tlog\unsuccessfulbuild".
+  Touching "cmTC_1bea5.dir\Debug\cmTC_1bea5.tlog\cmTC_1bea5.lastbuildstate".
+Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_1bea5.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.74
+Time Elapsed 00:00:00.55
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_386ac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_78cb8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:37.
-Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_386ac.vcxproj" on node 1 (default targets).
+Build started 17/12/2016 22:42:41.
+Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_78cb8.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_386ac.dir\Debug\".
+  Creating directory "cmTC_78cb8.dir\Debug\".
   Creating directory "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_386ac.dir\Debug\cmTC_386ac.tlog\".
+  Creating directory "cmTC_78cb8.dir\Debug\cmTC_78cb8.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_386ac.dir\Debug\cmTC_386ac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_78cb8.dir\Debug\cmTC_78cb8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_386ac.dir\Debug\\" /Fd"cmTC_386ac.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78cb8.dir\Debug\\" /Fd"cmTC_78cb8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_386ac.dir\Debug\\" /Fd"cmTC_386ac.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78cb8.dir\Debug\\" /Fd"cmTC_78cb8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_386ac.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_386ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_386ac.lib" /MACHINE:X64  /machine:x64 cmTC_386ac.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_386ac.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_386ac.exe
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_78cb8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_78cb8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_78cb8.lib" /MACHINE:X64  /machine:x64 cmTC_78cb8.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_78cb8.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_78cb8.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_386ac.dir\Debug\cmTC_386ac.tlog\unsuccessfulbuild".
-  Touching "cmTC_386ac.dir\Debug\cmTC_386ac.tlog\cmTC_386ac.lastbuildstate".
-Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_386ac.vcxproj" (default targets).
+  Deleting file "cmTC_78cb8.dir\Debug\cmTC_78cb8.tlog\unsuccessfulbuild".
+  Touching "cmTC_78cb8.dir\Debug\cmTC_78cb8.tlog\cmTC_78cb8.lastbuildstate".
+Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_78cb8.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.49
+Time Elapsed 00:00:00.55
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_24301.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_eebc2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:38.
-Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_24301.vcxproj" on node 1 (default targets).
+Build started 17/12/2016 22:42:41.
+Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_eebc2.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_24301.dir\Debug\".
+  Creating directory "cmTC_eebc2.dir\Debug\".
   Creating directory "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_24301.dir\Debug\cmTC_24301.tlog\".
+  Creating directory "cmTC_eebc2.dir\Debug\cmTC_eebc2.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_24301.dir\Debug\cmTC_24301.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_eebc2.dir\Debug\cmTC_eebc2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24301.dir\Debug\\" /Fd"cmTC_24301.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eebc2.dir\Debug\\" /Fd"cmTC_eebc2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24301.dir\Debug\\" /Fd"cmTC_24301.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eebc2.dir\Debug\\" /Fd"cmTC_eebc2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   
   testCXXCompiler.cxx
 Link:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_24301.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_24301.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_24301.lib" /MACHINE:X64  /machine:x64 cmTC_24301.dir\Debug\testCXXCompiler.obj
-  cmTC_24301.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_24301.exe
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_eebc2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_eebc2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_eebc2.lib" /MACHINE:X64  /machine:x64 cmTC_eebc2.dir\Debug\testCXXCompiler.obj
+  cmTC_eebc2.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_eebc2.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_24301.dir\Debug\cmTC_24301.tlog\unsuccessfulbuild".
-  Touching "cmTC_24301.dir\Debug\cmTC_24301.tlog\cmTC_24301.lastbuildstate".
-Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_24301.vcxproj" (default targets).
+  Deleting file "cmTC_eebc2.dir\Debug\cmTC_eebc2.tlog\unsuccessfulbuild".
+  Touching "cmTC_eebc2.dir\Debug\cmTC_eebc2.tlog\cmTC_eebc2.lastbuildstate".
+Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_eebc2.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.52
+Time Elapsed 00:00:00.51
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6141a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_267cf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:38.
-Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_6141a.vcxproj" on node 1 (default targets).
+Build started 17/12/2016 22:42:42.
+Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_267cf.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_6141a.dir\Debug\".
+  Creating directory "cmTC_267cf.dir\Debug\".
   Creating directory "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_6141a.dir\Debug\cmTC_6141a.tlog\".
+  Creating directory "cmTC_267cf.dir\Debug\cmTC_267cf.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_6141a.dir\Debug\cmTC_6141a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_267cf.dir\Debug\cmTC_267cf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6141a.dir\Debug\\" /Fd"cmTC_6141a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_267cf.dir\Debug\\" /Fd"cmTC_267cf.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6141a.dir\Debug\\" /Fd"cmTC_6141a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_267cf.dir\Debug\\" /Fd"cmTC_267cf.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_6141a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_6141a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_6141a.lib" /MACHINE:X64  /machine:x64 cmTC_6141a.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_6141a.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_6141a.exe
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_267cf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_267cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_267cf.lib" /MACHINE:X64  /machine:x64 cmTC_267cf.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_267cf.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_267cf.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_6141a.dir\Debug\cmTC_6141a.tlog\unsuccessfulbuild".
-  Touching "cmTC_6141a.dir\Debug\cmTC_6141a.tlog\cmTC_6141a.lastbuildstate".
-Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_6141a.vcxproj" (default targets).
+  Deleting file "cmTC_267cf.dir\Debug\cmTC_267cf.tlog\unsuccessfulbuild".
+  Touching "cmTC_267cf.dir\Debug\cmTC_267cf.tlog\cmTC_267cf.lastbuildstate".
+Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_267cf.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.58
+Time Elapsed 00:00:00.50
 
 
 
@@ -246,39 +246,39 @@ Time Elapsed 00:00:00.58
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_229b0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7ab6a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.23107.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 17/12/2016 22:02:39.
-Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_229b0.vcxproj" on node 1 (default targets).
+Build started 17/12/2016 22:42:43.
+Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_7ab6a.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_229b0.dir\Debug\".
+  Creating directory "cmTC_7ab6a.dir\Debug\".
   Creating directory "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_229b0.dir\Debug\cmTC_229b0.tlog\".
+  Creating directory "cmTC_7ab6a.dir\Debug\cmTC_7ab6a.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_229b0.dir\Debug\cmTC_229b0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_7ab6a.dir\Debug\cmTC_7ab6a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_229b0.dir\Debug\\" /Fd"cmTC_229b0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\feature_tests.cxx"
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7ab6a.dir\Debug\\" /Fd"cmTC_7ab6a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\feature_tests.cxx"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_229b0.dir\Debug\\" /Fd"cmTC_229b0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\feature_tests.cxx"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7ab6a.dir\Debug\\" /Fd"cmTC_7ab6a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\feature_tests.cxx"
   
   feature_tests.cxx
 Link:
-  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_229b0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_229b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_229b0.lib" /MACHINE:X64  /machine:x64 cmTC_229b0.dir\Debug\feature_tests.obj
-  cmTC_229b0.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_229b0.exe
+  E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_7ab6a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_7ab6a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_7ab6a.lib" /MACHINE:X64  /machine:x64 cmTC_7ab6a.dir\Debug\feature_tests.obj
+  cmTC_7ab6a.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_7ab6a.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_229b0.dir\Debug\cmTC_229b0.tlog\unsuccessfulbuild".
-  Touching "cmTC_229b0.dir\Debug\cmTC_229b0.tlog\cmTC_229b0.lastbuildstate".
-Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_229b0.vcxproj" (default targets).
+  Deleting file "cmTC_7ab6a.dir\Debug\cmTC_7ab6a.tlog\unsuccessfulbuild".
+  Touching "cmTC_7ab6a.dir\Debug\cmTC_7ab6a.tlog\cmTC_7ab6a.lastbuildstate".
+Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_7ab6a.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.48
+Time Elapsed 00:00:00.50
 
 
     Feature record: CXX_FEATURE:1cxx_alias_templates
