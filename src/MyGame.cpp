@@ -119,9 +119,9 @@ void MyGame::initScene()
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
 	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
 	//set scale and positions (Anivl)
-	m_TestGO->setPosition(vec3(-80, -0, -130));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
-	m_TestGO->setScale(vec3(1,1,1));
+	m_TestGO->getTransform()->setPosition(vec3(-80, -0, -130));
+	m_TestGO->getTransform()->setRotation(vec3(92.7, 0, -5.0f));
+	m_TestGO->getTransform()->setScale(vec3(1,1,1));
 	m_GameObjects.push_back(m_TestGO);
 
 	/*
@@ -153,9 +153,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(axe2SpecTexPath);
 	m_TestGO->loadNormalTexture(axe2BumpTexPath);
 	m_TestGO->loadHeightMapTexture(axe2HeightTexPath);
-	m_TestGO->setPosition(vec3(-20, 100, -190));
-	m_TestGO->setRotation(vec3(92.7, 1.8, -5.0f));
-	m_TestGO->setScale(vec3(50, 50, 50));
+	m_TestGO->getTransform()->setPosition(vec3(-20, 100, -190));
+	m_TestGO->getTransform()->setRotation(vec3(92.7, 1.8, -5.0f));
+	m_TestGO->getTransform()->setScale(vec3(50, 50, 50));
 	m_GameObjects.push_back(m_TestGO);
 
 	//shield
@@ -165,9 +165,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(shieldSpecTexPath);
 	m_TestGO->loadNormalTexture(shieldBumpTexPath);
 	m_TestGO->loadHeightMapTexture(shieldHeightTexPath);
-	m_TestGO->setPosition(vec3(-20, 100, -180));
-	m_TestGO->setRotation(vec3(92.7, 4.9, -5.0f));
-	m_TestGO->setScale(vec3(1, 1, 1));
+	m_TestGO->getTransform()->setPosition(vec3(-20, 100, -180));
+	m_TestGO->getTransform()->setRotation(vec3(92.7, 4.9, -5.0f));
+	m_TestGO->getTransform()->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	//knife
@@ -177,9 +177,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(knifeSpecTexPath);
 	m_TestGO->loadNormalTexture(knifeBumpTexPath);
 	m_TestGO->loadHeightMapTexture(knifeHeightTexPath);
-	m_TestGO->setPosition(vec3(-110, 65.5, 10.0f));
-	m_TestGO->setRotation(vec3(0, 2, 0));
-	m_TestGO->setScale(vec3(0.5, 0.5, 0.5));
+	m_TestGO->getTransform()->setPosition(vec3(-110, 65.5, 10.0f));
+	m_TestGO->getTransform()->setRotation(vec3(0, 2, 0));
+	m_TestGO->getTransform()->setScale(vec3(0.5, 0.5, 0.5));
 	m_GameObjects.push_back(m_TestGO);
 
 	//swords
@@ -189,9 +189,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(swd1SpecTexPath);
 	m_TestGO->loadNormalTexture(swd1BumpTexPath);
 	m_TestGO->loadHeightMapTexture(swd1HeightTexPath);
-	m_TestGO->setPosition(vec3(-80, 40, -130));
-	m_TestGO->setRotation(vec3(0, 0, 1.5f));
-	m_TestGO->setScale(vec3(0.5, 0.5, 0.5));
+	m_TestGO->getTransform()->setPosition(vec3(-80, 40, -130));
+	m_TestGO->getTransform()->setRotation(vec3(0, 0, 1.5f));
+	m_TestGO->getTransform()->setScale(vec3(0.5, 0.5, 0.5));
 	m_GameObjects.push_back(m_TestGO);
 
 	//swords
@@ -201,9 +201,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(swd2SpecTexPath);
 	m_TestGO->loadNormalTexture(swd2BumpTexPath);
 	m_TestGO->loadHeightMapTexture(swd2HeightTexPath);
-	m_TestGO->setPosition(vec3(100, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
-	m_TestGO->setScale(vec3(0.25, 0.25, 0.25));
+	m_TestGO->getTransform()->setPosition(vec3(100, 10.0f, -80.0f));
+	m_TestGO->getTransform()->setRotation(vec3(92.7, 0, -5.0f));
+	m_TestGO->getTransform()->setScale(vec3(0.25, 0.25, 0.25));
 	m_GameObjects.push_back(m_TestGO);
 
 	//swords
@@ -213,9 +213,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(swd3SpecTexPath);
 	m_TestGO->loadNormalTexture(swd3BumpTexPath);
 	m_TestGO->loadHeightMapTexture(swd3HeightTexPath);
-	m_TestGO->setPosition(vec3(-140, 100, -100));
-	m_TestGO->setRotation(vec3(92.7, 0, 1.5f));
-	m_TestGO->setScale(vec3(1, 1, 1));
+	m_TestGO->getTransform()->setPosition(vec3(-140, 100, -100));
+	m_TestGO->getTransform()->setRotation(vec3(92.7, 0, 1.5f));
+	m_TestGO->getTransform()->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	//walls
@@ -225,9 +225,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(-20, 0, -200));
-	m_TestGO->setRotation(vec3(0, 0, -0));
-	m_TestGO->setScale(vec3(0.5, 1, 1));
+	m_TestGO->getTransform()->setPosition(vec3(-20, 0, -200));
+	m_TestGO->getTransform()->setRotation(vec3(0, 0, -0));
+	m_TestGO->getTransform()->setScale(vec3(0.5, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
@@ -236,9 +236,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(-150, 0, -50));
-	m_TestGO->setRotation(vec3(0, 4.75, -0));
-	m_TestGO->setScale(vec3(0.5, 1, 1));
+	m_TestGO->getTransform()->setPosition(vec3(-150, 0, -50));
+	m_TestGO->getTransform()->setRotation(vec3(0, 4.75, -0));
+	m_TestGO->getTransform()->setScale(vec3(0.5, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(wallPath));
@@ -247,9 +247,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(120, 0, -50));
-	m_TestGO->setRotation(vec3(0, 4.75, -0));
-	m_TestGO->setScale(vec3(0.5, 1, 1));
+	m_TestGO->getTransform()->setPosition(vec3(120, 0, -50));
+	m_TestGO->getTransform()->setRotation(vec3(0, 4.75, -0));
+	m_TestGO->getTransform()->setScale(vec3(0.5, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	//floors
@@ -259,9 +259,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(brickSpecTexPath);
 	m_TestGO->loadNormalTexture(brickBumpTexPath);
 	m_TestGO->loadHeightMapTexture(brickHeightTexPath);
-	m_TestGO->setPosition(vec3(-150, 0, -50));
-	m_TestGO->setRotation(vec3(4.7, 4.75, 0));
-	m_TestGO->setScale(vec3(0.5, 1.5, 1));
+	m_TestGO->getTransform()->setPosition(vec3(-150, 0, -50));
+	m_TestGO->getTransform()->setRotation(vec3(4.7, 4.75, 0));
+	m_TestGO->getTransform()->setScale(vec3(0.5, 1.5, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 	//shelf
@@ -271,9 +271,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(woodSpecTexPath);
 	m_TestGO->loadNormalTexture(woodBumpTexPath);
 	m_TestGO->loadHeightMapTexture(woodHeightTexPath);
-	m_TestGO->setPosition(vec3(-140, 50, -20));
-	m_TestGO->setRotation(vec3(3.3, 4.75, 0));
-	m_TestGO->setScale(vec3(1.5, 1.5, 1.5));
+	m_TestGO->getTransform()->setPosition(vec3(-140, 50, -20));
+	m_TestGO->getTransform()->setRotation(vec3(3.3, 4.75, 0));
+	m_TestGO->getTransform()->setScale(vec3(1.5, 1.5, 1.5));
 	m_GameObjects.push_back(m_TestGO);
 
 	//lantern
@@ -283,9 +283,9 @@ void MyGame::initScene()
 	m_TestGO->loadSpecularTexture(metalSpecTexPath);
 	m_TestGO->loadNormalTexture(metalBumpTexPath);
 	m_TestGO->loadHeightMapTexture(metalHeightTexPath);
-	m_TestGO->setPosition(vec3(100, 100, -50));
-	m_TestGO->setRotation(vec3(4.75, 4.75, 0));
-	m_TestGO->setScale(vec3(1, 1, 1));
+	m_TestGO->getTransform()->setPosition(vec3(100, 100, -50));
+	m_TestGO->getTransform()->setRotation(vec3(4.75, 4.75, 0));
+	m_TestGO->getTransform()->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
 

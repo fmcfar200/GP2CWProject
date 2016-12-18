@@ -2,7 +2,9 @@
 
 GameObject::GameObject()
 {
-	shared_ptr<Transform> transform = shared_ptr<Transform>(new Transform());
+	shared_ptr<Transform> transformComponent = shared_ptr<Transform>(new Transform());
+	addComponent(transformComponent);
+	m_Transform = transformComponent.get();
 
 	m_VBO=0;
 	m_EBO=0;
@@ -50,17 +52,7 @@ void GameObject::onUpdate()
 		component->onUpdate();
 	}
 
-	m_RotationMatrix=eulerAngleYXZ(m_Rotation.y,m_Rotation.x,m_Rotation.z);
-
-	m_ScaleMatrix = scale(m_Scale);
-
-	m_TranslationMatrix = translate(m_Position);
-
-	m_ModelMatrix = m_TranslationMatrix*m_RotationMatrix*m_ScaleMatrix;
-	if (m_pParent)
-	{
-		//m_ModelMatrix *= m_pParent->getModelMatrix();
-	}
+	
 }
 
 void GameObject::onRender(mat4& view, mat4& projection)
@@ -69,11 +61,11 @@ void GameObject::onRender(mat4& view, mat4& projection)
 	
 
 	GLint MVPLocation = glGetUniformLocation(m_ShaderProgram, "MVP");
-	mat4 MVP = projection*view*m_ModelMatrix;
+	mat4 MVP = projection*view*getTransform()->getModelMatrix();
 	glUniformMatrix4fv(MVPLocation, 1, GL_FALSE, glm::value_ptr(MVP));
 
 	GLint ModelLocation = glGetUniformLocation(m_ShaderProgram, "Model");
-	glUniformMatrix4fv(ModelLocation, 1, GL_FALSE, glm::value_ptr(m_ModelMatrix));
+	glUniformMatrix4fv(ModelLocation, 1, GL_FALSE, glm::value_ptr(getTransform()->getModelMatrix()));
 
 	glBindSampler(0, m_Sampler);
 	glActiveTexture(GL_TEXTURE0);

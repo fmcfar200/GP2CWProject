@@ -25,4 +25,20 @@ void Transform::onUpdate()
 {
 	m_ScaleMatrix = scale(m_Scale);
 	m_TranslationMatrix = translate(m_Position);
+
+	m_RotationMatrix = eulerAngleYXZ(m_Rotation.y, m_Rotation.x, m_Rotation.z);
+
+	m_ScaleMatrix = scale(m_Scale);
+
+	m_TranslationMatrix = translate(m_Position);
+
+	m_ModelMatrix = m_TranslationMatrix*m_RotationMatrix*m_ScaleMatrix;
+	
+	
 }
+
+mat4 & Transform::getModelMatrix()
+{
+	return m_ModelMatrix;
+}
+

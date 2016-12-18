@@ -2,9 +2,9 @@
 #define _TRANSFORM_H
 
 #include "Common.h"
+#include "Component.h"
 
-
-class Transform
+class Transform :public BaseComponent
 {
 public:
 	Transform();
@@ -12,10 +12,8 @@ public:
 	void onUpdate();
 
 
-	mat4& getModelMatrix()
-	{
-		return m_ModelMatrix;
-	}
+	mat4& getModelMatrix();
+	
 
 	void setPosition(const vec3& pos)
 	{
