@@ -15,58 +15,85 @@ Camera::~Camera()
 {
 }
 
-void Camera::onKeyDown(SDL_Keycode keyCode)
+void Camera::setCameraPosition(const vec3 & pos)
 {
-	//controls rotation of camera
+	m_CameraPosition = pos;
 
-	if (keyCode == SDLK_w)
-	{
-		m_CameraPosition += movementSpeed * m_ViewDirection;
+}
+void Camera::setViewDirection(const vec3& viewDir)
+{
+	m_ViewDirection = viewDir;
+}
 
-	}
-	else if (keyCode == SDLK_s)
-	{
-		m_CameraPosition += -movementSpeed * m_ViewDirection;
+vec3& Camera::getCameraPos()
+{
+	return m_CameraPosition;
+}
+vec3& Camera::getCameraViewDirection()
+{
+	return m_ViewDirection;
+}
+vec3& Camera::getUP()
+{
+	return m_UP;
+}
 
-	}
-	else if (keyCode == SDLK_a)
-	{
-		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
-		m_CameraPosition += -movementSpeed*m_StrafeDirection;
-	}
-	else if (keyCode == SDLK_d)
-	{
-		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
-		m_CameraPosition += movementSpeed*m_StrafeDirection;
 
-	}
 
-	if (keyCode == SDLK_DOWN)
-	{
 
-		m_ViewDirection.y += -movementSpeed * 2;
-		m_ViewDirection.y += -movementSpeed;
-	}
-	else if (keyCode == SDLK_UP)
-	{
-		m_ViewDirection.y += movementSpeed * 2;
 
-	}
-	else if (keyCode == SDLK_RIGHT)
-	{
-		vec3 vVector = m_ViewDirection - m_CameraPosition;
-		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(0.1f)*vVector.x + cos(0.1f)*vVector.z);
-		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(0.1f)*vVector.x - sin(0.1f)*vVector.z);
 
-	}
-	else if (keyCode == SDLK_LEFT)
-	{
-		vec3 vVector = m_ViewDirection - m_CameraPosition;
-		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(-0.1f)*vVector.x + cos(-0.1f)*vVector.z);
-		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(-0.1f)*vVector.x - sin(-0.1f)*vVector.z);
-	}
+
+
+void Camera::MoveForward()
+{
+	m_CameraPosition += movementSpeed * m_ViewDirection;
+}
+
+void Camera::MoveBackwards()
+{
+	m_CameraPosition += -movementSpeed * m_ViewDirection;
+}
+
+void Camera::MoveLeft()
+{
+	vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
+	m_CameraPosition += -movementSpeed*m_StrafeDirection;
+}
+
+void Camera::MoveRight()
+{
+	vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
+	m_CameraPosition += movementSpeed*m_StrafeDirection;
+}
+
+void Camera::LookUp()
+{
+	m_ViewDirection.y += movementSpeed * 2;
+}
+
+void Camera::LookDown()
+{
+	m_ViewDirection.y += -movementSpeed * 2;
+}
+
+void Camera::LookLeft()
+{
+	vec3 vVector = m_ViewDirection - m_CameraPosition;
+	m_ViewDirection.z = (float)(m_CameraPosition.z + sin(-0.1f)*vVector.x + cos(-0.1f)*vVector.z);
+	m_ViewDirection.x = (float)(m_CameraPosition.x + cos(-0.1f)*vVector.x - sin(-0.1f)*vVector.z);
+}
+
+void Camera::LookRight()
+{
+	vec3 vVector = m_ViewDirection - m_CameraPosition;
+	m_ViewDirection.z = (float)(m_CameraPosition.z + sin(0.1f)*vVector.x + cos(0.1f)*vVector.z);
+	m_ViewDirection.x = (float)(m_CameraPosition.x + cos(0.1f)*vVector.x - sin(0.1f)*vVector.z);
+
 }
 
 void Camera::OnUpdate()
 {
 }
+
+

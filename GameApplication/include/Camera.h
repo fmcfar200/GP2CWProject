@@ -10,33 +10,26 @@ class Camera
 public:
 	Camera();
 	~Camera();
-	void onKeyDown(SDL_Keycode keyCode);
+	void MoveForward();
+	void MoveBackwards();
+	void MoveLeft();
+	void MoveRight();
+	void LookUp();
+	void LookDown();
+	void LookLeft();
+	void LookRight();
 
 	void OnUpdate();
 
-	vec3& getCameraPos()
-	{
-		return m_CameraPosition;
-	};
-	vec3& getCameraViewDirection()
-	{
-		return m_ViewDirection;
-	};
-	vec3& getUP()
-	{
-		return m_UP;
-	};
+	void setCameraPosition(const vec3& pos);
 
+	void setViewDirection(const vec3 & viewDir);
 
-	void setCameraPosition(const vec3& pos)
-	{
-		m_CameraPosition = pos;
-	};
+	vec3 & getCameraPos();
 
-	void setViewDirection(const vec3& viewDir)
-	{
-		m_ViewDirection = viewDir;
-	};
+	vec3 & getCameraViewDirection();
+
+	vec3 & getUP();
 
 private:
 	//Camera

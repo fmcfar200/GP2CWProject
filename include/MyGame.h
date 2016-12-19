@@ -13,7 +13,9 @@ public:
 	void update();
 	void initScene();
 	void destroyScene();
-	
+
+	void onKeyDown(SDL_Keycode keyCode);
+
 private:
 	
 	shared_ptr<Camera> m_Camera;

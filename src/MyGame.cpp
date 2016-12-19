@@ -288,7 +288,9 @@ void MyGame::initScene()
 	m_TestGO->getTransform()->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
 
-
+	m_Camera = shared_ptr<Camera>(new Camera());
+	m_Camera->setCameraPosition(vec3(0, 40, -10));
+	m_Camera->setViewDirection(vec3(0, 0, -10));
 	//lighting
 	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(2.5f, 1.7f, 1.1f, 1.0f);
@@ -303,7 +305,55 @@ void MyGame::initScene()
 
 }
 
+void MyGame::onKeyDown(SDL_Keycode keyCode)
+{
+	//controls rotation of camera
 
+	if (keyCode == SDLK_w)
+	{
+		m_Camera->MoveForward();
+
+	}
+	else if (keyCode == SDLK_s)
+	{
+		m_Camera->MoveBackwards();
+
+	}
+	else if (keyCode == SDLK_a)
+	{
+		m_Camera->MoveLeft();
+
+	}
+	else if (keyCode == SDLK_d)
+	{
+		m_Camera->MoveRight();
+
+
+	}
+
+	if (keyCode == SDLK_DOWN)
+	{
+		m_Camera->LookDown();
+
+
+	}
+	else if (keyCode == SDLK_UP)
+	{
+
+		m_Camera->LookUp();
+
+	}
+	else if (keyCode == SDLK_RIGHT)
+	{
+		m_Camera->LookRight();
+
+	}
+	else if (keyCode == SDLK_LEFT)
+	{
+		m_Camera->LookLeft();
+
+	}
+}
 
 
 
