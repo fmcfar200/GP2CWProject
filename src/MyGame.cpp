@@ -289,12 +289,6 @@ void MyGame::initScene()
 	m_GameObjects.push_back(m_TestGO);
 
 
-
-	// Camera Set up
-	m_CameraPosition = vec3(0.0f, 40, 10.0f);
-	m_ViewDirection = vec3(0.0f, 0.0f, -10.0f);
-	//FirstMouse = true;
-
 	//lighting
 	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(2.5f, 1.7f, 1.1f, 1.0f);
@@ -312,59 +306,7 @@ void MyGame::initScene()
 
 
 
-void MyGame::onKeyDown(SDL_Keycode keyCode)
-{
-	
 
-	//controls rotation of camera
-
-	if (keyCode == SDLK_w)
-	{
-		m_CameraPosition += movementSpeed * m_ViewDirection;
-
-	}
-	else if(keyCode == SDLK_s)
-	{
-		m_CameraPosition += -movementSpeed * m_ViewDirection;
-
-	}
-	else if (keyCode == SDLK_a)
-	{
-		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
-		m_CameraPosition += -movementSpeed*m_StrafeDirection;
-	}
-	else if (keyCode == SDLK_d)
-	{
-		vec3 m_StrafeDirection = cross(m_ViewDirection, m_UP);
-		m_CameraPosition += movementSpeed*m_StrafeDirection;
-
-	}
-
-	if (keyCode == SDLK_DOWN)
-	{
-
-		m_ViewDirection.y += -movementSpeed*2;
-		m_ViewDirection.y += -movementSpeed;
-	}
-	else if (keyCode == SDLK_UP)
-	{
-		m_ViewDirection.y += movementSpeed*2;
-
-	}
-	else if (keyCode == SDLK_RIGHT)
-	{
-		vec3 vVector = m_ViewDirection - m_CameraPosition;
-		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(0.1f)*vVector.x + cos(0.1f)*vVector.z);
-		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(0.1f)*vVector.x - sin(0.1f)*vVector.z);
-
-	}
-	else if (keyCode == SDLK_LEFT)
-	{
-		vec3 vVector = m_ViewDirection - m_CameraPosition;
-		m_ViewDirection.z = (float)(m_CameraPosition.z + sin(-0.1f)*vVector.x + cos(-0.1f)*vVector.z);
-		m_ViewDirection.x = (float)(m_CameraPosition.x + cos(-0.1f)*vVector.x - sin(-0.1f)*vVector.z);
-	}
-}
 
 
 void MyGame::destroyScene()
@@ -384,14 +326,18 @@ void MyGame::destroyScene()
 void MyGame::update()
 {
 	GameApplication::update();
-	m_ProjMatrix = perspective(radians(45.0f), (float)m_WindowWidth / (float)m_WindowHeight, 0.1f, 1000.0f);
-	m_ViewMatrix = lookAt(m_CameraPosition, m_CameraPosition + m_ViewDirection, m_UP);
+	
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{
 		object->onUpdate();
 
 	}
+
+	m_ProjMatrix = perspective(radians(45.0f), (float)getWindowWidth() / (float)getWindowHeight(), 0.1f, 1000.0f);
+	m_ViewMatrix = (lookAt(m_Camera->getCameraPos(), m_Camera->getCameraPos() + m_Camera->getCameraViewDirection(), m_Camera->getUP()));
+	
+	
 
 }
 
@@ -418,7 +364,7 @@ void MyGame::render()
 		glUniform4fv(specularLightColourLocation, 1, value_ptr(lights->SpecularColour));
 
 		GLint cameraPositionLocation = glGetUniformLocation(currentShader, "cameraPos");
-		glUniform3fv(cameraPositionLocation, 1, value_ptr(m_CameraPosition));
+		glUniform3fv(cameraPositionLocation, 1, value_ptr(m_Camera->getCameraPos()));
 
 		
 		}
