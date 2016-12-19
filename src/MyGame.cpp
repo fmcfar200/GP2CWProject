@@ -43,10 +43,9 @@ void MyGame::initScene()
 	string woodBoardPath = ASSET_PATH + MODEL_PATH + "/woodboard.fbx";
 	string lanternPath = ASSET_PATH + MODEL_PATH + "/lantern.fbx";
 
-	string fsSimplePostFileName = ASSET_PATH + SHADER_PATH + "/simplePostProcessFS.glsl";
-	string fsPostFileName = ASSET_PATH + SHADER_PATH + "/postProcessingInversionFS.glsl";
-
-	string vsPostFileName = ASSET_PATH + SHADER_PATH + "/postProcessVS.glsl";
+	string fsPostFileName = ASSET_PATH + SHADER_PATH + "/simplePostProcessFS.glsl";
+	string vsPostFileName = ASSET_PATH + SHADER_PATH + "/simplePostProcessVS.glsl";
+	string fsTest = ASSET_PATH + SHADER_PATH + "/postProcessingInversionFS.glsl";
 
 	//light texture vs and fs path
 	string lightTextureVSPath = ASSET_PATH + SHADER_PATH + "/lightTextureVS.glsl";
@@ -322,21 +321,21 @@ void MyGame::initScene()
 
 	m_AmbientLightColour = vec4(0.2F,0.2F,0.2F, 1.0f);
 
-	m_PostProcessBuffer = shared_ptr<PostProcessBuffer>(new PostProcessBuffer());
-	m_PostProcessBuffer->create(m_WindowWidth, m_WindowWidth);
+	m_PostBuffer = shared_ptr<PostProcessBuffer>(new PostProcessBuffer);
+	m_PostBuffer->create(m_WindowWidth, m_WindowHeight);
 
-	m_ScreenQuad = shared_ptr<ScreenQuad>(new ScreenQuad());
+	m_ScreenQuad = shared_ptr<ScreenQuad>(new ScreenQuad);
 	m_ScreenQuad->create();
 
-	m_PostProcessEffect = shared_ptr<PostProcessEffect>(new PostProcessEffect());
-	m_PostProcessEffect->loadShader(fsSimplePostFileName, vsPostFileName);
+	m_PostEffect = shared_ptr<PostProcessEffect>(new PostProcessEffect);
+	m_PostEffect->loadShader(fsPostFileName, vsPostFileName);
+
 
 }
 
 
 void MyGame::onKeyDown(SDL_Keycode keyCode)
 {
-	
 
 	//controls rotation of camera
 	if (keyCode == SDLK_w)
@@ -407,6 +406,10 @@ void MyGame::destroyScene()
 {
 	GameApplication::destroyScene();
 
+	m_PostEffect->destroy();
+	m_ScreenQuad->destroy();
+	m_PostBuffer->destroy();
+
 	//cycles through all game objects and destroys
 	for (auto& object : m_GameObjects)
 	{
@@ -417,11 +420,6 @@ void MyGame::destroyScene()
 	//clears the list
 	m_GameObjects.clear();
 	m_Lights.clear();
-
-	m_PostProcessEffect->destroy();
-	m_ScreenQuad->destroy();
-	m_PostProcessBuffer->destroy();
-
 }
 
 void MyGame::update()
@@ -444,9 +442,7 @@ void MyGame::update()
 void MyGame::render()
 {
 	GameApplication::render();
-
-	m_PostProcessBuffer->bind();
-
+	//m_PostBuffer->bind();
 	for (auto& object : m_GameObjects)
 	{
 		object->onBeginRender();
@@ -471,21 +467,10 @@ void MyGame::render()
 		
 		}
 		object->onRender(m_ViewMatrix, m_ProjMatrix);
+
 	}
-
-	m_PostProcessBuffer->unbind();
-
-	m_PostProcessEffect->bind();
-
-	GLuint currentShader = m_PostProcessEffect->getShaderProgram();
-
-	GLuint textureLocation = glGetUniformLocation(currentShader, "texture0");
-	glActiveTexture(GL_TEXTURE0);
-	glBindTexture(GL_TEXTURE_2D, m_PostProcessBuffer->GetTexture());
-	glUniform1i(textureLocation, 0);
-
+	//m_PostBuffer->unbind();
 	m_ScreenQuad->render();
 
-	
 }
 

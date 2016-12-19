@@ -1,6 +1,5 @@
-﻿Build started 18/12/2016 00:09:15.
+﻿Build started 18/12/2016 20:23:28.
      1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" on node 2 (Rebuild target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'e:\jack\documents\uni work\3rd year\games programming 2\gp2cwproject\build\gameapplication\utils\utils.dir\debug\programoptions.obj' because it is being used by another process.
      1>CustomBuild:
          Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt
          CMake does not need to re-run because E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp is up-to-date.
@@ -41,4 +40,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.27
+Time Elapsed 00:00:02.49

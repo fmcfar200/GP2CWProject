@@ -17,13 +17,14 @@ public:
 
 	GLuint GetTexture()
 	{
-		return m_Texture;
-	};
+		return texColourBuffer;
+	}
+
 private:
 	GLuint m_Texture;
-	GLuint m_Sampler;
-	GLuint m_DepthBuffer;
-	GLuint m_Framebuffer;
+	GLuint texColourBuffer;
+	GLuint m_RBO;
+	GLuint m_FBO;
 };
 
 #endif

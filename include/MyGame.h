@@ -45,8 +45,9 @@ private:
 	GLfloat lastFrame;
 
 	//Post Processing
-	shared_ptr<PostProcessBuffer> m_PostProcessBuffer;
-	shared_ptr<PostProcessEffect> m_PostProcessEffect;
+	shared_ptr<PostProcessBuffer> m_PostBuffer;
+	shared_ptr<PostProcessEffect> m_PostEffect;
 	shared_ptr<ScreenQuad> m_ScreenQuad;
+
 };
 #endif

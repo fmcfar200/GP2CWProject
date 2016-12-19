@@ -1,4 +1,4 @@
-#include "ScreenQuad.h"
+ #include "ScreenQuad.h"
 
 ScreenQuad::ScreenQuad()
 {
@@ -22,7 +22,7 @@ void ScreenQuad::create()
 
 	glGenBuffers(1, &m_VBO);
 	glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
-	glBufferData(GL_ARRAY_BUFFER, 8 * sizeof(float), vertices, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(float), vertices, GL_STATIC_DRAW);  //8 * sizeof(float)
 
 	glGenVertexArrays(1, &m_VAO);
 	glBindVertexArray(m_VAO);
@@ -37,6 +37,8 @@ void ScreenQuad::render()
 	glClear(GL_COLOR_BUFFER_BIT);
 	glBindVertexArray(m_VAO);
 	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+	//glDrawArrays(GL_TRIANGLES, 0, 6);
+	glBindVertexArray(0);
 }
 
 void ScreenQuad::destroy()
