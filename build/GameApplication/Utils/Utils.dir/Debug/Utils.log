@@ -1,1 +1,9 @@
-﻿  Utils.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib
+﻿Build started 18-Dec-16 6:47:13 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         Utils.vcxproj -> C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

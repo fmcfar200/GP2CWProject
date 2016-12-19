@@ -1,4 +1,5 @@
-﻿  Checking Build System
-  CMake does not need to re-run because C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/GameApplication/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/GameApplication/Utils/CMakeFiles/generate.stamp is up-to-date.
+﻿Build started 18-Dec-16 6:46:43 PM.
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

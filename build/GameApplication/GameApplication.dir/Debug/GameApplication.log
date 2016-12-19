@@ -1,1 +1,45 @@
-﻿  GameApplication.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
+﻿Build started 18-Dec-16 6:52:39 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\GameApplication.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VisualStudio\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\GameApplication /IC:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\include /IC:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\include /I"C:\Users\Steven\Desktop\GP2 Software\SDL2-2.0.4\include" /I"C:\Users\Steven\Desktop\GP2 Software\tinyxml2\include" /I"C:\Users\Steven\Desktop\GP2 Software\glm" /I"C:\Users\Steven\Desktop\GP2 Software\glew-2.0.0\include" /I"C:\Users\Steven\Desktop\GP2 Software\SDL2_image-2.0.1\include" /I"C:\Users\Steven\Desktop\GP2 Software\SDL2_ttf-2.0.14\include" /I"C:\Users\Steven\Desktop\GP2 Software\assimp\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"GameApplication.dir\Debug\\" /Fd"GameApplication.dir\Debug\GameApplication.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -g Shadows.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '/EH;'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH-'
+     1>cl : Command line warning D9002: ignoring unknown option '/EHt'
+     1>cl : Command line warning D9002: ignoring unknown option '/EHd'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH='
+     1>cl : Command line warning D9002: ignoring unknown option '/EH+'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH+'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH0'
+     1>cl : Command line warning D9002: ignoring unknown option '/EHx'
+     1>cl : Command line warning D9002: ignoring unknown option '-g'
+         Shadows.cpp
+     1>Shadows.cpp(21): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>Shadows.cpp(21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>Shadows.cpp(23): warning C4305: '=': truncation from 'double' to 'GLfloat'
+     1>Shadows.cpp(25): warning C4305: '=': truncation from 'double' to 'GLfloat'
+     1>Shadows.cpp(27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>Shadows.cpp(91): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+     1>Shadows.cpp(108): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>Shadows.cpp(112): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(113): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(114): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(115): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(122): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(123): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(125): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>Shadows.cpp(132): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(133): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>Shadows.cpp(135): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+       Lib:
+         D:\VisualStudio\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Debug\GameApplication.lib" /NOLOGO /MACHINE:X64  /machine:x64 GameApplication.dir\Debug\Shadows.obj
+         GameApplication.dir\Debug\GameApplication.obj
+         GameApplication.dir\Debug\Shader.obj
+         GameApplication.dir\Debug\Texture.obj
+         GameApplication.dir\Debug\GameObject.obj
+         GameApplication.dir\Debug\ModelLoading.obj
+         GameApplication.vcxproj -> C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\GameApplication.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.97
