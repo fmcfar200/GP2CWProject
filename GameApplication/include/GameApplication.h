@@ -6,7 +6,6 @@
 #include "Texture.h"
 #include "Vertex.h"
 #include "ModelLoading.h"
-
 #include "GameObject.h"
 #include "Light.h"
 
@@ -52,6 +51,16 @@ public:
 
 	void createWindow(const string& windowTitle,const unsigned int width, const unsigned int height, const unsigned int windowFlags=0);
 	void initGraphics();
+
+	unsigned int& getWindowWidth()
+	{
+		return m_WindowWidth;
+	}
+	unsigned int& getWindowHeight()
+	{
+		return m_WindowHeight;
+	}
+
 protected:
 	//SDL Windows
 	SDL_Window * m_pWindow;

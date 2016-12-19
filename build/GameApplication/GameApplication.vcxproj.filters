@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\GameApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -18,7 +30,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Transform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\GameApplication.h">
@@ -40,6 +58,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\include\Component.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

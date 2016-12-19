@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:03.
+Build started 19/12/2016 16:14:07.
 Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.97
+Time Elapsed 00:00:01.14
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:04.
+Build started 19/12/2016 16:14:08.
 Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\3.7.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:00.78
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,153 +92,153 @@ The CXX compiler identification is MSVC, found in "C:/Users/Fraser/Documents/Git
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_162a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_61d2d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:05.
-Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_162a9.vcxproj" on node 1 (default targets).
+Build started 19/12/2016 16:14:09.
+Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_61d2d.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_162a9.dir\Debug\".
+  Creating directory "cmTC_61d2d.dir\Debug\".
   Creating directory "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_162a9.dir\Debug\cmTC_162a9.tlog\".
+  Creating directory "cmTC_61d2d.dir\Debug\cmTC_61d2d.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_162a9.dir\Debug\cmTC_162a9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_61d2d.dir\Debug\cmTC_61d2d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_162a9.dir\Debug\\" /Fd"cmTC_162a9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61d2d.dir\Debug\\" /Fd"cmTC_61d2d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_162a9.dir\Debug\\" /Fd"cmTC_162a9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61d2d.dir\Debug\\" /Fd"cmTC_61d2d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCCompiler.c
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_162a9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_162a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_162a9.lib" /MACHINE:X64  /machine:x64 cmTC_162a9.dir\Debug\testCCompiler.obj
-  cmTC_162a9.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_162a9.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_61d2d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_61d2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_61d2d.lib" /MACHINE:X64  /machine:x64 cmTC_61d2d.dir\Debug\testCCompiler.obj
+  cmTC_61d2d.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_61d2d.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_162a9.dir\Debug\cmTC_162a9.tlog\unsuccessfulbuild".
-  Touching "cmTC_162a9.dir\Debug\cmTC_162a9.tlog\cmTC_162a9.lastbuildstate".
-Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_162a9.vcxproj" (default targets).
+  Deleting file "cmTC_61d2d.dir\Debug\cmTC_61d2d.tlog\unsuccessfulbuild".
+  Touching "cmTC_61d2d.dir\Debug\cmTC_61d2d.tlog\cmTC_61d2d.lastbuildstate".
+Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_61d2d.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.06
+Time Elapsed 00:00:01.05
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4686f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_624ba.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:06.
-Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_4686f.vcxproj" on node 1 (default targets).
+Build started 19/12/2016 16:14:10.
+Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_624ba.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_4686f.dir\Debug\".
+  Creating directory "cmTC_624ba.dir\Debug\".
   Creating directory "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_4686f.dir\Debug\cmTC_4686f.tlog\".
+  Creating directory "cmTC_624ba.dir\Debug\cmTC_624ba.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_4686f.dir\Debug\cmTC_4686f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_624ba.dir\Debug\cmTC_624ba.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4686f.dir\Debug\\" /Fd"cmTC_4686f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_624ba.dir\Debug\\" /Fd"cmTC_624ba.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4686f.dir\Debug\\" /Fd"cmTC_4686f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_624ba.dir\Debug\\" /Fd"cmTC_624ba.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_4686f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_4686f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_4686f.lib" /MACHINE:X64  /machine:x64 cmTC_4686f.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_4686f.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_4686f.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_624ba.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_624ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_624ba.lib" /MACHINE:X64  /machine:x64 cmTC_624ba.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_624ba.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_624ba.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_4686f.dir\Debug\cmTC_4686f.tlog\unsuccessfulbuild".
-  Touching "cmTC_4686f.dir\Debug\cmTC_4686f.tlog\cmTC_4686f.lastbuildstate".
-Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_4686f.vcxproj" (default targets).
+  Deleting file "cmTC_624ba.dir\Debug\cmTC_624ba.tlog\unsuccessfulbuild".
+  Touching "cmTC_624ba.dir\Debug\cmTC_624ba.tlog\cmTC_624ba.lastbuildstate".
+Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_624ba.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.81
+Time Elapsed 00:00:00.84
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5aa19.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f2b55.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:07.
-Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_5aa19.vcxproj" on node 1 (default targets).
+Build started 19/12/2016 16:14:11.
+Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_f2b55.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_5aa19.dir\Debug\".
+  Creating directory "cmTC_f2b55.dir\Debug\".
   Creating directory "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_5aa19.dir\Debug\cmTC_5aa19.tlog\".
+  Creating directory "cmTC_f2b55.dir\Debug\cmTC_f2b55.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_5aa19.dir\Debug\cmTC_5aa19.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_f2b55.dir\Debug\cmTC_f2b55.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5aa19.dir\Debug\\" /Fd"cmTC_5aa19.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2b55.dir\Debug\\" /Fd"cmTC_f2b55.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5aa19.dir\Debug\\" /Fd"cmTC_5aa19.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2b55.dir\Debug\\" /Fd"cmTC_f2b55.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_5aa19.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_5aa19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_5aa19.lib" /MACHINE:X64  /machine:x64 cmTC_5aa19.dir\Debug\testCXXCompiler.obj
-  cmTC_5aa19.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_5aa19.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_f2b55.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_f2b55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_f2b55.lib" /MACHINE:X64  /machine:x64 cmTC_f2b55.dir\Debug\testCXXCompiler.obj
+  cmTC_f2b55.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_f2b55.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_5aa19.dir\Debug\cmTC_5aa19.tlog\unsuccessfulbuild".
-  Touching "cmTC_5aa19.dir\Debug\cmTC_5aa19.tlog\cmTC_5aa19.lastbuildstate".
-Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_5aa19.vcxproj" (default targets).
+  Deleting file "cmTC_f2b55.dir\Debug\cmTC_f2b55.tlog\unsuccessfulbuild".
+  Touching "cmTC_f2b55.dir\Debug\cmTC_f2b55.tlog\cmTC_f2b55.lastbuildstate".
+Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_f2b55.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.79
+Time Elapsed 00:00:00.86
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9fca6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a7b95.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:08.
-Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_9fca6.vcxproj" on node 1 (default targets).
+Build started 19/12/2016 16:14:12.
+Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_a7b95.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_9fca6.dir\Debug\".
+  Creating directory "cmTC_a7b95.dir\Debug\".
   Creating directory "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_9fca6.dir\Debug\cmTC_9fca6.tlog\".
+  Creating directory "cmTC_a7b95.dir\Debug\cmTC_a7b95.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_9fca6.dir\Debug\cmTC_9fca6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_a7b95.dir\Debug\cmTC_a7b95.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9fca6.dir\Debug\\" /Fd"cmTC_9fca6.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a7b95.dir\Debug\\" /Fd"cmTC_a7b95.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9fca6.dir\Debug\\" /Fd"cmTC_9fca6.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a7b95.dir\Debug\\" /Fd"cmTC_a7b95.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_9fca6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_9fca6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_9fca6.lib" /MACHINE:X64  /machine:x64 cmTC_9fca6.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_9fca6.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_9fca6.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_a7b95.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_a7b95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_a7b95.lib" /MACHINE:X64  /machine:x64 cmTC_a7b95.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_a7b95.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_a7b95.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_9fca6.dir\Debug\cmTC_9fca6.tlog\unsuccessfulbuild".
-  Touching "cmTC_9fca6.dir\Debug\cmTC_9fca6.tlog\cmTC_9fca6.lastbuildstate".
-Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_9fca6.vcxproj" (default targets).
+  Deleting file "cmTC_a7b95.dir\Debug\cmTC_a7b95.tlog\unsuccessfulbuild".
+  Touching "cmTC_a7b95.dir\Debug\cmTC_a7b95.tlog\cmTC_a7b95.lastbuildstate".
+Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_a7b95.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:00.87
 
 
 
@@ -246,39 +246,39 @@ Time Elapsed 00:00:00.78
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f21cf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3d62d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 14/12/2016 21:44:09.
-Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_f21cf.vcxproj" on node 1 (default targets).
+Build started 19/12/2016 16:14:13.
+Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_3d62d.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_f21cf.dir\Debug\".
+  Creating directory "cmTC_3d62d.dir\Debug\".
   Creating directory "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_f21cf.dir\Debug\cmTC_f21cf.tlog\".
+  Creating directory "cmTC_3d62d.dir\Debug\cmTC_3d62d.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_f21cf.dir\Debug\cmTC_f21cf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_3d62d.dir\Debug\cmTC_3d62d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f21cf.dir\Debug\\" /Fd"cmTC_f21cf.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\feature_tests.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d62d.dir\Debug\\" /Fd"cmTC_3d62d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\feature_tests.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f21cf.dir\Debug\\" /Fd"cmTC_f21cf.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d62d.dir\Debug\\" /Fd"cmTC_3d62d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\feature_tests.cxx
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_f21cf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_f21cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_f21cf.lib" /MACHINE:X64  /machine:x64 cmTC_f21cf.dir\Debug\feature_tests.obj
-  cmTC_f21cf.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_f21cf.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d62d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_3d62d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/CMakeTmp/Debug/cmTC_3d62d.lib" /MACHINE:X64  /machine:x64 cmTC_3d62d.dir\Debug\feature_tests.obj
+  cmTC_3d62d.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d62d.exe
 FinalizeBuildStatus:
-  Deleting file "cmTC_f21cf.dir\Debug\cmTC_f21cf.tlog\unsuccessfulbuild".
-  Touching "cmTC_f21cf.dir\Debug\cmTC_f21cf.tlog\cmTC_f21cf.lastbuildstate".
-Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_f21cf.vcxproj" (default targets).
+  Deleting file "cmTC_3d62d.dir\Debug\cmTC_3d62d.tlog\unsuccessfulbuild".
+  Touching "cmTC_3d62d.dir\Debug\cmTC_3d62d.tlog\cmTC_3d62d.lastbuildstate".
+Done Building Project "C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\CMakeFiles\CMakeTmp\cmTC_3d62d.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.80
+Time Elapsed 00:00:00.85
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
