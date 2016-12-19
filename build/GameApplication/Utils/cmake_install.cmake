@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Fraser/Documents/GitHub/GP2CWProject/GameApplication/Utils
+# Install script for directory: C:/Users/Fraser/Documents/Uni/Year3/GP2CWProject/GameApplication/Utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
