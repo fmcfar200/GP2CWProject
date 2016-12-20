@@ -7,12 +7,12 @@ in vec3 vertexNormalOut;
 in vec3 cameraDirectionOut;
 in vec3 lightDirectionOut;
 in vec4 vertexColoursOut;
+in mat3 tangentMatrix;
 
-
-uniform vec4 ambientMaterialColour=vec4(0.5f,0.0f,0.0f,1.0f);
-uniform vec4 diffuseMaterialColour=vec4(0.8f,0.0f,0.0f,1.0f);
-uniform vec4 specularMaterialColour=vec4(1.0f,1.0f,1.0f,1.0f);
-uniform float specularPower=25.0f;
+uniform vec4 ambientMaterialColour;
+uniform vec4 diffuseMaterialColour;
+uniform vec4 specularMaterialColour;
+uniform float specularPower;
 
 uniform float bias = 0.03f;
 uniform float scale = 0.015f;
@@ -37,18 +37,19 @@ struct DirectionalLight
 uniform DirectionalLight directionLight;
 
 
+ 
 
 void main()
 {
 	float height = texture(heightSampler,vertexTextureCoordsOut).r;
 	
-	vec2 correctedTexCoord = scale*vertexTextureCoordsOut*height-bias;
+	vec2 correctedTexCoord = scale*vertexTextureCoordsOut.xy*height-bias;
 	correctedTexCoord = vertexTextureCoordsOut-correctedTexCoord;
 
-	vec3 bumpNormals = 2.0f*(texture(normalSampler,correctedTexCoord).xyz)-1.0f;
+	vec3 bumpNormals = 2.0f*texture(normalSampler,correctedTexCoord).rgb-1.0f;
 	bumpNormals = normalize(bumpNormals);
 	
-	vec3 lightDir=normalize(-directionLight.direction);
+	vec3 lightDir=normalize(tangentMatrix*(-directionLight.direction));
 	float diffuseTerm = dot(bumpNormals, lightDir);
 	vec3 halfWayVec = normalize(cameraDirectionOut + lightDir);
 	float specularTerm = pow(dot(bumpNormals, halfWayVec), specularPower);
@@ -61,6 +62,5 @@ void main()
 	vec4 diffuseColour = diffuseTextureColour*directionLight.diffuseColour*diffuseTerm;
 	vec4 specularColour = specularTextureColour*directionLight.specularColour*specularTerm;
 	
-	//FragColor = vec4(1.0f,1.0f,1.0f,1.0f);
 	FragColor = ambientColour + diffuseColour + specularColour;
 }

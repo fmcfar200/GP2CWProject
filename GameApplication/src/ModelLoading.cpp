@@ -8,9 +8,13 @@ GameObject * loadModelFromFile(const string & filename)
 	const aiVector3D Zero3D(0.0f, 0.0f, 0.0f);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	const aiScene* scene = aiImportFile(filename.c_str(), aiProcess_JoinIdenticalVertices|aiProcess_Triangulate | aiProcess_FlipUVs|aiProcess_GenSmoothNormals);
 =======
 	const aiScene* scene = aiImportFile(filename.c_str(), aiProcess_JoinIdenticalVertices|aiProcess_Triangulate | aiProcess_FlipUVs|aiProcess_GenSmoothNormals | aiProcess_CalcTangentSpace);
+>>>>>>> refs/remotes/origin/master
+=======
+	const aiScene* scene = aiImportFile(filename.c_str(), aiProcess_JoinIdenticalVertices|aiProcess_Triangulate | aiProcess_FlipUVs|aiProcess_GenSmoothNormals | aiProcess_GenUVCoords |aiProcess_CalcTangentSpace | aiProcess_OptimizeGraph);
 >>>>>>> refs/remotes/origin/master
 
 	if (scene)

@@ -5,10 +5,14 @@
 
 struct Light
 {
-  vec4 DiffuseColour;
-  vec4 SpecularColour;
+	vec3 position;
+	vec4 DiffuseColour;
+	vec4 SpecularColour;
 
-  vec3 Direction;
+	float constant;
+	float linear;
+	float quadratic;
+
 };
 
 #endif

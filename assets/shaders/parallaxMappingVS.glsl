@@ -44,10 +44,11 @@ out vec2 vertexTextureCoordsOut;
 out vec3 vertexNormalOut;
 out vec3 cameraDirectionOut;
 out vec3 lightDirectionOut;
+out mat3 tangentMatrix;
 
 uniform mat4 MVP;
 uniform mat4 Model;
-uniform vec3 cameraPos=vec3(0.0f,0.0f,10.0f);
+uniform vec3 cameraPos;
 uniform vec3 lightDirection;
 
 void main()
@@ -56,7 +57,7 @@ void main()
 	vec3 vertexTangentModel = normalize(Model*vec4(vertexTangents,0.0f)).xyz;
 	vec3 vertexBinormalModel = normalize(Model*vec4(vertexBinormals,0.0f)).xyz;
 	
-	mat3 tangentMatrix = mat3(vertexNormalModel,vertexTangentModel,vertexBinormalModel);
+	tangentMatrix = mat3(vertexTangentModel,vertexBinormalModel,vertexNormalModel);
 	
 	
 	vec3 worldPos = (Model*vec4(vertexPosition, 1.0)).xyz;

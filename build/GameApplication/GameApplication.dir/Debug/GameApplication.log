@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿  Building Custom Rule C:/Users/Fraser/Documents/Visual Studio 2015/Projects/GP2CWProject/GameApplication/CMakeLists.txt
   CMake does not need to re-run because C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
 =======
 ﻿  Building Custom Rule C:/Users/fmcfar200/Desktop/GitHub/GP2CWProject/GameApplication/CMakeLists.txt
   CMake does not need to re-run because C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
+>>>>>>> refs/remotes/origin/master
+=======
+﻿  Building Custom Rule C:/Users/Fraser/Documents/GitHub/GP2CWProject/GameApplication/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
 >>>>>>> refs/remotes/origin/master
 cl : Command line warning D9002: ignoring unknown option '/EH;'
 cl : Command line warning D9002: ignoring unknown option '/EH-'
@@ -15,8 +20,16 @@ cl : Command line warning D9002: ignoring unknown option '/EH+'
 cl : Command line warning D9002: ignoring unknown option '/EH0'
 cl : Command line warning D9002: ignoring unknown option '/EHx'
 cl : Command line warning D9002: ignoring unknown option '-g'
+  Camera.cpp
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp(55): warning C4244: 'initializing': conversion from 'Uint32' to 'GLfloat', possible loss of data
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp(66): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp(67): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+  Material.cpp
+  Component.cpp
+  Transform.cpp
   GameApplication.cpp
   Shader.cpp
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\Shader.cpp(28): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
 C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\Shader.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -28,10 +41,17 @@ C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(12
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
 C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 >>>>>>> refs/remotes/origin/master
+=======
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(28): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+>>>>>>> refs/remotes/origin/master
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
   Texture.cpp
   GameObject.cpp
   ModelLoading.cpp
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\ModelLoading.cpp(20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Fraser\Documents\Visual Studio 2015\Projects\GP2CWProject\GameApplication\src\ModelLoading.cpp(23): warning C4018: '<': signed/unsigned mismatch
@@ -47,4 +67,13 @@ C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.
 C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
   GameApplication.vcxproj -> C:\Users\fmcfar200\Desktop\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
+>>>>>>> refs/remotes/origin/master
+=======
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  GameApplication.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
 >>>>>>> refs/remotes/origin/master
