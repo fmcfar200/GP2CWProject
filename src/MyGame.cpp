@@ -6,7 +6,8 @@ const std::string MODEL_PATH = "/models";
 
 MyGame::MyGame()
 {
-
+	testX = m_WindowWidth / 2;
+	testY = m_WindowHeight / 2;
 }
 
 MyGame::~MyGame()
@@ -16,6 +17,7 @@ MyGame::~MyGame()
 
 void MyGame::initScene()
 {
+
 	//asset paths
 	string anvilPath = ASSET_PATH + MODEL_PATH + "/anvil.fbx";
 	string axe1HeadPath = ASSET_PATH + MODEL_PATH + "/2h_axe.fbx";
@@ -333,26 +335,27 @@ void MyGame::onKeyDown(SDL_Keycode keyCode)
 
 	if (keyCode == SDLK_DOWN)
 	{
-		m_Camera->LookDown();
+		//m_Camera->LookDown();
 
 
 	}
 	else if (keyCode == SDLK_UP)
 	{
 
-		m_Camera->LookUp();
+		//m_Camera->LookUp();
 
 	}
 	else if (keyCode == SDLK_RIGHT)
 	{
-		m_Camera->LookRight();
+		//m_Camera->LookRight();
 
 	}
 	else if (keyCode == SDLK_LEFT)
 	{
-		m_Camera->LookLeft();
+		//m_Camera->LookLeft();
 
 	}
+
 }
 
 
@@ -373,20 +376,20 @@ void MyGame::destroyScene()
 	m_Lights.clear();
 }
 
+
 void MyGame::update()
 {
 	GameApplication::update();
-	
+	//m_Camera->MoveMouse();
 	//cycles through all game objects and updates
 	for (auto& object : m_GameObjects)
 	{
 		object->onUpdate();
 
 	}
-
+	m_Camera->MoveMouse();
 	m_ProjMatrix = perspective(radians(45.0f), (float)getWindowWidth() / (float)getWindowHeight(), 0.1f, 1000.0f);
 	m_ViewMatrix = (lookAt(m_Camera->getCameraPos(), m_Camera->getCameraPos() + m_Camera->getCameraViewDirection(), m_Camera->getUP()));
-	
 	
 
 }

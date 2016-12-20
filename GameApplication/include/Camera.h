@@ -19,11 +19,13 @@ public:
 	void LookLeft();
 	void LookRight();
 
-	void OnUpdate();
+	virtual void update();
 
 	void setCameraPosition(const vec3& pos);
 
 	void setViewDirection(const vec3 & viewDir);
+
+	void MoveMouse();
 
 	vec3 & getCameraPos();
 
@@ -34,13 +36,20 @@ public:
 private:
 	//Camera
 	vec3 m_CameraPosition;
-	vec3 m_ViewDirection;
-	vec3 m_UP = vec3(0.0, 1.0, 0.0);
+	vec3 m_CameraFront;
+	vec3 m_CameraUp = vec3(0.0, 1.0, 0.0);
 	vec3 m_Direction;
 	int m_MouseXPos;
 	int m_MouseYPos;
 
-	
+	GLfloat cameraSpeed;
+	GLfloat yaw;
+	GLfloat pitch;
+	GLfloat fov;
+	GLfloat deltaTime;
+	GLfloat lastFrame;
+	GLfloat lastX;
+	GLfloat lastY;
 
 	float movementSpeed = 0.25f;
 

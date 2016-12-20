@@ -1,1 +1,43 @@
-﻿  Utils.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib
+﻿Build started 20/12/2016 01:58:14.
+     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt
+         CMake does not need to re-run because E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\Utils" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include" /I"E:\Jack\Documents\GP2 Software\tinyxml2\include" /I"E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Utils.dir\Debug\\" /Fd"Utils.dir\Debug\Utils.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -g "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\Log.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\clock.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\XMLOptionsParser.cpp" "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\Timer.cpp"
+     1>cl : Command line warning D9002: ignoring unknown option '/EH;'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH-'
+     1>cl : Command line warning D9002: ignoring unknown option '/EHt'
+     1>cl : Command line warning D9002: ignoring unknown option '/EHd'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH='
+     1>cl : Command line warning D9002: ignoring unknown option '/EH+'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH+'
+     1>cl : Command line warning D9002: ignoring unknown option '/EH0'
+     1>cl : Command line warning D9002: ignoring unknown option '/EHx'
+     1>cl : Command line warning D9002: ignoring unknown option '-g'
+         Log.cpp
+         clock.cpp
+     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\clock.cpp(7): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: see declaration of 'localtime'
+     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\clock.cpp(8): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(116): note: see declaration of 'asctime'
+         ProgramOptions.cpp
+     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\ProgramOptions.cpp(46): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+         CommandLineParser.cpp
+     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\src\CommandLineParser.cpp(30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+         XMLOptionsParser.cpp
+         Timer.cpp
+         Generating Code...
+       Lib:
+         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib" /NOLOGO /MACHINE:X64  /machine:x64 Utils.dir\Debug\Log.obj
+         Utils.dir\Debug\clock.obj
+         Utils.dir\Debug\ProgramOptions.obj
+         Utils.dir\Debug\CommandLineParser.obj
+         Utils.dir\Debug\XMLOptionsParser.obj
+         Utils.dir\Debug\Timer.obj
+         Utils.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib
+     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.73
