@@ -5,6 +5,8 @@
 #include "Shader.h"
 #include "Texture.h"
 
+//// FRASER CODE
+
 class Material: public BaseComponent
 {
 public:

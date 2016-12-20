@@ -113,11 +113,15 @@ void MyGame::initScene()
 	string woodSpecTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_spec.png";
 	string woodBumpTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_normal.png";
 	string woodHeightTexPath = ASSET_PATH + TEXTURE_PATH + "/wood3_height.png";
-		   
+	
+
+	//// FRASER CODE
+
 	 // Anvil Model
 	//creates new game object and loads a model
 	shared_ptr<GameObject> m_TestGO = shared_ptr<GameObject>(loadModelFromFile(anvilPath));
 	//loads shaders  (Anvil)
+	//// FRASER CODE (SHADER FILES)
 	m_TestGO->getMaterial()->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
 	m_TestGO->getMaterial()->loadDiffuseTexture(metalDiffTexPath);
 	m_TestGO->getMaterial()->loadSpecularTexture(metalSpecTexPath);
@@ -129,28 +133,7 @@ void MyGame::initScene()
 	m_TestGO->getTransform()->setScale(vec3(1,1,1));
 	m_GameObjects.push_back(m_TestGO);
 
-	/*
-	//AXE 1
-	//Axe Head
-	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(axe1HeadPath));
-	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
-	m_TestGO->loadDiffuseTexture(axeDiffTexPath);
-	m_TestGO->loadSpecularTexture(axeSpecTexPath);
-	m_TestGO->loadNormalTexture(axeBumpTexPath);
-	m_TestGO->loadHeightMapTexture(axeHeightTexPath);
-	m_TestGO->setPosition(vec3(23, 10.0f, -80.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
-	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
-	m_GameObjects.push_back(m_TestGO);
-	//Axe Handle 
-	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(axe1Path));
-	m_TestGO->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
-	m_TestGO->loadDiffuseTexture(axeMetal);
-	m_TestGO->setPosition(vec3(23.5f, 20.0f, -85.0f));
-	m_TestGO->setRotation(vec3(92.7, 0, -5.0f));
-	m_TestGO->setScale(vec3(0.5f, 0.5f, 0.5f));
-	m_GameObjects.push_back(m_TestGO);
-	*/
+
 	//axe 2
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(axe2Path));
 	m_TestGO->getMaterial()->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
@@ -163,6 +146,7 @@ void MyGame::initScene()
 	m_TestGO->getTransform()->setScale(vec3(50, 50, 50));
 	m_GameObjects.push_back(m_TestGO);
 
+
 	//shield
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(shieldPath));
 	m_TestGO->getMaterial()->loadShaders(newParallaxMappingVSPath, newParallaxMappingFSPath);
@@ -174,6 +158,7 @@ void MyGame::initScene()
 	m_TestGO->getTransform()->setRotation(vec3(92.7, 4.9, -5.0f));
 	m_TestGO->getTransform()->setScale(vec3(1, 1, 1));
 	m_GameObjects.push_back(m_TestGO);
+
 
 	//knife
 	m_TestGO = shared_ptr<GameObject>(loadModelFromFile(knifePath));
@@ -296,6 +281,9 @@ void MyGame::initScene()
 	m_Camera = shared_ptr<Camera>(new Camera());
 	m_Camera->setCameraPosition(vec3(0, 40, -10));
 	m_Camera->setViewDirection(vec3(0, 0, -10));
+
+	//// FRASER CODE
+
 	//lighting
 	shared_ptr<Light> m_Light = shared_ptr<Light>(new Light());
 	m_Light->DiffuseColour = vec4(2.5f, 1.7f, 1.1f, 1.0f);

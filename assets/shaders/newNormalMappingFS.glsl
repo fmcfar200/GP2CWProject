@@ -19,6 +19,7 @@ uniform sampler2D specularSampler;
 uniform sampler2D normalSampler;
 
 
+	//// FRASER CODE
 
 struct PointLight
 {
@@ -42,6 +43,8 @@ void main()
 	vec3 bumpNormals = 2.0f * texture(normalSampler,vertexTextureCoordsOut).r - 1.0f;
 	bumpNormals = normalize(bumpNormals);
 	
+		//// FRASER CODE
+
 	//tangent multiple gone
 	vec3 lightDir=normalize(pointLight.position - worldPos);
 	float diffuseTerm = dot(bumpNormals, lightDir);
@@ -56,6 +59,8 @@ void main()
 	vec4 diffuseColour = diffuseTextureColour*pointLight.diffuseColour*diffuseTerm;
 	vec4 specularColour = specularTextureColour*pointLight.specularColour*specularTerm;
 	
+		//// FRASER CODE
+
 	//attenuation
 	float distance = length(pointLight.position - worldPos);
 	float attenuation = 1.0f / (1.0f + 0.01f * distance + 0	*(distance * distance));

@@ -4,6 +4,8 @@
 #include "Common.h"
 #include "Component.h"
 
+//// FRASER CODE
+
 class Transform :public BaseComponent
 {
 public:

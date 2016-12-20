@@ -38,6 +38,9 @@ struct DirectionalLight
 uniform DirectionalLight directionLight;
 */
 
+
+	//// FRASER CODE
+
 struct PointLight
 {
 	vec3 position;
@@ -63,6 +66,8 @@ void main()
 	vec3 bumpNormals = 2.0f*texture(normalSampler,correctedTexCoord).xyz-1.0f;
 	bumpNormals = normalize(bumpNormals);
 	
+		//// FRASER CODE
+
 	//tangent matrix multiply gone
 	vec3 lightDir=normalize(pointLight.position - worldPos);
 	float diffuseTerm = dot(bumpNormals, lightDir);
@@ -77,7 +82,8 @@ void main()
 	vec4 diffuseColour = diffuseTextureColour*pointLight.diffuseColour*diffuseTerm;
 	vec4 specularColour = specularTextureColour*pointLight.specularColour*specularTerm;
 	
-	
+		//// FRASER CODE
+
 	//attenuation
 	float distance = length(pointLight.position - worldPos);
 	float attenuation = 1.0f / (1.0f + 0.01f * distance + 0	*(distance * distance));
