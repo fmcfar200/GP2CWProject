@@ -1,12 +1,4 @@
-﻿Build started 20/12/2016 01:58:14.
-     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
-     1>CustomBuild:
-         Checking Build System
-         CMake does not need to re-run because E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/GameApplication/CMakeFiles/generate.stamp is up-to-date.
-         CMake does not need to re-run because E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/GameApplication/Utils/CMakeFiles/generate.stamp is up-to-date.
-     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.28
+﻿  Checking Build System
+  CMake does not need to re-run because C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/GameApplication/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Fraser/Documents/GitHub/GP2CWProject/build/GameApplication/Utils/CMakeFiles/generate.stamp is up-to-date.

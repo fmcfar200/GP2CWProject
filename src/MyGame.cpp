@@ -48,6 +48,9 @@ void MyGame::initScene()
 	
 	string newParallaxMappingVSPath = ASSET_PATH + SHADER_PATH + "/newParallaxMappingVS.glsl";
 	string newParallaxMappingFSPath = ASSET_PATH + SHADER_PATH + "/newParallaxMappingFS.glsl";
+
+	string newNormalMappingVSPath = ASSET_PATH + SHADER_PATH + "/newNormalMappingVS.glsl";
+	string newNormalMappingFSPath = ASSET_PATH + SHADER_PATH + "/newNormalMappingFS.glsl";
 	
 	//brick textures
 	string brickDiffTexPath = ASSET_PATH + TEXTURE_PATH + "/s_3_1.png";

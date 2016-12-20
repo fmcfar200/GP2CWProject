@@ -1,34 +1,36 @@
-﻿Build started 20/12/2016 02:14:01.
-     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\GameApplication.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\GameApplication" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\include" /I"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include" /I"E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include" /I"E:\Jack\Documents\GP2 Software\tinyxml2\include" /I"E:\Jack\Documents\GP2 Software\glm" /I"E:\Jack\Documents\GP2 Software\glew-2.0.0\include" /I"E:\Jack\Documents\GP2 Software\SDL2_image-2.0.1\include" /I"E:\Jack\Documents\GP2 Software\SDL2_ttf-2.0.14\include" /I"E:\Jack\Documents\GP2 Software\assimp\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"GameApplication.dir\Debug\\" /Fd"GameApplication.dir\Debug\GameApplication.pdb" /Gd /TP /errorReport:prompt  /EHsc";"-std=c++0x -g "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Camera.cpp"
-     1>cl : Command line warning D9002: ignoring unknown option '/EH;'
-     1>cl : Command line warning D9002: ignoring unknown option '/EH-'
-     1>cl : Command line warning D9002: ignoring unknown option '/EHt'
-     1>cl : Command line warning D9002: ignoring unknown option '/EHd'
-     1>cl : Command line warning D9002: ignoring unknown option '/EH='
-     1>cl : Command line warning D9002: ignoring unknown option '/EH+'
-     1>cl : Command line warning D9002: ignoring unknown option '/EH+'
-     1>cl : Command line warning D9002: ignoring unknown option '/EH0'
-     1>cl : Command line warning D9002: ignoring unknown option '/EHx'
-     1>cl : Command line warning D9002: ignoring unknown option '-g'
-         Camera.cpp
-     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Camera.cpp(55): warning C4244: 'initializing': conversion from 'Uint32' to 'GLfloat', possible loss of data
-     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Camera.cpp(66): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
-     1>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\src\Camera.cpp(67): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
-       Lib:
-         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Debug\GameApplication.lib" /NOLOGO /MACHINE:X64  /machine:x64 GameApplication.dir\Debug\Camera.obj
-         GameApplication.dir\Debug\Material.obj
-         GameApplication.dir\Debug\Component.obj
-         GameApplication.dir\Debug\Transform.obj
-         GameApplication.dir\Debug\GameApplication.obj
-         GameApplication.dir\Debug\Shader.obj
-         GameApplication.dir\Debug\Texture.obj
-         GameApplication.dir\Debug\GameObject.obj
-         GameApplication.dir\Debug\ModelLoading.obj
-         GameApplication.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
-     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\GameApplication.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:01.12
+﻿  Building Custom Rule C:/Users/Fraser/Documents/GitHub/GP2CWProject/GameApplication/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\CMakeFiles\generate.stamp is up-to-date.
+cl : Command line warning D9002: ignoring unknown option '/EH;'
+cl : Command line warning D9002: ignoring unknown option '/EH-'
+cl : Command line warning D9002: ignoring unknown option '/EHt'
+cl : Command line warning D9002: ignoring unknown option '/EHd'
+cl : Command line warning D9002: ignoring unknown option '/EH='
+cl : Command line warning D9002: ignoring unknown option '/EH+'
+cl : Command line warning D9002: ignoring unknown option '/EH+'
+cl : Command line warning D9002: ignoring unknown option '/EH0'
+cl : Command line warning D9002: ignoring unknown option '/EHx'
+cl : Command line warning D9002: ignoring unknown option '-g'
+  Camera.cpp
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp(55): warning C4244: 'initializing': conversion from 'Uint32' to 'GLfloat', possible loss of data
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp(66): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Camera.cpp(67): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+  Material.cpp
+  Component.cpp
+  Transform.cpp
+  GameApplication.cpp
+  Shader.cpp
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(28): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\Shader.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Texture.cpp
+  GameObject.cpp
+  ModelLoading.cpp
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Fraser\Documents\GitHub\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  GameApplication.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\GameApplication\Debug\GameApplication.lib
