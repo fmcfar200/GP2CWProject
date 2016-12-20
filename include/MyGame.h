@@ -27,6 +27,8 @@ private:
 	//matrices
 	mat4 m_ViewMatrix;
 	mat4 m_ProjMatrix;
-	
+
+	unsigned int testX;
+	unsigned int testY;
 };
 #endif
