@@ -1,12 +1,40 @@
-﻿cl : Command line warning D9002: ignoring unknown option '/EH;'
-cl : Command line warning D9002: ignoring unknown option '/EH-'
-cl : Command line warning D9002: ignoring unknown option '/EHt'
-cl : Command line warning D9002: ignoring unknown option '/EHd'
-cl : Command line warning D9002: ignoring unknown option '/EH='
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH0'
-cl : Command line warning D9002: ignoring unknown option '/EHx'
-cl : Command line warning D9002: ignoring unknown option '-g'
-  MyGame.cpp
-  GP2CWProject.vcxproj -> C:\Users\Fraser\Documents\GitHub\GP2CWProject\build\Debug\GP2CWProject.exe
+﻿Build started 21/12/2016 02:28:20.
+     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GP2CWProject.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         "E:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/assets" "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug/assets"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "E:\Program Files\CMake\bin\cmake.exe" -E copy "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/settings.xml" "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Link:
+         GP2CWProject.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\Debug\GP2CWProject.exe
+       PostBuildEvent:
+         setlocal
+         "E:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/dlls" "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GP2CWProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.04
