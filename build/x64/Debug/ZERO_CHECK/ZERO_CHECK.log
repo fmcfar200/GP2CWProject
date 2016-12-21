@@ -1,5 +1,12 @@
-﻿Build started 18-Dec-16 6:46:43 PM.
+﻿Build started 19-Dec-16 2:18:37 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/Steven/Desktop/Github/GP2CWProject/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Steven/Desktop/Github/GP2CWProject/build/GameApplication/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Steven/Desktop/Github/GP2CWProject/build/GameApplication/Utils/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\ZERO_CHECK.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.17
+Time Elapsed 00:00:00.36

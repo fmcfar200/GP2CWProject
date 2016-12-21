@@ -1,29 +1,10 @@
-﻿  Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\CMakeFiles\generate.stamp is up-to-date.
-cl : Command line warning D9002: ignoring unknown option '/EH;'
-cl : Command line warning D9002: ignoring unknown option '/EH-'
-cl : Command line warning D9002: ignoring unknown option '/EHt'
-cl : Command line warning D9002: ignoring unknown option '/EHd'
-cl : Command line warning D9002: ignoring unknown option '/EH='
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH0'
-cl : Command line warning D9002: ignoring unknown option '/EHx'
-cl : Command line warning D9002: ignoring unknown option '-g'
-  GameApplication.cpp
-  Shader.cpp
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\Shader.cpp(28): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned long', possible loss of data
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\Shader.cpp(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\Shader.cpp(181): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
-  Texture.cpp
-  GameObject.cpp
-  ModelLoading.cpp
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\ModelLoading.cpp(20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\ModelLoading.cpp(23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\ModelLoading.cpp(30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\ModelLoading.cpp(49): warning C4018: '<': signed/unsigned mismatch
-C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\src\ModelLoading.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
-  GameApplication.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Debug\GameApplication.lib
+﻿Build started 19-Dec-16 2:15:48 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\GameApplication.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project 'C:/Users/David/Documents/GP2/GP2CWProject/ZERO_CHECK.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project 'C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/Utils/Utils.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(403,5): error MSB3191: Unable to create directory "C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Debug\". Access to the path 'C:\Users\David\Documents\GP2\GP2CWProject\GameApplication\Debug\' is denied.
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\GameApplication.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01

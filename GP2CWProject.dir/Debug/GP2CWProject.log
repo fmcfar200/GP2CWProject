@@ -1,19 +1,11 @@
-﻿  Building Custom Rule C:/Users/David/Documents/GP2/GP2CWProject/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\David\Documents\GP2\GP2CWProject\CMakeFiles\generate.stamp is up-to-date.
-cl : Command line warning D9002: ignoring unknown option '/EH;'
-cl : Command line warning D9002: ignoring unknown option '/EH-'
-cl : Command line warning D9002: ignoring unknown option '/EHt'
-cl : Command line warning D9002: ignoring unknown option '/EHd'
-cl : Command line warning D9002: ignoring unknown option '/EH='
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH+'
-cl : Command line warning D9002: ignoring unknown option '/EH0'
-cl : Command line warning D9002: ignoring unknown option '/EHx'
-cl : Command line warning D9002: ignoring unknown option '-g'
-  main.cpp
-  MyGame.cpp
-C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp(329): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp(330): warning C4244: 'initializing': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp(333): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-  Generating Code...
-  GP2CWProject.vcxproj -> C:\Users\David\Documents\GP2\GP2CWProject\Debug\GP2CWProject.exe
+﻿Build started 19-Dec-16 2:15:20 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\GP2CWProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project 'C:/Users/David/Documents/GP2/GP2CWProject/ZERO_CHECK.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project 'C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/GameApplication.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project 'C:/Users/David/Documents/GP2/GP2CWProject/GameApplication/Utils/Utils.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(403,5): error MSB3191: Unable to create directory "C:\Users\David\Documents\GP2\GP2CWProject\Debug\". Access to the path 'C:\Users\David\Documents\GP2\GP2CWProject\Debug\' is denied.
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\GP2CWProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01

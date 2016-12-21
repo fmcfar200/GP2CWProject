@@ -267,7 +267,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Shadows.cpp" />
+    <ClCompile Include="ShadowMap.cpp" />
     <ClInclude Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\include\Common.h" />
     <ClInclude Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\include\GameApplication.h" />
     <ClInclude Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\include\Shader.h" />
@@ -281,7 +281,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\src\Texture.cpp" />
     <ClCompile Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\src\GameObject.cpp" />
     <ClCompile Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\src\ModelLoading.cpp" />
-    <ClInclude Include="Shadows.h" />
+    <ClInclude Include="ShadowMap.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Steven/Desktop/Github/GP2CWProject/build/ZERO_CHECK.vcxproj">

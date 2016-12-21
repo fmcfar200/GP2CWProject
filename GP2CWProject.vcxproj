@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -23,6 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>GP2CWProject</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -56,33 +57,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\David\Documents\GP2\GP2CWProject\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\David\Documents\GP2\GP2CWProject\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\David\Documents\GP2\GP2CWProject\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\David\Documents\GP2\GP2CWProject\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GP2CWProject</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /EHsc"%3B"-std=c++0x -g %(AdditionalOptions)</AdditionalOptions>
@@ -114,7 +107,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/Debug/assets
 if %errorlevel% neq 0 goto :cmEnd
@@ -135,7 +129,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/Debug
 if %errorlevel% neq 0 goto :cmEnd
@@ -155,7 +150,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/Debug/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/Debug/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -176,7 +172,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -191,7 +188,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/Release/assets
 if %errorlevel% neq 0 goto :cmEnd
@@ -212,7 +210,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/Release
 if %errorlevel% neq 0 goto :cmEnd
@@ -232,7 +231,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/Release/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/Release/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -253,7 +253,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -268,7 +269,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel/assets
 if %errorlevel% neq 0 goto :cmEnd
@@ -289,7 +291,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
@@ -309,7 +312,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/MinSizeRel/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -345,7 +349,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PreBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/assets C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo/assets
 if %errorlevel% neq 0 goto :cmEnd
@@ -366,7 +371,8 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "A:\GP2 Files\GP2 Software\bin\cmake.exe" -E copy_directory C:/Users/David/Documents/GP2/GP2CWProject/dlls C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
@@ -386,7 +392,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo/GP2CWProject.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/David/Documents/GP2/GP2CWProject/RelWithDebInfo/GP2CWProject.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -450,8 +457,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\David\Documents\GP2\GP2CWProject\include\MyGame.h" />
-    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\src\main.cpp"  />
-    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp"  />
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\src\main.cpp" />
+    <ClCompile Include="C:\Users\David\Documents\GP2\GP2CWProject\src\MyGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/David/Documents/GP2/GP2CWProject/ZERO_CHECK.vcxproj">

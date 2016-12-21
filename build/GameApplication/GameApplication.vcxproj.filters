@@ -16,7 +16,7 @@
     <ClCompile Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\src\ModelLoading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shadows.cpp">
+    <ClCompile Include="ShadowMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -45,7 +45,7 @@
     <ClInclude Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\include\Light.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shadows.h">
+    <ClInclude Include="ShadowMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

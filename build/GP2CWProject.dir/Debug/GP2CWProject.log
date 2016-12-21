@@ -1,4 +1,4 @@
-﻿Build started 18-Dec-16 6:52:41 PM.
+﻿Build started 20-Dec-16 9:27:25 PM.
      1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GP2CWProject.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -39,4 +39,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.33
+Time Elapsed 00:00:01.93
