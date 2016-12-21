@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "E:/Program Files/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe")
+set(CMAKE_C_COMPILER "D:/VisualStudio/VC/bin/x86_amd64/cl.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "MSVC")
 set(CMAKE_C_COMPILER_VERSION "19.0.23026.0")
@@ -15,7 +15,7 @@ set(CMAKE_C_SIMULATE_VERSION "")
 set(MSVC_C_ARCHITECTURE_ID x64)
 set(CMAKE_AR "")
 set(CMAKE_RANLIB "")
-set(CMAKE_LINKER "E:/Program Files/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/link.exe")
+set(CMAKE_LINKER "D:/VisualStudio/VC/bin/x86_amd64/link.exe")
 set(CMAKE_COMPILER_IS_GNUCC )
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -58,6 +58,7 @@ set(CMAKE_C_CL_SHOWINCLUDES_PREFIX "")
 if(CMAKE_C_CL_SHOWINCLUDES_PREFIX)
   set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_C_CL_SHOWINCLUDES_PREFIX}")
 endif()
+
 
 
 

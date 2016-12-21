@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{07895CBC-84BA-3773-85CD-DD3A0893A5E2}</ProjectGUID>
+    <ProjectGUID>{5FDD0A54-DCFA-374F-A836-2F83D6760F6D}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -65,7 +65,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\Utils;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include;E:\Jack\Documents\GP2 Software\tinyxml2\include;E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\include;C:\Users\Steven\Desktop\GP2 Software\tinyxml2\include;C:\Users\Steven\Desktop\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -75,7 +75,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\Utils;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include;E:\Jack\Documents\GP2 Software\tinyxml2\include;E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\include;C:\Users\Steven\Desktop\GP2 Software\tinyxml2\include;C:\Users\Steven\Desktop\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\Utils;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include;E:\Jack\Documents\GP2 Software\tinyxml2\include;E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\include;C:\Users\Steven\Desktop\GP2 Software\tinyxml2\include;C:\Users\Steven\Desktop\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\Utils;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\include;E:\Jack\Documents\GP2 Software\tinyxml2\include;E:\Jack\Documents\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\Utils;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\include;C:\Users\Steven\Desktop\GP2 Software\tinyxml2\include;C:\Users\Steven\Desktop\GP2 Software\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,10 +104,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" "-HE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject" "-BE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build" --check-stamp-file "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+D:\Cmake\bin\cmake.exe -HC:/Users/Steven/Desktop/Github/GP2CWProject -BC:/Users/Steven/Desktop/Github/GP2CWProject/build --check-stamp-file C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,12 +115,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindTinyXML.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindSDL2.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindTinyXML.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindSDL2.cmake;D:\Cmake\share\cmake-3.7\Modules\FindThreads.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" "-HE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject" "-BE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build" --check-stamp-file "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+D:\Cmake\bin\cmake.exe -HC:/Users/Steven/Desktop/Github/GP2CWProject -BC:/Users/Steven/Desktop/Github/GP2CWProject/build --check-stamp-file C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,12 +128,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindTinyXML.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindSDL2.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindTinyXML.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindSDL2.cmake;D:\Cmake\share\cmake-3.7\Modules\FindThreads.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" "-HE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject" "-BE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build" --check-stamp-file "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+D:\Cmake\bin\cmake.exe -HC:/Users/Steven/Desktop/Github/GP2CWProject -BC:/Users/Steven/Desktop/Github/GP2CWProject/build --check-stamp-file C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,12 +141,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindTinyXML.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindSDL2.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindTinyXML.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindSDL2.cmake;D:\Cmake\share\cmake-3.7\Modules\FindThreads.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" "-HE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject" "-BE:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build" --check-stamp-file "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp"
+D:\Cmake\bin\cmake.exe -HC:/Users/Steven/Desktop/Github/GP2CWProject -BC:/Users/Steven/Desktop/Github/GP2CWProject/build --check-stamp-file C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,19 +154,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/GameApplication/Utils/CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindTinyXML.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\cmake\FindSDL2.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Steven/Desktop/Github/GP2CWProject/GameApplication/Utils/CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindTinyXML.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\cmake\FindSDL2.cmake;D:\Cmake\share\cmake-3.7\Modules\FindThreads.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;D:\Cmake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Steven\Desktop\Github\GP2CWProject\GameApplication\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/ZERO_CHECK.vcxproj">
-      <Project>4D2F2D60-AFA0-39E9-BDEA-B07B033F63F7</Project>
+    <ProjectReference Include="C:/Users/Steven/Desktop/Github/GP2CWProject/build/ZERO_CHECK.vcxproj">
+      <Project>10C3F4B5-3DD3-3F24-861F-761BE78DA452</Project>
     </ProjectReference>
-    <ProjectReference Include="E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/GameApplication/Utils/Utils.vcxproj">
-      <Project>93F32E02-0539-3E18-8493-489D6A755C6A</Project>
+    <ProjectReference Include="C:/Users/Steven/Desktop/Github/GP2CWProject/build/GameApplication/Utils/Utils.vcxproj">
+      <Project>8956A166-7DE5-324C-8994-B1FEA8C69BE6</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

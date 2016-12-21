@@ -1,9 +1,9 @@
-﻿Build started 21/12/2016 02:28:20.
-     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" on node 2 (Build target(s)).
+﻿Build started 21-Dec-16 12:42:12 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" on node 2 (Build target(s)).
      1>Lib:
-         Utils.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib
-     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" (Build target(s)).
+         Utils.vcxproj -> C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\Debug\Utils.lib
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GameApplication\Utils\Utils.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.07
+Time Elapsed 00:00:00.05

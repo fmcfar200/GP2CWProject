@@ -1,8 +1,8 @@
-﻿Build started 21/12/2016 02:33:22.
-     1>Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GP2CWProject.vcxproj" on node 2 (Build target(s)).
+﻿Build started 21-Dec-16 12:42:12 PM.
+     1>Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GP2CWProject.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
-         "E:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/assets" "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug/assets"
+         D:\Cmake\bin\cmake.exe -E copy_directory C:/Users/Steven/Desktop/Github/GP2CWProject/assets C:/Users/Steven/Desktop/Github/GP2CWProject/build/Debug/assets
          if %errorlevel% neq 0 goto :cmEnd
          :cmEnd
          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -11,7 +11,7 @@
          :cmDone
          if %errorlevel% neq 0 goto :VCEnd
          setlocal
-         "E:\Program Files\CMake\bin\cmake.exe" -E copy "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/settings.xml" "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug"
+         D:\Cmake\bin\cmake.exe -E copy C:/Users/Steven/Desktop/Github/GP2CWProject/settings.xml C:/Users/Steven/Desktop/Github/GP2CWProject/build/Debug
          if %errorlevel% neq 0 goto :cmEnd
          :cmEnd
          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -21,12 +21,10 @@
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
        Link:
-         E:\Program Files\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\Debug\GP2CWProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib GameApplication\Debug\GameApplication.lib GameApplication\Utils\Debug\Utils.lib "E:\Jack\Documents\GP2 Software\SDL2-2.0.4\lib\x64\SDL2main.lib" "E:\Jack\Documents\GP2 Software\SDL2-2.0.4\lib\x64\SDL2.lib" "E:\Jack\Documents\GP2 Software\tinyxml2\lib\tinyxml2.lib" glu32.lib opengl32.lib glu32.lib opengl32.lib "E:\Jack\Documents\GP2 Software\glew-2.0.0\lib\Release\x64\glew32.lib" "E:\Jack\Documents\GP2 Software\SDL2_image-2.0.1\lib\x64\SDL2_image.lib" "E:\Jack\Documents\GP2 Software\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib" "E:\Jack\Documents\GP2 Software\assimp\lib\assimp-vc140-mt.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug/GP2CWProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug/GP2CWProject.lib" /MACHINE:X64  /machine:x64 GP2CWProject.dir\Debug\main.obj
-         GP2CWProject.dir\Debug\MyGame.obj
-         GP2CWProject.vcxproj -> E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\Debug\GP2CWProject.exe
+         GP2CWProject.vcxproj -> C:\Users\Steven\Desktop\Github\GP2CWProject\build\Debug\GP2CWProject.exe
        PostBuildEvent:
          setlocal
-         "E:\Program Files\CMake\bin\cmake.exe" -E copy_directory "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/dlls" "E:/Jack/Documents/Uni Work/3rd Year/Games Programming 2/GP2CWProject/build/Debug"
+         D:\Cmake\bin\cmake.exe -E copy_directory C:/Users/Steven/Desktop/Github/GP2CWProject/dlls C:/Users/Steven/Desktop/Github/GP2CWProject/build/Debug
          if %errorlevel% neq 0 goto :cmEnd
          :cmEnd
          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -35,8 +33,8 @@
          :cmDone
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
-     1>Done Building Project "E:\Jack\Documents\Uni Work\3rd Year\Games Programming 2\GP2CWProject\build\GP2CWProject.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Steven\Desktop\Github\GP2CWProject\build\GP2CWProject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.18
+Time Elapsed 00:00:00.78
