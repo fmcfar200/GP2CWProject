@@ -1,19 +1,8 @@
 #include "PostProcessEffect.h"
 #include "Shader.h"
 
-/*const string postProcessVSShaderCode =
-"#version 410\n"
-"\n"
-"layout(location=0) in vec2 vertexPosition;\n"
-"\n"
-"out vec2 textureCoords;\n"
-"\n"
-"void main()\n"
-"{\n"
-"	textureCoords = (vertexPosition + 1.0) / 2.0;\n"
-"	gl_Position = vec4(vertexPosition, 0.0, 1.0);\n"
-"}\n";*/
 
+/// JACK CODE (ALL)
 PostProcessEffect::PostProcessEffect()
 {
 	m_ShaderProgram = 0;

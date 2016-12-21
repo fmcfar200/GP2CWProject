@@ -3,6 +3,7 @@
 
 #include "Common.h"
 
+/// JACK CODE
 class PostProcessBuffer
 {
 public:

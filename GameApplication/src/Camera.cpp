@@ -49,6 +49,8 @@ vec3& Camera::getUP()
 	return m_CameraUp;
 }
 
+/// JACK CODE
+// Handles the mouse movement 
 void Camera::MoveMouse()
 {
 	//SDL_SetRelativeMouseMode(SDL_TRUE);
@@ -58,6 +60,7 @@ void Camera::MoveMouse()
 
 	cameraSpeed = 5.0f * deltaTime;
 
+	//gets current mouse position on screen
 	int xpos, ypos;
 	SDL_GetGlobalMouseState(&xpos, &ypos);
 	 
@@ -89,21 +92,25 @@ void Camera::MoveMouse()
 	m_CameraFront = normalize(front);
 }
 
+/// JACK CODE
 void Camera::MoveForward()
 {
 	m_CameraPosition += normalize(m_CameraFront * cameraSpeed);
 }
 
+/// JACK CODE
 void Camera::MoveBackwards()
 {
 	m_CameraPosition -= normalize(m_CameraFront * cameraSpeed);
 }
 
+/// JACK CODE
 void Camera::MoveLeft()
 {
 	m_CameraPosition -= normalize(cross(m_CameraFront, m_CameraUp) * cameraSpeed);
 }
 
+/// JACK CODE
 void Camera::MoveRight()
 {
 	m_CameraPosition += normalize(cross(m_CameraFront, m_CameraUp) * cameraSpeed);

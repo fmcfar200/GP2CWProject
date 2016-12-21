@@ -1,5 +1,7 @@
 #include "PostProcessBuffer.h"
 
+
+// JACK CODE (ALL)
 PostProcessBuffer::PostProcessBuffer()
 {
 	m_Texture = 0;

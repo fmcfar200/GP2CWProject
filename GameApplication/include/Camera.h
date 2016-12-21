@@ -34,7 +34,7 @@ public:
 	vec3 & getUP();
 
 private:
-	//Camera
+	//Camera   ///JACK CODE
 	vec3 m_CameraPosition;
 	vec3 m_CameraFront;
 	vec3 m_CameraUp = vec3(0.0, 1.0, 0.0);
